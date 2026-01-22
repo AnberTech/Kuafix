@@ -63,7 +63,7 @@
     /* Header + Store badges aynı genişlikte bir blok */
     .hero-block {
       width: min(560px, 92vw);
-      margin: 0 auto 14px;
+      margin: 0 auto 10px; /* biraz daha kompakt */
     }
 
     .hero-img {
@@ -81,21 +81,21 @@
 
     /* Store butonları: header ile aynı hizada + yanyana */
     .store-row {
-      margin-top: 10px;
+      margin-top: 8px;                 /* ✅ daha sıkı */
       display: flex;
-      gap: 14px;
-      justify-content: space-between;
+      gap: 12px;
+      justify-content: center;         /* ✅ ortala */
       align-items: center;
       width: 100%;
     }
 
+    /* ✅ Butonları daha dar yap: her biri ~%42 (mobilde yan yana kalır) */
     .store-row a {
-      width: calc(50% - 7px);
+      width: min(42%, 240px);          /* ✅ daraltıldı */
       display: block;
       text-decoration: none;
     }
 
-    /* Büyük ve net görünüm */
     .store-row img {
       width: 100%;
       height: auto;
@@ -110,9 +110,9 @@
       filter: drop-shadow(0 16px 30px rgba(0,0,0,0.28));
     }
 
-    /* Linkler artık daha "site gibi": kart/pill */
+    /* Linkler: kart/pill */
     .doc-links {
-      margin: 18px auto 12px;
+      margin: 10px auto 12px;          /* ✅ store ile arasını kısalttık */
       width: min(560px, 92vw);
       display: grid;
       grid-template-columns: 1fr;
@@ -158,17 +158,17 @@
       -webkit-backdrop-filter: blur(10px);
     }
 
-    /* Mobilde: butonlar yine yan yana kalsın ama çok daralırsa alt alta düşsün */
+    /* Mobil: butonlar yan yana kalsın (alt alta düşmesin) */
     @media (max-width: 520px) {
       .overlay { padding: 20px 12px 14px; }
 
       .store-row {
-        gap: 12px;
-        flex-wrap: wrap;
+        gap: 10px;
+        flex-wrap: nowrap;             /* ✅ yan yana kalsın */
       }
 
       .store-row a {
-        width: 100%;
+        width: min(46%, 220px);        /* ✅ küçük ekranda esneklik */
       }
 
       .doc-links a {
