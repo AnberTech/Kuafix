@@ -1,39 +1,105 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kuafix – Belgeler</title>
+
   <style>
+    :root{
+      --brand: #003366;
+      --link: #0055aa;
+      --linkHover: #0077ff;
+      --glass: rgba(255, 255, 255, 0.78);
+      --glass2: rgba(255, 255, 255, 0.60);
+      --shadow: 0 16px 40px rgba(0,0,0,0.18);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
       padding: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      background-image: url('kfx_bg_light.png'); /* Arka plan resmi */
+      min-height: 100vh;
+      color: #222;
+      text-align: center;
+
+      /* Background */
+      background-image: url('kfx_bg_light.png');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      color: #222;
-      text-align: center;
+    }
+
+    /* Page layout: header + centered content + footer */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    header.top-header {
+      width: 100%;
+      padding: 14px 18px;
+      background: var(--glass2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header-logo {
+      height: 44px;
+      width: auto;
+      display: block;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px 16px 70px;
     }
 
     .overlay {
-      background-color: rgba(255, 255, 255, 0.75); /* Hafif beyaz saydam katman */
-      padding: 50px 80px;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(5px);
-      box-sizing: border-box;
+      background-color: var(--glass);
+      padding: 44px 64px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      max-width: 720px;
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.06);
     }
 
     h1 {
-      color: #003366;
-      margin-bottom: 30px;
+      color: var(--brand);
+      margin: 0 0 18px;
+      font-size: 34px;
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 0 0 22px;
+      color: rgba(0,0,0,0.62);
+      font-size: 14px;
     }
 
     ul {
@@ -42,63 +108,156 @@
       margin: 0;
     }
 
-    li {
-      margin: 12px 0;
-    }
+    li { margin: 12px 0; }
 
     a {
       font-size: 18px;
-      color: #0055aa;
+      color: var(--link);
       text-decoration: none;
       font-weight: 600;
-      transition: color 0.2s ease;
+      transition: color 0.2s ease, transform 0.2s ease;
+      display: inline-block;
     }
 
     a:hover {
-      color: #0077ff;
+      color: var(--linkHover);
       text-decoration: underline;
+      transform: translateY(-1px);
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(0,0,0,0.08);
+      margin: 24px auto 18px;
+      width: 85%;
+    }
+
+    .store-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .store-buttons a {
+      text-decoration: none;
+      transform: none;
+    }
+
+    .store-buttons img {
+      height: 48px;
+      width: auto;
+      display: block;
+      border-radius: 12px;
+      transition: transform 0.18s ease, filter 0.18s ease;
+      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.18));
+    }
+
+    .store-buttons img:hover {
+      transform: translateY(-2px) scale(1.01);
+      filter: drop-shadow(0 14px 28px rgba(0,0,0,0.22));
     }
 
     footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 14px;
-      color: #444;
-      background-color: rgba(255,255,255,0.6);
-      padding: 8px 16px;
-      border-radius: 10px;
+      width: 100%;
+      padding: 16px 0 18px;
+      display: flex;
+      justify-content: center;
     }
 
-    /* Mobilde overlay kutusunun kenarlara yapışmaması için */
+    .footer-pill {
+      font-size: 13px;
+      color: #444;
+      background-color: rgba(255,255,255,0.60);
+      padding: 8px 16px;
+      border-radius: 999px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+
+    /* Mobile tweaks */
     @media (max-width: 768px) {
-  .content {
-    margin: 20px 8px;    /* Üst-alt 20px, sağ-sol 8px */
-    padding: 25px 20px;  /* İç padding aynı */
-  }
+      header.top-header { padding: 12px 14px; }
+      .header-logo { height: 38px; }
 
-  footer {
-    margin: 20px 12px;
-    font-size: 13px;
-  }
-}
+      main { padding: 20px 12px 64px; }
 
+      .overlay {
+        margin: 12px 6px;
+        padding: 26px 18px;
+        border-radius: 16px;
+      }
+
+      h1 { font-size: 28px; margin-bottom: 12px; }
+
+      a { font-size: 17px; }
+
+      .store-buttons img { height: 44px; }
+
+      .footer-pill { font-size: 12.5px; padding: 8px 14px; }
+    }
   </style>
 </head>
+
 <body>
+  <div class="page">
 
-  <div class="overlay">
-    <h1>Kuafix</h1>
-    <ul>
-      <li><a href="privacy.html">Gizlilik Politikası</a></li>
-      <li><a href="delete.html">Hesap Silme</a></li>
-      <li><a href="terms.html">Kullanım Koşulları (EULA)</a></li>
-      <li><a href="support.html">Destek</a></li>
-    </ul>
+    <!-- TOP HEADER -->
+    <header class="top-header">
+      <div class="header-inner">
+        <!-- Dosya adı: kfx_header.png (repo root’ta olmalı) -->
+        <img class="header-logo" src="kfx_header.png" alt="Kuafix" />
+      </div>
+    </header>
+
+    <!-- CENTER CONTENT -->
+    <main>
+      <div class="overlay">
+        <h1>Kuafix</h1>
+        <p class="subtitle">Belgeler & Destek</p>
+
+        <ul>
+          <li><a href="privacy.html">Gizlilik Politikası</a></li>
+          <li><a href="delete.html">Hesap Silme</a></li>
+          <li><a href="terms.html">Kullanım Koşulları (EULA)</a></li>
+          <li><a href="support.html">Destek</a></li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <!-- STORE BUTTONS (links added) -->
+        <div class="store-buttons">
+          <a
+            href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="App Store'dan indir"
+            title="App Store"
+          >
+            <img src="app_store_button.png" alt="Download on the App Store" />
+          </a>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Google Play'den indir"
+            title="Google Play"
+          >
+            <img src="google_play_button.png" alt="Get it on Google Play" />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-pill">© 2025 Kuafix – AnberTech</div>
+    </footer>
+
   </div>
-
-  <footer>
-    © 2025 Kuafix – AnberTech 
-  </footer>
-
 </body>
 </html>
