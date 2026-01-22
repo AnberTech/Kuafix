@@ -26,47 +26,17 @@
       color: #222;
       text-align: center;
 
-      /* Background */
       background-image: url('kfx_bg_light.png');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
     }
 
-    /* Page layout: header + centered content + footer */
     .page {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       width: 100%;
-    }
-
-    header.top-header {
-      width: 100%;
-      padding: 14px 18px;
-      background: var(--glass2);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(0,0,0,0.06);
-
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    .header-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .header-logo {
-      height: 44px;
-      width: auto;
-      display: block;
-      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
     }
 
     main {
@@ -79,7 +49,7 @@
 
     .overlay {
       background-color: var(--glass);
-      padding: 44px 64px;
+      padding: 34px 52px 30px;
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       backdrop-filter: blur(10px);
@@ -89,17 +59,25 @@
       border: 1px solid rgba(0,0,0,0.06);
     }
 
-    h1 {
-      color: var(--brand);
-      margin: 0 0 18px;
-      font-size: 34px;
-      letter-spacing: 0.2px;
+    /* ✅ Mavi kutunun yerine gelecek header alanı */
+    .hero-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 18px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 6px solid rgba(0, 140, 180, 0.95);  /* mavi çerçeve hissi */
+      background: rgba(255,255,255,0.55);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+      width: fit-content;
+      max-width: 100%;
     }
 
-    .subtitle {
-      margin: 0 0 22px;
-      color: rgba(0,0,0,0.62);
-      font-size: 14px;
+    .hero-header {
+      width: min(420px, 85vw);
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 2px 10px rgba(0,0,0,0.10));
     }
 
     ul {
@@ -108,13 +86,13 @@
       margin: 0;
     }
 
-    li { margin: 12px 0; }
+    li { margin: 14px 0; }
 
     a {
       font-size: 18px;
       color: var(--link);
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 700;
       transition: color 0.2s ease, transform 0.2s ease;
       display: inline-block;
     }
@@ -128,36 +106,35 @@
     .divider {
       height: 1px;
       background: rgba(0,0,0,0.08);
-      margin: 24px auto 18px;
-      width: 85%;
+      margin: 26px auto 18px;
+      width: 88%;
     }
 
     .store-buttons {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 14px;
+      gap: 18px;
       flex-wrap: wrap;
-      margin-top: 14px;
+      margin-top: 10px;
     }
 
-    .store-buttons a {
-      text-decoration: none;
-      transform: none;
-    }
+    .store-buttons a { text-decoration: none; transform: none; }
 
+    /* ✅ Butonları EN AZ 5 kat büyük gösterecek boyut */
     .store-buttons img {
-      height: 48px;
+      height: 110px;             /* eski “görünen” boyutun >> 5x */
       width: auto;
       display: block;
-      border-radius: 12px;
+      border-radius: 14px;
       transition: transform 0.18s ease, filter 0.18s ease;
-      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.18));
+      filter: drop-shadow(0 14px 28px rgba(0,0,0,0.22));
+      max-width: 92vw;           /* taşmayı engeller */
     }
 
     .store-buttons img:hover {
       transform: translateY(-2px) scale(1.01);
-      filter: drop-shadow(0 14px 28px rgba(0,0,0,0.22));
+      filter: drop-shadow(0 18px 34px rgba(0,0,0,0.26));
     }
 
     footer {
@@ -178,25 +155,21 @@
       border: 1px solid rgba(0,0,0,0.06);
     }
 
-    /* Mobile tweaks */
     @media (max-width: 768px) {
-      header.top-header { padding: 12px 14px; }
-      .header-logo { height: 38px; }
-
       main { padding: 20px 12px 64px; }
 
       .overlay {
         margin: 12px 6px;
-        padding: 26px 18px;
+        padding: 22px 16px 20px;
         border-radius: 16px;
       }
 
-      h1 { font-size: 28px; margin-bottom: 12px; }
+      .hero-header { width: min(360px, 88vw); }
 
       a { font-size: 17px; }
 
-      .store-buttons img { height: 44px; }
-
+      /* mobilde de kocaman olsun */
+      .store-buttons img { height: 100px; }
       .footer-pill { font-size: 12.5px; padding: 8px 14px; }
     }
   </style>
@@ -204,20 +177,13 @@
 
 <body>
   <div class="page">
-
-    <!-- TOP HEADER -->
-    <header class="top-header">
-      <div class="header-inner">
-        <!-- Dosya adı: kfx_header.png (repo root’ta olmalı) -->
-        <img class="header-logo" src="kfx_header.png" alt="Kuafix" />
-      </div>
-    </header>
-
-    <!-- CENTER CONTENT -->
     <main>
       <div class="overlay">
-        <h1>Kuafix</h1>
-        <p class="subtitle">Belgeler & Destek</p>
+
+        <!-- ✅ Mavi kutu yerine header görseli -->
+        <div class="hero-wrap">
+          <img class="hero-header" src="kfx_header.png" alt="Kuafix" />
+        </div>
 
         <ul>
           <li><a href="privacy.html">Gizlilik Politikası</a></li>
@@ -228,7 +194,6 @@
 
         <div class="divider"></div>
 
-        <!-- STORE BUTTONS (links added) -->
         <div class="store-buttons">
           <a
             href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr"
@@ -237,7 +202,7 @@
             aria-label="App Store'dan indir"
             title="App Store"
           >
-            <img src="app_store_button.png" alt="Download on the App Store" />
+            <img src="app_store_badge.png" alt="Download on the App Store" />
           </a>
 
           <a
@@ -247,17 +212,16 @@
             aria-label="Google Play'den indir"
             title="Google Play"
           >
-            <img src="google_play_button.png" alt="Get it on Google Play" />
+            <img src="google_play_badge.png" alt="Get it on Google Play" />
           </a>
         </div>
+
       </div>
     </main>
 
-    <!-- FOOTER -->
     <footer>
       <div class="footer-pill">© 2025 Kuafix – AnberTech</div>
     </footer>
-
   </div>
 </body>
 </html>
