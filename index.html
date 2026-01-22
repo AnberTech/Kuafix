@@ -63,7 +63,7 @@
     /* Header + Store badges aynı genişlikte bir blok */
     .hero-block {
       width: min(560px, 92vw);
-      margin: 0 auto 10px; /* biraz daha kompakt */
+      margin: 0 auto 10px;
     }
 
     .hero-img {
@@ -81,17 +81,17 @@
 
     /* Store butonları: header ile aynı hizada + yanyana */
     .store-row {
-      margin-top: 8px;                 /* ✅ daha sıkı */
+      margin-top: 8px;
       display: flex;
       gap: 12px;
-      justify-content: center;         /* ✅ ortala */
+      justify-content: center;
       align-items: center;
       width: 100%;
     }
 
-    /* ✅ Butonları daha dar yap: her biri ~%42 (mobilde yan yana kalır) */
+    /* Butonlar daha dar: mobilde yan yana kalır */
     .store-row a {
-      width: min(42%, 240px);          /* ✅ daraltıldı */
+      width: min(42%, 240px);
       display: block;
       text-decoration: none;
     }
@@ -110,30 +110,86 @@
       filter: drop-shadow(0 16px 30px rgba(0,0,0,0.28));
     }
 
-    /* Linkler: kart/pill */
-    .doc-links {
-      margin: 10px auto 12px;          /* ✅ store ile arasını kısalttık */
+    /* ========== Belgeler (Açılır/Kapanır) ========== */
+
+    .docs {
+      margin: 10px auto 12px;          /* store ile arasını kısa tutuyoruz */
       width: min(560px, 92vw);
+    }
+
+    /* default marker’ı kapat */
+    .docs summary::-webkit-details-marker { display: none; }
+    .docs summary { list-style: none; }
+
+    /* Belgeler butonu (pill) */
+    .docs-summary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      padding: 14px 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.62);
+      border: 1px solid rgba(0,0,0,0.06);
+
+      color: var(--link);
+      font-weight: 900;
+      font-size: 18px;
+      letter-spacing: 0.1px;
+
+      cursor: pointer;
+      user-select: none;
+      transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .docs-summary:hover {
+      background: rgba(255,255,255,0.78);
+      color: var(--linkHover);
+      transform: translateY(-1px);
+    }
+
+    /* ok ikonu */
+    .chev {
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(45deg);
+      transition: transform 0.18s ease;
+      opacity: 0.85;
+    }
+
+    /* açıkken ok yukarı baksın */
+    .docs[open] .chev {
+      transform: rotate(225deg);
+    }
+
+    /* açılan içerik */
+    .docs-content {
+      margin-top: 10px;
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
     }
 
-    .doc-links a {
+    .docs-content a {
       display: block;
       padding: 14px 14px;
       border-radius: 14px;
       background: rgba(255,255,255,0.62);
       border: 1px solid rgba(0,0,0,0.06);
+
       color: var(--link);
       font-weight: 800;
       font-size: 18px;
       letter-spacing: 0.1px;
       text-decoration: none;
+
       transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
     }
 
-    .doc-links a:hover {
+    .docs-content a:hover {
       background: rgba(255,255,255,0.78);
       color: var(--linkHover);
       transform: translateY(-1px);
@@ -158,20 +214,21 @@
       -webkit-backdrop-filter: blur(10px);
     }
 
-    /* Mobil: butonlar yan yana kalsın (alt alta düşmesin) */
+    /* Mobil: store butonlar yan yana kalsın */
     @media (max-width: 520px) {
       .overlay { padding: 20px 12px 14px; }
 
       .store-row {
         gap: 10px;
-        flex-wrap: nowrap;             /* ✅ yan yana kalsın */
+        flex-wrap: nowrap;
       }
 
       .store-row a {
-        width: min(46%, 220px);        /* ✅ küçük ekranda esneklik */
+        width: min(46%, 220px);
       }
 
-      .doc-links a {
+      .docs-summary,
+      .docs-content a {
         font-size: 17px;
         padding: 13px 12px;
       }
@@ -210,12 +267,20 @@
           </div>
         </div>
 
-        <div class="doc-links">
-          <a href="privacy.html">Gizlilik Politikası</a>
-          <a href="delete.html">Hesap Silme</a>
-          <a href="terms.html">Kullanım Koşulları (EULA)</a>
-          <a href="support.html">Destek</a>
-        </div>
+        <!-- ✅ Tek “Belgeler” butonu → tıklayınca linkler açılır -->
+        <details class="docs">
+          <summary class="docs-summary">
+            Belgeler
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+
+          <div class="docs-content">
+            <a href="privacy.html">Gizlilik Politikası</a>
+            <a href="delete.html">Hesap Silme</a>
+            <a href="terms.html">Kullanım Koşulları (EULA)</a>
+            <a href="support.html">Destek</a>
+          </div>
+        </details>
 
       </div>
     </main>
