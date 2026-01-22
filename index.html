@@ -8,11 +8,12 @@
   <style>
     :root{
       --brand: #003366;
-      --link: #0055aa;
-      --linkHover: #0077ff;
-      --glass: rgba(255, 255, 255, 0.78);
-      --glass2: rgba(255, 255, 255, 0.60);
-      --shadow: 0 16px 40px rgba(0,0,0,0.18);
+      --link: #0b57d0;
+      --linkHover: #1a73e8;
+
+      --glass: rgba(255, 255, 255, 0.80);
+      --glassBorder: rgba(0,0,0,0.06);
+      --shadow: 0 18px 46px rgba(0,0,0,0.18);
       --radius: 18px;
     }
 
@@ -23,7 +24,7 @@
       margin: 0;
       padding: 0;
       min-height: 100vh;
-      color: #222;
+      color: #111;
       text-align: center;
 
       background-image: url('kfx_bg_light.png');
@@ -44,97 +45,99 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 28px 16px 70px;
+      padding: 26px 14px 72px;
     }
 
     .overlay {
-      background-color: var(--glass);
-      padding: 34px 52px 30px;
+      background: var(--glass);
+      border: 1px solid var(--glassBorder);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      max-width: 720px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+
+      width: min(820px, 96vw);
+      padding: 26px 18px 18px;
+    }
+
+    /* Header + Store badges aynı genişlikte bir blok */
+    .hero-block {
+      width: min(560px, 92vw);
+      margin: 0 auto 14px;
+    }
+
+    .hero-img {
       width: 100%;
-      border: 1px solid rgba(0,0,0,0.06);
-    }
-
-    /* ✅ Mavi kutunun yerine gelecek header alanı */
-    .hero-wrap {
-      display: flex;
-      justify-content: center;
-      margin: 0 auto 18px;
-      padding: 14px 16px;
-      border-radius: 14px;
-      border: 6px solid rgba(0, 140, 180, 0.95);  /* mavi çerçeve hissi */
-      background: rgba(255,255,255,0.55);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.12);
-      width: fit-content;
-      max-width: 100%;
-    }
-
-    .hero-header {
-      width: min(420px, 85vw);
       height: auto;
       display: block;
-      filter: drop-shadow(0 2px 10px rgba(0,0,0,0.10));
+
+      /* Çerçevesiz, yumuşak bitiş (gradient/fade edges) */
+      -webkit-mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
+      mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
+
+      /* Hafif derinlik */
+      filter: drop-shadow(0 12px 26px rgba(0,0,0,0.18));
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li { margin: 14px 0; }
-
-    a {
-      font-size: 18px;
-      color: var(--link);
-      text-decoration: none;
-      font-weight: 700;
-      transition: color 0.2s ease, transform 0.2s ease;
-      display: inline-block;
-    }
-
-    a:hover {
-      color: var(--linkHover);
-      text-decoration: underline;
-      transform: translateY(-1px);
-    }
-
-    .divider {
-      height: 1px;
-      background: rgba(0,0,0,0.08);
-      margin: 26px auto 18px;
-      width: 88%;
-    }
-
-    .store-buttons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 18px;
-      flex-wrap: wrap;
+    /* Store butonları: header ile aynı hizada + yanyana */
+    .store-row {
       margin-top: 10px;
+      display: flex;
+      gap: 14px;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
     }
 
-    .store-buttons a { text-decoration: none; transform: none; }
+    .store-row a {
+      width: calc(50% - 7px);
+      display: block;
+      text-decoration: none;
+    }
 
-    /* ✅ Butonları EN AZ 5 kat büyük gösterecek boyut */
-    .store-buttons img {
-      height: 110px;             /* eski “görünen” boyutun >> 5x */
-      width: auto;
+    /* Büyük ve net görünüm */
+    .store-row img {
+      width: 100%;
+      height: auto;
       display: block;
       border-radius: 14px;
+      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.22));
       transition: transform 0.18s ease, filter 0.18s ease;
-      filter: drop-shadow(0 14px 28px rgba(0,0,0,0.22));
-      max-width: 92vw;           /* taşmayı engeller */
     }
 
-    .store-buttons img:hover {
-      transform: translateY(-2px) scale(1.01);
-      filter: drop-shadow(0 18px 34px rgba(0,0,0,0.26));
+    .store-row img:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 16px 30px rgba(0,0,0,0.28));
+    }
+
+    /* Linkler artık daha "site gibi": kart/pill */
+    .doc-links {
+      margin: 18px auto 12px;
+      width: min(560px, 92vw);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .doc-links a {
+      display: block;
+      padding: 14px 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.62);
+      border: 1px solid rgba(0,0,0,0.06);
+      color: var(--link);
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: 0.1px;
+      text-decoration: none;
+      transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .doc-links a:hover {
+      background: rgba(255,255,255,0.78);
+      color: var(--linkHover);
+      transform: translateY(-1px);
+      text-decoration: none;
     }
 
     footer {
@@ -146,31 +149,32 @@
 
     .footer-pill {
       font-size: 13px;
-      color: #444;
-      background-color: rgba(255,255,255,0.60);
+      color: rgba(0,0,0,0.68);
+      background: rgba(255,255,255,0.62);
+      border: 1px solid rgba(0,0,0,0.06);
       padding: 8px 16px;
       border-radius: 999px;
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
     }
 
-    @media (max-width: 768px) {
-      main { padding: 20px 12px 64px; }
+    /* Mobilde: butonlar yine yan yana kalsın ama çok daralırsa alt alta düşsün */
+    @media (max-width: 520px) {
+      .overlay { padding: 20px 12px 14px; }
 
-      .overlay {
-        margin: 12px 6px;
-        padding: 22px 16px 20px;
-        border-radius: 16px;
+      .store-row {
+        gap: 12px;
+        flex-wrap: wrap;
       }
 
-      .hero-header { width: min(360px, 88vw); }
+      .store-row a {
+        width: 100%;
+      }
 
-      a { font-size: 17px; }
-
-      /* mobilde de kocaman olsun */
-      .store-buttons img { height: 100px; }
-      .footer-pill { font-size: 12.5px; padding: 8px 14px; }
+      .doc-links a {
+        font-size: 17px;
+        padding: 13px 12px;
+      }
     }
   </style>
 </head>
@@ -180,40 +184,37 @@
     <main>
       <div class="overlay">
 
-        <!-- ✅ Mavi kutu yerine header görseli -->
-        <div class="hero-wrap">
-          <img class="hero-header" src="kfx_header.png" alt="Kuafix" />
+        <div class="hero-block">
+          <img class="hero-img" src="kfx_header.png" alt="Kuafix" />
+
+          <div class="store-row">
+            <a
+              href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App Store'dan indir"
+              title="App Store"
+            >
+              <img src="app_store_badge.png" alt="Download on the App Store" />
+            </a>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Google Play'den indir"
+              title="Google Play"
+            >
+              <img src="google_play_badge.png" alt="Get it on Google Play" />
+            </a>
+          </div>
         </div>
 
-        <ul>
-          <li><a href="privacy.html">Gizlilik Politikası</a></li>
-          <li><a href="delete.html">Hesap Silme</a></li>
-          <li><a href="terms.html">Kullanım Koşulları (EULA)</a></li>
-          <li><a href="support.html">Destek</a></li>
-        </ul>
-
-        <div class="divider"></div>
-
-        <div class="store-buttons">
-          <a
-            href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="App Store'dan indir"
-            title="App Store"
-          >
-            <img src="app_store_badge.png" alt="Download on the App Store" />
-          </a>
-
-          <a
-            href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Google Play'den indir"
-            title="Google Play"
-          >
-            <img src="google_play_badge.png" alt="Get it on Google Play" />
-          </a>
+        <div class="doc-links">
+          <a href="privacy.html">Gizlilik Politikası</a>
+          <a href="delete.html">Hesap Silme</a>
+          <a href="terms.html">Kullanım Koşulları (EULA)</a>
+          <a href="support.html">Destek</a>
         </div>
 
       </div>
