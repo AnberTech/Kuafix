@@ -24,7 +24,7 @@
       background-color: rgba(0, 0, 0, 0.85);
       max-width: 800px;
       margin: 50px auto;
-      padding: 35px 40px; /* İç padding biraz küçültüldü */
+      padding: 35px 40px;
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       text-align: left;
@@ -75,8 +75,8 @@
     /* 📱 Mobil düzenleme */
     @media (max-width: 768px) {
       .content {
-        margin: 20px 8px;   /* Üst-alt 20px, sağ-sol 8px */
-        padding: 25px 20px; /* İçerik kenara daha yakın */
+        margin: 20px 8px;
+        padding: 25px 20px;
       }
 
       h1 {
@@ -94,29 +94,54 @@
 
   <div class="content">
     <h1>Kuafix Hesap Silme</h1>
-    <p>Kuafix uygulamasında hesabınızı dilediğiniz zaman uygulama içinden silebilirsiniz.</p>
+    <p>
+      Kuafix uygulamasında hesabınızı dilediğiniz zaman uygulama içinden silebilirsiniz.
+      Hesap silme talebiniz alındığında, hesabınızla ilişkili veriler silinmek üzere işleme alınır.
+    </p>
 
     <h2>Silme İşlemi Sonrasında</h2>
     <ul>
-      <li>Profil bilgileriniz (ad, soyad, telefon, il) kalıcı olarak silinir.</li>
-      <li>Tüm randevu kayıtlarınız kalıcı olarak silinir.</li>
-      <li>Cihazınıza ait bildirim bilgileri (FCM token) silinir.</li>
+      <li>Profil bilgileriniz (ad, soyad, telefon numarası, il ve ilgili hesap bilgileri) silinir.</li>
+      <li>Tüm randevu kayıtlarınız ve randevularla ilişkili içerikler silinir.</li>
+      <li>Randevulara eklediğiniz görseller ve notlar silinir.</li>
+      <li>AI deneme sonuç görselleriniz silinir.</li>
+      <li>Galeriden arşive eklediğiniz görseller silinir.</li>
+      <li>Cihazınıza ait bildirim bilgileri (ör. FCM token) silinir.</li>
+      <li>Kuaför hesapları için müşteri bazlı finans / tahsilat kayıtları da hesapla ilişkili olduğu ölçüde silinir.</li>
     </ul>
 
+    <h2>AI Deneme Fotoğrafları Hakkında</h2>
     <p>
-      Silme işlemi anında gerçekleşir.  
-      Teknik nedenlerle yedekleme sistemlerinde en fazla
-      <strong>7 gün</strong> daha saklanabilir, bu sürenin sonunda tamamen yok edilir.
+      Yapay zeka denemesi için yüklenen orijinal girdi fotoğrafları, hesap silme beklenmeksizin,
+      işlem tamamlandıktan sonra <strong>en geç 24 saat (1 gün) içinde</strong> silinir.
+    </p>
+
+    <h2>Silme Süresi</h2>
+    <p>
+      Hesap silme işlemi başlatıldığında verileriniz aktif sistemlerden kaldırılmak üzere işleme alınır.
+      Teknik nedenlerle, yedekleme veya sistem sürekliliği kapsamında bazı kayıtlar
+      <strong>en fazla 7 gün</strong> daha tutulabilir; bu sürenin sonunda kalıcı olarak silinmesi hedeflenir.
+    </p>
+
+    <h2>Önemli Not</h2>
+    <p>
+      Yasal yükümlülükler, uyuşmazlıkların çözümü, dolandırıcılık önleme veya uygulanabilir mevzuattan doğan zorunluluklar nedeniyle
+      belirli veriler, yalnızca gerekli olduğu ölçüde ve gerekli süre boyunca ayrıca saklanabilir.
     </p>
 
     <p>
-      Herhangi bir sorunuz için bizimle iletişime geçebilirsiniz:  
+      Kişisel verilerinizin nasıl işlendiği hakkında daha fazla bilgi için
+      <a href="privacy.html">Gizlilik Politikamızı</a> inceleyebilirsiniz.
+    </p>
+
+    <p>
+      Herhangi bir sorunuz için bizimle iletişime geçebilirsiniz:
       <a href="mailto:destek.kuafix@gmail.com">destek.kuafix@gmail.com</a>
     </p>
   </div>
 
   <footer>
-    © 2025 Kuafix – AnberTech
+    © 2026 Kuafix – AnberTech
   </footer>
 
 </body>
