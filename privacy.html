@@ -24,7 +24,7 @@
       background-color: rgba(0, 0, 0, 0.85);
       max-width: 900px;
       margin: 50px auto;
-      padding: 35px 40px;  /* ↔ İç padding küçültüldü */
+      padding: 35px 40px;
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       text-align: left;
@@ -86,8 +86,8 @@
     /* 📱 Mobil düzenleme */
     @media (max-width: 768px) {
       .content {
-        margin: 30px 20px;   /* ↔ kenarlara boşluk */
-        padding: 25px 20px;  /* ↔ içerik mobilde daha dar */
+        margin: 30px 20px;
+        padding: 25px 20px;
       }
 
       h1 {
@@ -105,15 +105,15 @@
 
   <div class="content">
     <h1>KUAFIX MOBİL UYGULAMASI GİZLİLİK POLİTİKASI</h1>
-    <p><strong>Son Güncelleme Tarihi:</strong> 27 Ekim 2025</p>
+    <p><strong>Son Güncelleme Tarihi:</strong> 05 Mart 2026</p>
     <hr>
 
     <h2>1. GİRİŞ VE AMAÇ</h2>
     <p>
-      Kuafix mobil uygulamasını (Uygulama) kullandığınız için teşekkür ederiz. 
-      Bu Gizlilik Politikası (“Politika”), AnberTech tarafından geliştirilen Kuafix Uygulaması’nı kullanırken kişisel verilerinizin nasıl toplandığını, 
-      kullanıldığını, paylaşıldığını ve korunduğunu açıklamaktadır. 
-      Bu Politika, Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere ilgili tüm mevzuata uygun olarak hazırlanmıştır.
+      Kuafix mobil uygulamasını (“Uygulama”) kullandığınız için teşekkür ederiz.
+      Bu Gizlilik Politikası (“Politika”), AnberTech tarafından geliştirilen Kuafix Uygulaması’nı kullanırken
+      kişisel verilerinizin nasıl toplandığını, kullanıldığını, paylaşıldığını, saklandığını ve korunduğunu açıklar.
+      Bu Politika, Kişisel Verilerin Korunması Kanunu (“KVKK”) başta olmak üzere ilgili mevzuata uygun olarak hazırlanmıştır.
     </p>
 
     <h2>2. TANIMLAR</h2>
@@ -122,55 +122,190 @@
       <li><strong>Özel Nitelikli Kişisel Veri:</strong> Irk, etnik köken, siyasi düşünce, dini inanç, sağlık, biyometrik vb. özel bilgiler.</li>
       <li><strong>Veri Sahibi:</strong> Kişisel verisi işlenen gerçek kişi (uygulama kullanıcıları).</li>
       <li><strong>Veri Sorumlusu:</strong> Kuafix uygulamasının geliştiricisi AnberTech.</li>
-      <li><strong>Veri İşleyen:</strong> Yetkiye dayanarak veri işleyen kişi veya kuruluş (ör. Firebase).</li>
+      <li><strong>Veri İşleyen:</strong> Yetkiye dayanarak veri işleyen kişi veya kuruluş (ör. Firebase, Perfect Corp).</li>
     </ul>
 
     <h2>3. HANGİ KİŞİSEL VERİLERİ TOPLUYORUZ VE NEDEN?</h2>
 
     <h3>3.1. Kimlik ve İletişim Bilgileri</h3>
-    <p>Ad, Soyad, Telefon Numarası, İl → Üyelik, doğrulama, bildirimler.</p>
+    <p>
+      Ad, Soyad, Telefon Numarası, İl → Üyelik oluşturma, kimlik doğrulama, hesap yönetimi, kullanıcı iletişimi ve bildirimler.
+    </p>
 
-    <h3>3.2. Kuaför Bilgileri</h3>
-    <p>İşletme adı, adres, çalışma saatleri, tatil günleri → Kuaför profili oluşturma.</p>
+    <h3>3.2. Kuaför / İşletme Bilgileri</h3>
+    <p>
+      İşletme adı, adres, çalışma saatleri, tatil günleri ve hizmet ayarları → Kuaför profili oluşturma,
+      randevu planlama ve işletme yönetimi özelliklerini sunma.
+    </p>
 
     <h3>3.3. Randevu Bilgileri</h3>
-    <p>Tarih, saat, müşteri adı, kuaför bilgileri → Randevu yönetimi, bildirimler.</p>
+    <p>
+      Randevu tarihi, saati, müşteri adı, kuaför bilgileri, seçilen hizmetler ve randevuya eklenen açıklamalar →
+      Randevu oluşturma, görüntüleme, yönetme ve kullanıcılar arası hizmet koordinasyonu.
+    </p>
 
-    <h3>3.4. Cihaz Verileri</h3>
-    <p>Firebase Cloud Messaging (FCM) token → Bildirim göndermek.</p>
+    <h3>3.4. Randevuya Eklenen Görseller</h3>
+    <p>
+      Kullanıcıların randevularına eklediği referans saç modeli görselleri, kendi fotoğrafları ve bu görsellerle ilişkili notlar →
+      Randevu öncesi beklentiyi netleştirme, kuaför ile müşteri arasında görsel iletişimi kolaylaştırma.
+    </p>
 
-    <h3>3.5. Tercih Bilgileri</h3>
-    <p>Bildirim ayarları, favori kuaförler → Deneyimi kişiselleştirmek.</p>
+    <h3>3.5. Cihaz Verileri</h3>
+    <p>
+      Firebase Cloud Messaging (FCM) token ve temel teknik uygulama tanımlayıcıları → Bildirim gönderme ve uygulama işlevlerinin sürdürülebilmesi.
+    </p>
+
+    <h3>3.6. Tercih ve Kullanım Bilgileri</h3>
+    <p>
+      Bildirim ayarları, favori kuaförler, uygulama içi bazı tercih ayarları → Kullanıcı deneyimini kişiselleştirme.
+    </p>
+
+    <h3>3.7. Fotoğraf / Görüntü Verileri (AI Saç–Renk–Sakal Deneme)</h3>
+    <p>
+      Kullanıcıların yüklediği fotoğraflar ve bu fotoğraflar üzerinden oluşturulan yapay zeka çıktıları (“Görüntü Verileri”),
+      saç modeli, saç rengi, sakal ve benzeri görsel deneme özelliklerini sunmak amacıyla işlenir.
+      Bu kapsamda yüklenen fotoğraflar, yapay zeka işleme hizmetinin sağlanabilmesi için <strong>Perfect Corp</strong> ile paylaşılabilir.
+    </p>
+    <p>
+      <strong>Önemli Not:</strong> Yüz içeren fotoğraflar, niteliğine göre hassas veri değerlendirmelerine konu olabilir.
+      Kuafix, bu görüntüleri kimlik doğrulama veya kişiyi benzersiz şekilde tanımlama amacıyla kullanmaz;
+      yalnızca kullanıcının talebi üzerine yapay zeka destekli görsel deneme çıktısı üretmek amacıyla işler.
+      Bu özelliğin kullanımı kullanıcı tarafından açık şekilde başlatılır.
+    </p>
+
+    <h3>3.8. Arşiv Görselleri (Galeriden Eklenen Fotoğraflar)</h3>
+    <p>
+      Kullanıcıların cihaz galerisinden uygulama arşivine eklediği görseller → Uygulama içinde saklama, görüntüleme,
+      randevularla ilişkilendirme ve kullanıcıya kendi görsel geçmişini yönetme imkânı sunma.
+    </p>
+
+    <h3>3.9. Finans / Tahsilat Kayıtları</h3>
+    <p>
+      Kuaförlerin randevu bazında işaretlediği alınan ücret/tahsilat bilgileri, işlem tutarları ve müşteri bazlı finans kayıtları →
+      Kuaförlerin gelir takibi yapabilmesi, müşteri bazlı finans hareketlerini görüntüleyebilmesi ve işletme içi kayıt yönetimi.
+    </p>
 
     <h2>4. KİŞİSEL VERİLERİ NASIL TOPLUYORUZ?</h2>
-    <p>Doğrudan sizden (kayıt, profil) veya otomatik yollarla (FCM token).</p>
+    <p>
+      Veriler; doğrudan sizden (kayıt, profil, randevu oluşturma, fotoğraf yükleme, arşiv ekleme, finans alanı işaretleme),
+      uygulama içi işlemleriniz sırasında ve bazı durumlarda otomatik teknik araçlar (ör. FCM token) yoluyla toplanır.
+    </p>
 
-    <h2>5. KİŞİSEL VERİLERİ KİMLERLE PAYLAŞIYORUZ?</h2>
+    <h2>5. KİŞİSEL VERİLERİ HANGİ AMAÇLARLA İŞLİYORUZ?</h2>
     <ul>
-      <li><strong>Geliştirici:</strong> AnberTech</li>
-      <li><strong>Hizmet Sağlayıcılar:</strong> Firebase (Google LLC) – kimlik doğrulama, veritabanı, bildirimler</li>
-      <li><strong>Kullanıcılar Arasında:</strong> Randevu için gerekli bilgiler</li>
-      <li><strong>Resmi Kurumlar:</strong> Yasal zorunluluk halinde</li>
+      <li>Hesap oluşturmak ve kullanıcı oturumunu yönetmek,</li>
+      <li>Randevu süreçlerini yürütmek,</li>
+      <li>Kuaför–müşteri iletişimini kolaylaştırmak,</li>
+      <li>Yapay zeka ile saç/renk/sakal deneme hizmetlerini sunmak,</li>
+      <li>Arşiv ve görsel saklama özelliklerini çalıştırmak,</li>
+      <li>Kuaförlerin müşteri ve tahsilat kayıtlarını takip etmesini sağlamak,</li>
+      <li>Bildirim göndermek,</li>
+      <li>Uygulamanın güvenliğini, sürekliliğini ve kullanıcı deneyimini geliştirmek,</li>
+      <li>Mevzuattan doğan yükümlülükleri yerine getirmek.</li>
     </ul>
 
-    <h2>6. KİŞİSEL VERİLERİN SAKLANMA SÜRESİ</h2>
-    <p>Hesap silindiğinde veriler en fazla 7 gün içinde kalıcı olarak silinir.</p>
+    <h2>6. KİŞİSEL VERİLERİ KİMLERLE PAYLAŞIYORUZ?</h2>
+    <ul>
+      <li><strong>Geliştirici / Veri Sorumlusu:</strong> AnberTech</li>
+      <li><strong>Hizmet Sağlayıcılar (Veri İşleyen):</strong>
+        <ul style="margin-left: 18px; list-style: disc;">
+          <li><strong>Firebase (Google LLC):</strong> Kimlik doğrulama, veritabanı, dosya depolama, bildirimler ve uygulama altyapısı.</li>
+          <li><strong>Perfect Corp:</strong> Yapay zeka destekli saç modeli, saç rengi, sakal ve benzeri görsel deneme çıktılarının oluşturulması için fotoğraf işleme hizmeti.</li>
+        </ul>
+      </li>
+      <li><strong>Kullanıcılar Arasında:</strong> Randevu sürecinin yürütülmesi için gerekli ölçüde kuaför ve müşteri arasında paylaşılan bilgiler.</li>
+      <li><strong>Resmi Kurumlar:</strong> Yasal yükümlülük, resmi talep veya mevzuat gereği gerekli olması halinde.</li>
+    </ul>
 
-    <h2>7. HAKLARINIZ (KVKK MADDE 11)</h2>
-    <p>Kişisel verileriniz hakkında bilgi alma, düzeltme, silme haklarına sahipsiniz.</p>
+    <h2>7. VERİLERİN SAKLANMA SÜRESİ</h2>
 
-    <h2>8. VERİ GÜVENLİĞİ</h2>
-    <p>Firebase güvenlik altyapısı, erişim kontrolleri ve düzenli denetimler uygulanır.</p>
-
-    <h2>9. İLETİŞİM</h2>
+    <h3>7.1. Hesap, Profil ve Genel Uygulama Verileri</h3>
     <p>
-      Sorularınız için:<br>
-      E-posta: <a href="mailto:destek.kuafix@gmail.com">destek.kuafix@gmail.com</a><br>
+      Hesap bilgileri, randevu kayıtları ve uygulama işlevlerinin sunulması için gerekli diğer veriler;
+      hizmetin sağlanması, kullanıcı hesabının yönetimi ve hukuki yükümlülüklerin yerine getirilmesi için gerekli süre boyunca saklanır.
+    </p>
+    <p>
+      Hesabınızı sildiğinizde, verileriniz sistemlerimizden silinmek üzere işleme alınır ve
+      <strong>en geç 7 gün içinde</strong> kalıcı olarak silinmesi hedeflenir.
+    </p>
+
+    <h3>7.2. AI Deneme Girdi Fotoğrafları (Input)</h3>
+    <p>
+      Yapay zeka denemesi için yüklediğiniz orijinal girdi fotoğrafları, işlem tamamlandıktan sonra
+      <strong>en geç 24 saat (1 gün) içinde</strong> silinir.
+    </p>
+
+    <h3>7.3. AI Deneme Sonuç Görselleri (Output)</h3>
+    <p>
+      Yapay zeka denemesi sonucunda oluşturulan görseller, kullanıcıya sonuçlarını yeniden görüntüleme imkânı sunmak amacıyla
+      <strong>Firebase</strong> üzerinde saklanabilir ve <strong>kullanıcı silene kadar</strong> muhafaza edilir.
+    </p>
+
+    <h3>7.4. Arşiv Görselleri (Galeriden Eklenenler)</h3>
+    <p>
+      Kullanıcıların cihaz galerisinden arşive eklediği görseller, uygulama içinde saklama ve görüntüleme amacıyla
+      <strong>Firebase</strong> üzerinde saklanabilir ve <strong>kullanıcı silene kadar</strong> muhafaza edilir.
+    </p>
+
+    <h3>7.5. Randevuya Eklenen Görseller</h3>
+    <p>
+      Randevularla ilişkilendirilen referans görseller, kullanıcı fotoğrafları ve ilgili görsel içerikler,
+      kullanıcı veya ilgili kayıt silinene kadar uygulama işlevleri kapsamında saklanabilir.
+    </p>
+
+    <h3>7.6. Finans / Tahsilat Kayıtları</h3>
+    <p>
+      Kuaförlerin işaretlediği randevu bazlı tahsilat ve müşteri finans kayıtları, kuaför panelindeki finans takip özelliklerinin çalışabilmesi için
+      ilgili kullanıcı hesabı kapsamında saklanır; hesap/profil silindiğinde bu veriler de silinmek üzere işleme alınır.
+    </p>
+
+    <h3>7.7. Profil / Hesap Silme</h3>
+    <p>
+      Kullanıcı profilinizi veya hesabınızı sildiğinizde; AI deneme sonuçları, arşiv görselleri, randevuya bağlı görseller ve
+      hesabınızla ilişkili diğer veriler silinmek üzere işleme alınır.
+    </p>
+
+    <h2>8. VERİLERİN YURT DIŞINA AKTARIMI</h2>
+    <p>
+      Kuafix, hizmet altyapısında <strong>Firebase (Google LLC)</strong> ve <strong>Perfect Corp</strong> gibi üçüncü taraf hizmet sağlayıcılar kullanabilir.
+      Bu nedenle, kişisel verileriniz kullanılan altyapıların sunucu konumlarına bağlı olarak yurt dışına aktarılabilir.
+      Bu tür aktarımlar, uygulanabilir mevzuat kapsamında gerekli hukuki şartlar çerçevesinde gerçekleştirilir.
+    </p>
+
+    <h2>9. HAKLARINIZ (KVKK KAPSAMINDA)</h2>
+    <p>
+      İlgili mevzuat kapsamında, kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme,
+      işlenme amacını öğrenme, eksik veya yanlış işlenmişse düzeltilmesini isteme, silinmesini veya yok edilmesini talep etme
+      ve mevzuatın tanıdığı diğer hakları kullanma hakkına sahipsiniz.
+    </p>
+
+    <h2>10. VERİ GÜVENLİĞİ</h2>
+    <p>
+      Verilerinizin güvenliği için erişim kontrolleri, yetkilendirme önlemleri, güvenli altyapılar ve makul teknik/idari tedbirler uygulanır.
+      Buna rağmen, internet üzerinden aktarılan veya elektronik ortamda saklanan hiçbir sistemin tamamen risksiz olduğu garanti edilemez.
+    </p>
+
+    <h2>11. ÇOCUKLARIN GİZLİLİĞİ</h2>
+    <p>
+      Kuafix, yürürlükteki mevzuat uyarınca gerekli ebeveyn/veli onayı olmaksızın çocuklardan bilerek kişisel veri toplamayı hedeflemez.
+      Böyle bir durumdan şüpheleniyorsanız bizimle iletişime geçebilirsiniz.
+    </p>
+
+    <h2>12. POLİTİKA DEĞİŞİKLİKLERİ</h2>
+    <p>
+      Bu Gizlilik Politikası, uygulama özellikleri, teknik altyapı veya yasal gereklilikler doğrultusunda güncellenebilir.
+      Güncellenen sürüm, bu sayfada yayımlandığı tarihten itibaren geçerli olur.
+    </p>
+
+    <h2>13. İLETİŞİM</h2>
+    <p>
+      Gizlilik Politikası ile ilgili sorularınız, talepleriniz veya veri haklarınızın kullanımı için bizimle iletişime geçebilirsiniz:<br>
+      E-posta: <a href="mailto:destek.kuafix@gmail.com">destek.kuafix@gmail.com</a>
     </p>
   </div>
 
   <footer>
-    © 2025 Kuafix – AnberTech
+    © 2026 Kuafix – AnberTech
   </footer>
 
 </body>
