@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Kuafix Destek</title>
-<link rel="icon" type="image/png" href="kuafix.png" />
-<link rel="apple-touch-icon" href="kuafix.png" />
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon.png" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
 <meta name="theme-color" content="#06070A" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,8 +31,8 @@ a{color:var(--cyan)}
 
 /* app tool icons, tinted through CSS masks */
 .ti{display:block;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
-.t1{--m:url("kfx_tool_1.png")}.t2{--m:url("kfx_tool_2.png")}.t3{--m:url("kfx_tool_3.png")}.t4{--m:url("kfx_tool_4.png")}
-.t5{--m:url("kfx_tool_5.png")}.t6{--m:url("kfx_tool_6.png")}.t7{--m:url("kfx_tool_7.png")}.t8{--m:url("kfx_tool_8.png")}
+.t1{--m:url("assets/img/kfx_tool_1.png")}.t2{--m:url("assets/img/kfx_tool_2.png")}.t3{--m:url("assets/img/kfx_tool_3.png")}.t4{--m:url("assets/img/kfx_tool_4.png")}
+.t5{--m:url("assets/img/kfx_tool_5.png")}.t6{--m:url("assets/img/kfx_tool_6.png")}.t7{--m:url("assets/img/kfx_tool_7.png")}.t8{--m:url("assets/img/kfx_tool_8.png")}
 
 .pole-stripes{position:relative;overflow:hidden}
 .pole-stripes::before{content:"";position:absolute;left:0;right:0;top:-67.88px;bottom:0;
@@ -62,7 +62,7 @@ a{color:var(--cyan)}
 /* ============ HERO: neon salon ============ */
 .hero{position:relative;isolation:isolate;overflow:hidden;min-height:min(92svh,900px);display:grid;place-items:center;
   padding:64px 16px 112px;text-align:center}
-.neon{position:absolute;inset:-4%;z-index:-3;background:url("kfx_neon_bg.jpg") 0 0/620px auto repeat}
+.neon{position:absolute;inset:-4%;z-index:-3;background:url("assets/img/kfx_neon_bg.jpg") 0 0/620px auto repeat}
 @media (hover:hover) and (pointer:fine){
   .neon{animation:drift 90s linear infinite}
   .neon.lit{opacity:1;filter:saturate(1.25) brightness(1.15);
@@ -289,7 +289,7 @@ a{color:var(--cyan)}
 <header class="dhead">
   <div class="neon" aria-hidden="true"></div>
   <div class="dhead-in">
-    <a class="back" href="index.html"><span aria-hidden="true">&lsaquo;</span><img src="kuafix.png" alt="" />Kuafix</a>
+    <a class="back" href="index.html"><span aria-hidden="true">&lsaquo;</span><img src="assets/img/kuafix.png" alt="" />Kuafix</a>
     <h1 class="dtitle">Destek</h1>
   </div>
   <div class="dstripe pole-stripes" aria-hidden="true"></div>

@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Kuafix</title>
-<link rel="icon" type="image/png" href="kuafix.png" />
-<link rel="apple-touch-icon" href="kuafix.png" />
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon.png" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
 <meta name="theme-color" content="#06070A" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,8 +31,8 @@ a{color:var(--cyan)}
 
 /* app tool icons, tinted through CSS masks */
 .ti{display:block;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
-.t1{--m:url("kfx_tool_1.png")}.t2{--m:url("kfx_tool_2.png")}.t3{--m:url("kfx_tool_3.png")}.t4{--m:url("kfx_tool_4.png")}
-.t5{--m:url("kfx_tool_5.png")}.t6{--m:url("kfx_tool_6.png")}.t7{--m:url("kfx_tool_7.png")}.t8{--m:url("kfx_tool_8.png")}
+.t1{--m:url("assets/img/kfx_tool_1.png")}.t2{--m:url("assets/img/kfx_tool_2.png")}.t3{--m:url("assets/img/kfx_tool_3.png")}.t4{--m:url("assets/img/kfx_tool_4.png")}
+.t5{--m:url("assets/img/kfx_tool_5.png")}.t6{--m:url("assets/img/kfx_tool_6.png")}.t7{--m:url("assets/img/kfx_tool_7.png")}.t8{--m:url("assets/img/kfx_tool_8.png")}
 
 .pole-stripes{position:relative;overflow:hidden}
 .pole-stripes::before{content:"";position:absolute;left:0;right:0;top:-67.88px;bottom:0;
@@ -62,7 +62,7 @@ a{color:var(--cyan)}
 /* ============ HERO: neon salon ============ */
 .hero{position:relative;isolation:isolate;overflow:hidden;min-height:min(92svh,900px);display:grid;place-items:center;
   padding:64px 16px 112px;text-align:center}
-.neon{position:absolute;inset:-4%;z-index:-3;background:url("kfx_neon_bg.jpg") 0 0/620px auto repeat}
+.neon{position:absolute;inset:-4%;z-index:-3;background:url("assets/img/kfx_neon_bg.jpg") 0 0/620px auto repeat}
 @media (hover:hover) and (pointer:fine){
   .neon{animation:drift 90s linear infinite}
   .neon.lit{opacity:1;filter:saturate(1.25) brightness(1.15);
@@ -103,8 +103,8 @@ a{color:var(--cyan)}
 .stores{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:clamp(30px,5vh,44px)}
 .stores a{display:block;border-radius:12px;transition:transform .3s var(--ease)}
 .stores a:hover{transform:translateY(-4px) scale(1.04)}
-.stores img{height:clamp(44px,11.5vw,52px);width:auto;aspect-ratio:1062/318;object-fit:cover;object-position:50% 50%;
-  filter:drop-shadow(0 0 1px rgba(255,255,255,.5)) drop-shadow(0 12px 28px rgba(0,0,0,.6))}
+.stores img{display:block;height:clamp(44px,11.5vw,52px);width:auto;aspect-ratio:1062/318;
+  filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 12px 28px rgba(0,0,0,.6))}
 .cue{position:absolute;left:50%;bottom:24px;width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;border-radius:50%;
   border:1px solid rgba(255,255,255,.22);color:var(--text);opacity:.8}
 .cue svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;animation:nudge 2s var(--ease) infinite}
@@ -293,11 +293,11 @@ a{color:var(--cyan)}
   <div class="salon">
     <div class="pole" aria-hidden="true"><span class="cap top"></span><span class="tube pole-stripes"></span><span class="cap"></span></div>
     <div class="brand">
-      <h1 style="margin:0"><img class="logo" src="kfx_logo_white.png" alt="Kuafix" /></h1>
+      <h1 style="margin:0"><img class="logo" src="assets/img/kfx_logo_white.png" alt="Kuafix" /></h1>
       <p class="sign" aria-label="İster Kuaför Ol, İster Müşteri"><span class="w g"><span class="l">İ</span><span class="l">s</span><span class="l">t</span><span class="l">e</span><span class="l">r</span></span> <span class="w k"><span class="l">K</span><span class="l">u</span><span class="l">a</span><span class="l">f</span><span class="l">ö</span><span class="l">r</span></span> <span class="w g"><span class="l">O</span><span class="l">l</span><span class="l">,</span></span><br /><span class="w g"><span class="l">İ</span><span class="l">s</span><span class="l">t</span><span class="l">e</span><span class="l">r</span></span> <span class="w m"><span class="l">M</span><span class="l">ü</span><span class="l">ş</span><span class="l">t</span><span class="l">e</span><span class="l">r</span><span class="l">i</span></span></p>
       <div class="stores">
-        <a href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr" target="_blank" rel="noopener noreferrer" aria-label="App Store'dan indir" title="App Store"><img src="app_store_badge_v3.png" alt="App Store'dan indir" /></a>
-        <a href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix" target="_blank" rel="noopener noreferrer" aria-label="Google Play'den indir" title="Google Play"><img src="google_play_badge_v3.png" alt="Google Play'den indir" /></a>
+        <a href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr" target="_blank" rel="noopener noreferrer" aria-label="App Store'dan indir" title="App Store"><img src="assets/img/app-store-badge.png" alt="App Store'dan indir" width="1062" height="318" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix" target="_blank" rel="noopener noreferrer" aria-label="Google Play'den indir" title="Google Play"><img src="assets/img/google-play-badge.png" alt="Google Play'den indir" width="1062" height="318" /></a>
       </div>
     </div>
     <div class="pole" aria-hidden="true"><span class="cap top"></span><span class="tube pole-stripes" style="animation-direction:reverse"></span><span class="cap"></span></div>
@@ -311,14 +311,14 @@ a{color:var(--cyan)}
   <div class="floor" aria-hidden="true"></div>
   <div class="scene" id="scene">
     <div class="ring">
-      <figure class="card"><img src="kfx_ss_isi_haritasi.png" alt="Yoğunluk ısı haritası ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_finans.png" alt="Günlük finans özeti ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_istatistik.png" alt="Müşteri istatistikleri ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_gunluk.png" alt="Günlük randevu akışı ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_takvim.png" alt="Aylık takvim ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_giris.png" alt="Kuaför ve müşteri giriş ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_giris_renkli.png" alt="Müşteri giriş ekranı" /></figure>
-      <figure class="card"><img src="kfx_ss_randevu.png" alt="Randevu alma ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_isi_haritasi.png" alt="Yoğunluk ısı haritası ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_finans.png" alt="Günlük finans özeti ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_istatistik.png" alt="Müşteri istatistikleri ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_gunluk.png" alt="Günlük randevu akışı ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_takvim.png" alt="Aylık takvim ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_giris.png" alt="Kuaför ve müşteri giriş ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_giris_renkli.png" alt="Müşteri giriş ekranı" /></figure>
+      <figure class="card"><img src="assets/img/kfx_ss_randevu.png" alt="Randevu alma ekranı" /></figure>
     </div>
   </div>
 </section>
@@ -335,8 +335,8 @@ a{color:var(--cyan)}
         <li class=""><span class="i"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span>Ayarlar</li>
       </ul>
       <div class="devices" aria-hidden="true">
-        <div class="ipad swap"><img src="kfx_ipad_gunluk.jpg" alt="" /><img src="kfx_ipad_takvim.jpg" alt="" /></div>
-        <div class="iphone"><img src="kfx_ss_giris.png" alt="" /></div>
+        <div class="ipad swap"><img src="assets/img/kfx_ipad_gunluk.jpg" alt="" /><img src="assets/img/kfx_ipad_takvim.jpg" alt="" /></div>
+        <div class="iphone"><img src="assets/img/kfx_ss_giris.png" alt="" /></div>
       </div>
     </div>
   </article>
@@ -350,8 +350,8 @@ a{color:var(--cyan)}
         <li class="ai" style="flex-wrap:wrap"><span class="i"><svg viewBox="0 0 24 24"><path d="M11 3l1.8 4.7L17.5 9.5l-4.7 1.8L11 16l-1.8-4.7L4.5 9.5l4.7-1.8z"/><path d="M18.5 14l.9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9z"/></svg></span>Model Dene<div class="chips"><span class="chip" style="--i:0">Saç Modeli</span><span class="chip" style="--i:1">Sakal / Bıyık</span><span class="chip" style="--i:2">Saç Rengi</span><span class="chip" style="--i:3">Dalgalandırma</span><span class="chip" style="--i:4">Uzatma</span></div></li>
       </ul>
       <div class="devices" aria-hidden="true">
-        <div class="ipad swap"><img src="kfx_ipad_randevu.jpg" alt="" /><img src="kfx_ipad_giris_renkli.jpg" alt="" /></div>
-        <div class="iphone"><img src="kfx_ss_giris_renkli.png" alt="" /></div>
+        <div class="ipad swap"><img src="assets/img/kfx_ipad_randevu.jpg" alt="" /><img src="assets/img/kfx_ipad_giris_renkli.jpg" alt="" /></div>
+        <div class="iphone"><img src="assets/img/kfx_ss_giris_renkli.png" alt="" /></div>
       </div>
     </div>
   </article>
