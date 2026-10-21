@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix : application de rendez-vous coiffure en Turquie",
+ "meta_desc": "Agenda, suivi des recettes et des paiements et statistiques d’affluence pour les salons de coiffure et les barbiers en Turquie ; côté clients : trouver un coiffeur, réserver en ligne et essayer des coiffures avec l’IA. Sur iPhone, iPad et Android.",
+ "aria_lang": "Langue",
+ "lang_note": "L’application Kuafix est en turc et s’adresse aux salons de coiffure et aux barbiers en Turquie.",
+ "h1_suffix": "application de rendez-vous pour coiffeurs et barbiers",
+ "lead": "Les coiffeurs gèrent leurs rendez-vous, leurs horaires et leurs recettes au même endroit ; les clients trouvent leur coiffeur et réservent un créneau libre en ligne. Sur iPhone, iPad et Android.",
+ "sign": "Vous êtes [k:Coiffeur]|ou [m:Client]",
+ "sign_label": "Vous êtes Coiffeur ou Client",
+ "store_as": "Télécharger dans l’App Store",
+ "store_gp": "Disponible sur Google Play",
+ "aria_scroll": "Faire défiler vers le bas",
+ "aria_shots": "Captures d’écran",
+ "shot_alts": [
+  "Écran de la carte de chaleur des heures d’affluence",
+  "Écran du bilan financier quotidien",
+  "Écran des statistiques clients",
+  "Écran de la liste des rendez-vous du jour",
+  "Écran du calendrier mensuel",
+  "Écran de connexion des coiffeurs et des clients",
+  "Écran de connexion des clients",
+  "Écran de réservation"
+ ],
+ "aria_panels": "Espaces coiffeur et client",
+ "panel_k": "Espace coiffeur",
+ "menu_k": [
+  "Calendrier",
+  "Ajouter un rendez-vous",
+  "Statistiques",
+  "Finances",
+  "Paramètres"
+ ],
+ "panel_m": "Espace client",
+ "menu_m": [
+  "Réserver",
+  "Mes rendez-vous",
+  "Trouver un coiffeur",
+  "Essayer un look"
+ ],
+ "chips": [
+  "Coupe de cheveux",
+  "Barbe / Moustache",
+  "Coloration",
+  "Ondulations",
+  "Extensions"
+ ],
+ "slot_book": "Réserver",
+ "slot_full": "Réservé",
+ "aria_board": "Tableau de bord du salon",
+ "heat_head": "Vous avez eu 1 218 rendez-vous entre le 16 octobre et le 13 janvier.",
+ "heat_label": "Carte de chaleur des rendez-vous par heure et jour de la semaine",
+ "days": [
+  "L",
+  "M",
+  "M",
+  "J",
+  "V",
+  "S",
+  "D"
+ ],
+ "bd_date": "Jeudi 5 mars 2026",
+ "bd_good": "Super ! Vos recettes sont supérieures de 12 % à celles d’hier ↑",
+ "bd_total": "Recettes totales",
+ "bd_count": "Prestations",
+ "bd_cash": "Espèces :",
+ "bd_card": "Carte :",
+ "fin_card": "Paiements en espèces, par carte et par virement bancaire, recettes quotidiennes et mensuelles, carte de chaleur des heures d’affluence.",
+ "bd_iban": "Virement bancaire :",
+ "services": [
+  "Coupe enfant",
+  "Coloration",
+  "Coupe de cheveux",
+  "Barbe",
+  "Shampoing et soin"
+ ],
+ "about_h2": "Qu’est-ce que Kuafix ?",
+ "about_p": "Kuafix est une application de rendez-vous qui réunit les salons de coiffure, les barbiers et leurs clients dans une seule application. Le coiffeur gère son calendrier, ses horaires, ses jours de repos, les tarifs de ses prestations et ses recettes quotidiennes. Le client trouve son coiffeur par province et district, par nom, avec son ID ou son code QR, consulte les créneaux libres et réserve sans téléphoner. Avant le rendez-vous, les clients peuvent essayer une nouvelle coupe, une barbe ou une coloration sur leur propre photo grâce à l’IA.",
+ "k_h3": "Pour les coiffeurs et les barbiers",
+ "k_points": [
+  [
+   "Agenda des rendez-vous",
+   "Vues quotidienne, hebdomadaire et mensuelle. Les créneaux libres et réservés en un coup d’œil ; touchez deux fois un créneau pour ajouter un rendez-vous."
+  ],
+  [
+   "Clients par téléphone et sans rendez-vous",
+   "Prenez aussi des rendez-vous pour les clients qui n’utilisent pas l’application : un nom suffit, le téléphone et la note sont facultatifs. Ouvrez un créneau supplémentaire à un horaire qui ne figure pas dans la liste."
+  ],
+  [
+   "Vos règles de fonctionnement",
+   "Horaires d’ouverture, durée des rendez-vous (30 min, 60 min ou une durée personnalisée d’au moins 10 min), jours de repos hebdomadaires, congés et nombre de jours à l’avance où les clients peuvent réserver."
+  ],
+  [
+   "Suivi des recettes et des paiements",
+   "Indiquez pour chaque rendez-vous s’il a été payé en espèces, par carte ou par virement bancaire (IBAN). Recettes quotidiennes, hebdomadaires et mensuelles, nombre de prestations et recettes par prestation."
+  ],
+  [
+   "Statistiques d’affluence",
+   "Visualisez les jours et les heures les plus chargés sur une carte de chaleur, ainsi que le nombre de rendez-vous et de clients sur la période de votre choix."
+  ],
+  [
+   "Informations sur les clients",
+   "Consultez la note du client et la photo de coiffure jointe, appelez-le d’un simple geste ou annulez si nécessaire."
+  ]
+ ],
+ "m_h3": "Pour les clients",
+ "m_points": [
+  [
+   "Trouver un coiffeur",
+   "Affichez les coiffeurs par province et district, affinez la recherche par nom ou utilisez l’ID ou le code QR fourni par votre coiffeur. Ajoutez votre coiffeur habituel à vos favoris."
+  ],
+  [
+   "Réserver en ligne",
+   "Consultez les créneaux libres de votre coiffeur et touchez-en un pour réserver. Aucun appel ni message nécessaire."
+  ],
+  [
+   "Mes rendez-vous",
+   "Vos rendez-vous à venir et passés dans une seule liste ; annulez dans l’application si le rendez-vous est dans plus de 45 minutes."
+  ],
+  [
+   "Essayer un look (IA)",
+   "Essayez une coupe de cheveux, une barbe et une moustache, une coloration, des ondulations ou des extensions sur votre propre photo, puis enregistrez les résultats qui vous plaisent dans vos archives."
+  ],
+  [
+   "Montrer à votre coiffeur",
+   "Ajoutez au rendez-vous une note et une photo de coiffure issue de vos archives ; votre coiffeur voit exactement ce que vous souhaitez."
+  ]
+ ],
+ "topics_h2": "Que pouvez-vous faire avec Kuafix ?",
+ "topics_p": "Des guides détaillés sur les trois sujets les plus demandés :",
+ "price_h2": "Tarifs",
+ "price_p": "Le téléchargement de Kuafix est gratuit. L’espace coiffeur et les fonctionnalités supplémentaires pour les clients sont accessibles par abonnement, avec un essai gratuit de 1 mois pour tous. Vous ne payez pas vos rendez-vous dans l’application ; vous réglez la prestation directement au coiffeur.",
+ "price_items": [
+  [
+   "Premium coiffeur",
+   "Calendrier, réservation, statistiques et finances : 399 TL par mois ou 999 TL pour 3 mois. Le premier mois est un essai gratuit."
+  ],
+  [
+   "Client : gratuit",
+   "La recherche de coiffeurs, les favoris, la réservation en ligne et la gestion de vos rendez-vous sont gratuits."
+  ],
+  [
+   "Premium client",
+   "Notes et photos jointes aux rendez-vous, essai de coiffure avec l’IA et 6 crédits chaque semaine : 23,99 TL par mois ou 63,99 TL pour 3 mois."
+  ],
+  [
+   "Crédits IA",
+   "Chaque photo générée avec succès utilise 2 crédits. Packs supplémentaires : 6 crédits pour 12,99 TL, 12 crédits pour 21,99 TL, 18 crédits pour 29,99 TL."
+  ]
+ ],
+ "price_fine": "Ces tarifs correspondent à la boutique turque, tels qu’indiqués dans les conditions d’utilisation ; le prix en vigueur est affiché sur l’écran d’achat. Les abonnements sont renouvelés selon les règles de la boutique, sauf résiliation.",
+ "faq_h2": "Questions fréquentes",
+ "faq_home": [
+  [
+   "Kuafix est-il gratuit ?",
+   "Le téléchargement de l’application, la recherche d’un coiffeur et la réservation en tant que client sont gratuits. L’espace coiffeur propose un essai gratuit de 1 mois, puis nécessite un abonnement Premium coiffeur (399 TL par mois ou 999 TL pour 3 mois). Les clients peuvent souscrire, s’ils le souhaitent, à Premium client pour les notes, les photos et les fonctionnalités d’IA."
+  ],
+  [
+   "Et si mon client n’utilise pas l’application ?",
+   "Aucun problème. Vous pouvez ajouter depuis le calendrier des rendez-vous pour les clients qui téléphonent ou se présentent sans rendez-vous ; un nom suffit, le téléphone et la note sont facultatifs."
+  ],
+  [
+   "Comment les clients me trouvent-ils ?",
+   "Dans Trouver un coiffeur, les clients sélectionnent votre province et votre district pour vous voir dans la liste, ou vous recherchent par votre nom. Si vous partagez votre ID de coiffeur ou votre code QR, ils vous trouvent directement et vous ajoutent à leurs favoris."
+  ],
+  [
+   "Sur quels appareils l’application fonctionne-t-elle ?",
+   "Sur iPhone et iPad (iOS 17.6 ou version ultérieure) et sur les téléphones Android. Téléchargez-la depuis l’App Store ou Google Play."
+  ],
+  [
+   "Dans quelle langue est l’application ?",
+   "L’application est en turc et s’adresse aux salons de coiffure et aux barbiers en Turquie. Ce site est publié en 17 langues pour présenter l’application."
+  ],
+  [
+   "Peut-on annuler un rendez-vous ?",
+   "Oui. Les clients peuvent annuler dans l’application si le rendez-vous est dans plus de 45 minutes ; sinon, ils appellent le coiffeur. Le coiffeur peut annuler selon la même règle."
+  ],
+  [
+   "Comment fonctionne l’essai de coiffure avec l’IA ?",
+   "Dans Essayer un look, vous prenez une photo et choisissez une coupe de cheveux, une barbe / moustache, une coloration, des ondulations ou des extensions. Chaque résultat généré avec succès utilise 2 crédits. Votre photo originale est supprimée dans les 24 heures suivant le traitement."
+  ],
+  [
+   "Mes données sont-elles en sécurité et puis-je supprimer mon compte ?",
+   "Les données sont stockées sur Firebase (Google) et partagées entre le coiffeur et le client uniquement dans la mesure nécessaire au rendez-vous. Vous pouvez supprimer votre compte dans l’application à tout moment ; les détails figurent dans la politique de confidentialité et sur la page de suppression de compte."
+  ]
+ ],
+ "cta_h2": "Gérez votre salon depuis votre poche",
+ "cta_p": "Coiffeurs : essayez gratuitement pendant 1 mois. Clients : trouvez votre coiffeur et réservez dès maintenant.",
+ "aria_docs": "Documents",
+ "doc_privacy": "Politique de confidentialité",
+ "doc_delete": "Suppression du compte",
+ "doc_terms": "Conditions d’utilisation (CLUF)",
+ "doc_support": "Assistance",
+ "steps_h2": "Comment ça marche",
+ "other_h2": "Autres guides",
+ "topic_cta_h2": "Télécharger Kuafix",
+ "topic_cta_p": "Sur iPhone, iPad et Android. L’espace coiffeur est gratuit pendant 1 mois.",
+ "book_slug": "application-rendez-vous-salon-coiffure",
+ "book_name": "Application de rendez-vous pour salon de coiffure",
+ "book_title": "Rendez-vous en ligne pour coiffeurs et barbiers | Kuafix",
+ "book_desc": "Réservation en ligne pour les salons de coiffure et les barbiers en Turquie : proposez vos créneaux libres aux clients et ajoutez les réservations par téléphone au même calendrier. Les clients trouvent leur coiffeur et réservent sans téléphoner.",
+ "book_h1": "Application de rendez-vous pour coiffeurs et barbiers",
+ "book_lead": "Moins d’appels : laissez les clients consulter vos créneaux libres et réserver eux-mêmes, et retrouvez toute votre journée dans un seul calendrier.",
+ "book_card": "Réservation en ligne, horaires, jours de repos et règles d’annulation.",
+ "book_body": [
+  [
+   "Pourquoi la réservation en ligne ?",
+   "Les appels dans la journée interrompent votre travail et les réservations notées dans un carnet finissent par se mélanger. Dans Kuafix, le client consulte les <b>créneaux libres</b> du coiffeur et en choisit un ; la réservation apparaît instantanément dans le calendrier du coiffeur. Les clients qui téléphonent ou se présentent sans rendez-vous sont ajoutés au même calendrier, ce qui évite les chevauchements."
+  ],
+  [
+   "Le calendrier suit vos règles",
+   "Vous définissez vos horaires d’ouverture et de fermeture, la durée des rendez-vous (30 min, 60 min ou une durée personnalisée d’au moins 10 minutes) et <b>combien de jours à l’avance</b> les clients peuvent réserver (5, 10 ou un nombre personnalisé). Les jours de repos hebdomadaires et les congés sont indiqués comme fermés et personne ne peut y réserver."
+  ],
+  [
+   "Côté client",
+   "Les clients trouvent leur coiffeur dans Trouver un coiffeur en sélectionnant une province et un district, en recherchant son nom ou avec son <b>ID ou code QR</b>, puis l’ajoutent à leurs favoris. Dans Réserver, ils choisissent un jour et touchent un créneau libre. Un seul rendez-vous peut être réservé par jour ; les horaires passés sont fermés."
+  ],
+  [
+   "Annulation et contact",
+   "Si le rendez-vous est dans plus de 45 minutes, le client comme le coiffeur peuvent l’annuler dans l’application ; sinon, ils se téléphonent. Le coiffeur voit la note du client et la photo de coiffure jointe dans les détails du rendez-vous."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Créez votre profil",
+   "Inscrivez-vous en tant que coiffeur avec votre numéro de téléphone, puis renseignez le nom et l’adresse de votre salon."
+  ],
+  [
+   "Définissez vos règles de fonctionnement",
+   "Choisissez vos horaires, la durée des rendez-vous, vos jours de repos et vos congés."
+  ],
+  [
+   "Partagez avec vos clients",
+   "Partagez votre ID de coiffeur ou votre code QR ; les clients vous ajoutent à leurs favoris."
+  ],
+  [
+   "Les réservations arrivent dans votre calendrier",
+   "Les réservations en ligne et celles que vous ajoutez vous-même apparaissent dans le même calendrier."
+  ]
+ ],
+ "book_faq": [
+  [
+   "L’application de rendez-vous pour salon est-elle payante ?",
+   "Le téléchargement de Kuafix est gratuit. L’espace coiffeur propose un essai gratuit de 1 mois ; ensuite, Premium coiffeur coûte 399 TL par mois ou 999 TL pour 3 mois. Les clients ne paient pas pour réserver."
+  ],
+  [
+   "Le client a-t-il besoin de l’application ?",
+   "Non. Vous pouvez ajouter des rendez-vous pour les clients qui n’ont pas l’application ; un nom suffit, le téléphone et la note sont facultatifs."
+  ],
+  [
+   "Puis-je définir la durée des rendez-vous ?",
+   "Oui. Choisissez 30 minutes, 60 minutes ou une durée personnalisée d’au moins 10 minutes. Vous pouvez aussi ouvrir un créneau supplémentaire à un horaire qui ne figure pas dans la liste."
+  ],
+  [
+   "Les clients peuvent-ils réserver pendant mes jours de repos ?",
+   "Non. Les jours de repos hebdomadaires et les congés que vous ajoutez sont fermés dans le calendrier, les clients ne peuvent donc pas y réserver."
+  ],
+  [
+   "L’application convient-elle aux barbiers et aux coiffeurs pour hommes ?",
+   "Oui. Kuafix fonctionne de la même manière pour les coiffeurs pour femmes et pour hommes, les barbiers et les salons tenus par une seule personne ; vous modifiez votre propre liste de prestations (coupe, barbe, coloration, etc.)."
+  ]
+ ],
+ "fin_slug": "suivi-recettes-salon-coiffure",
+ "fin_name": "Suivi des recettes du salon",
+ "fin_title": "Suivi des recettes et affluence du salon de coiffure | Kuafix",
+ "fin_desc": "Suivi des recettes pour les salons de coiffure et les barbiers : indiquez si chaque rendez-vous a été payé en espèces, par carte ou par virement bancaire, puis consultez les recettes quotidiennes et mensuelles, les recettes par prestation et vos heures les plus chargées.",
+ "fin_h1": "Suivi des recettes et statistiques du salon",
+ "fin_lead": "Connaissez vos recettes du jour sans compter la caisse : combien vous avez gagné aujourd’hui, quelle prestation s’est le plus vendue et à quels moments vous avez le plus de clients.",
+ "fin_body": [
+  [
+   "Associez les paiements aux rendez-vous",
+   "Chaque rendez-vous dans Kuafix comporte une icône de paiement. Le gris signifie qu’aucun paiement n’a encore été enregistré ; touchez l’icône et choisissez <b>espèces, carte ou virement bancaire (IBAN)</b> pour qu’elle passe au vert. Vous saisissez une seule fois les tarifs de vos prestations dans Paramètres > Finances (jusqu’à 20 prestations), puis le montant se remplit automatiquement."
+  ],
+  [
+   "Recettes quotidiennes, hebdomadaires et mensuelles",
+   "L’écran Finances affiche les <b>recettes totales</b> du jour choisi, le nombre de prestations, la répartition par mode de paiement et les recettes par prestation, et vous indique si vos recettes ont augmenté ou diminué par rapport à la veille. Le même bilan est disponible par semaine et par mois."
+  ],
+  [
+   "Jours et heures les plus chargés",
+   "La <b>carte de chaleur</b> dans Statistiques indique par des couleurs le nombre de rendez-vous que vous avez eus pour chaque jour et chaque heure sur la période choisie. Utilisez-la pour planifier vos horaires, vos pauses ou vos journées de promotion."
+  ],
+  [
+   "Historique par client",
+   "Les statistiques clients indiquent la fréquence des visites de chaque client et ses prestations passées. Kuafix n’encaisse pas de paiements ; ces données servent au suivi de votre activité et ne remplacent pas la tenue de votre comptabilité officielle."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Saisissez les tarifs de vos prestations",
+   "Ajoutez des prestations comme la coupe, la barbe et la coloration avec leurs tarifs dans Paramètres > Finances."
+  ],
+  [
+   "Enregistrez le paiement",
+   "Touchez l’icône de paiement et choisissez espèces, carte ou virement bancaire."
+  ],
+  [
+   "Consultez le bilan de la journée",
+   "Les recettes totales, le nombre de prestations et la répartition des paiements sont disponibles sur l’écran Finances."
+  ],
+  [
+   "Analysez la période",
+   "Utilisez la carte de chaleur et les statistiques pour connaître vos heures d’affluence et vos clients réguliers."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Kuafix encaisse-t-il les paiements ?",
+   "Non. Le client paie directement le coiffeur, qui enregistre le paiement dans l’application. Kuafix ne prélève aucune commission."
+  ],
+  [
+   "Quels modes de paiement sont suivis séparément ?",
+   "Les espèces, la carte et le virement bancaire (IBAN). L’écran Finances affiche un total distinct pour chacun."
+  ],
+  [
+   "Puis-je consulter les recettes par prestation ?",
+   "Oui. L’écran Finances répartit aussi les recettes selon vos prestations, comme la coupe, la coloration et la barbe."
+  ],
+  [
+   "L’application remplace-t-elle un logiciel de comptabilité ?",
+   "Non. Les recettes enregistrées dans Kuafix servent au suivi interne ; Kuafix n’émet pas de factures et ne remplace pas la tenue de votre comptabilité officielle."
+  ],
+  [
+   "Le suivi des recettes est-il payant ?",
+   "Les finances et les statistiques font partie de Premium coiffeur ; le premier mois est un essai gratuit."
+  ]
+ ],
+ "ai_slug": "essai-coiffure-avec-ia",
+ "ai_name": "Essai de coiffure avec l’IA",
+ "ai_title": "Essai coiffure, barbe et coloration avec l’IA | Kuafix",
+ "ai_desc": "Avant d’aller chez le coiffeur, essayez une nouvelle coupe, une barbe et une moustache, une coloration, des ondulations ou des extensions sur votre propre photo grâce à l’IA, puis ajoutez le résultat à votre rendez-vous pour le montrer à votre coiffeur.",
+ "ai_h1": "Essayez coiffures, barbes et colorations avec l’IA",
+ "ai_lead": "Visualisez le résultat avant de vous installer dans le fauteuil : prenez une photo, choisissez un look et montrez à votre coiffeur celui qui vous plaît.",
+ "ai_card": "Coupe, barbe / moustache, coloration, ondulations et extensions sur votre propre photo.",
+ "ai_body": [
+  [
+   "Que pouvez-vous essayer ?",
+   "Essayer un look dans Kuafix propose cinq types d’essais : <b>coupe de cheveux</b>, <b>barbe / moustache</b>, <b>coloration</b>, <b>ondulations</b> et <b>extensions</b>. Pour chacun, vous choisissez parmi des modèles prédéfinis."
+  ],
+  [
+   "Montrez à votre coiffeur ce que vous souhaitez",
+   "Enregistrez le résultat qui vous plaît dans vos archives et ajoutez-le à votre rendez-vous. Votre coiffeur voit la photo dans les détails du rendez-vous, ce qui vous permet de montrer le résultat plutôt que de le décrire."
+  ],
+  [
+   "Crédits",
+   "Chaque photo générée avec succès utilise <b>2 crédits</b>. Le début de l’essai gratuit vous donne 6 crédits offerts, Premium ajoute 6 crédits chaque semaine et vous pouvez acheter des packs de 6, 12 ou 18 crédits."
+  ],
+  [
+   "Que devient votre photo ?",
+   "Votre photo est traitée uniquement lorsque vous lancez un essai. Le traitement d’image utilise le service Perfect Corp ; la photo originale que vous importez est supprimée <b>dans les 24 heures</b> suivant le traitement. Les images générées restent dans vos archives jusqu’à ce que vous les supprimiez. Les résultats sont un aperçu ; la coupe réelle peut ne pas être exactement identique."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Ouvrez Essayer un look",
+   "Touchez Essayer un look dans l’espace client."
+  ],
+  [
+   "Prenez votre photo",
+   "Placez votre visage dans le cadre de guidage ou choisissez une photo dans votre galerie."
+  ],
+  [
+   "Choisissez un look",
+   "Choisissez un modèle de coupe, de barbe / moustache, de coloration, d’ondulations ou d’extensions."
+  ],
+  [
+   "Ajoutez-le à votre rendez-vous",
+   "Enregistrez le résultat qui vous plaît dans vos archives et joignez-le à votre rendez-vous."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "L’essai de coiffure avec l’IA est-il gratuit ?",
+   "Essayer un look est accessible aux abonnés Premium client et aux utilisateurs en période d’essai gratuit. Le début de l’essai donne droit à 6 crédits offerts ; chaque photo générée avec succès utilise 2 crédits."
+  ],
+  [
+   "Les hommes peuvent-ils essayer des barbes et des moustaches ?",
+   "Oui. Dans Barbe / Moustache, vous pouvez voir différents styles de barbe et de moustache sur votre propre photo."
+  ],
+  [
+   "Puis-je essayer une coloration ?",
+   "Oui. Dans Coloration, vous pouvez essayer différentes couleurs avant de vous teindre les cheveux ; Ondulations et Extensions sont des catégories distinctes."
+  ],
+  [
+   "Ma photo est-elle conservée ?",
+   "La photo originale que vous importez est supprimée dans les 24 heures suivant le traitement. L’image générée reste dans vos archives jusqu’à ce que vous la supprimiez, et elle est supprimée si vous supprimez votre compte."
+  ],
+  [
+   "Le résultat sera-t-il exactement le même en réalité ?",
+   "Le résultat de l’IA est un aperçu. Votre type de cheveux et le travail du coiffeur peuvent modifier le résultat ; discutez du look avec votre coiffeur."
+  ]
+ ]
+}

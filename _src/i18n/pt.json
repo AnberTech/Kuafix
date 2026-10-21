@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: aplicativo de agendamento para salões e barbearias na Turquia",
+ "meta_desc": "Agenda de horários, controle de receitas e pagamentos e estatísticas de horários de pico para salões de beleza e barbearias na Turquia; para clientes: encontre um cabeleireiro, agende online e experimente penteados com IA. iPhone, iPad e Android.",
+ "aria_lang": "Idioma",
+ "lang_note": "O aplicativo Kuafix está em turco e foi criado para salões de beleza e barbearias na Turquia.",
+ "h1_suffix": "aplicativo de agendamento para salões e barbearias",
+ "lead": "Cabeleireiros gerenciam agendamentos, horários de trabalho e receitas em um só lugar; clientes encontram seu cabeleireiro e agendam online um horário disponível. Para iPhone, iPad e Android.",
+ "sign": "Seja [k:Cabeleireiro],|ou [m:Cliente]",
+ "sign_label": "Seja o cabeleireiro ou o cliente",
+ "store_as": "Baixe na App Store",
+ "store_gp": "Disponível no Google Play",
+ "aria_scroll": "Role para baixo",
+ "aria_shots": "Capturas de tela",
+ "shot_alts": [
+  "Tela do mapa de calor dos horários de pico",
+  "Tela do resumo financeiro diário",
+  "Tela de estatísticas dos clientes",
+  "Tela da lista diária de agendamentos",
+  "Tela do calendário mensal",
+  "Tela de login de cabeleireiros e clientes",
+  "Tela de login do cliente",
+  "Tela de agendamento"
+ ],
+ "aria_panels": "Painéis do cabeleireiro e do cliente",
+ "panel_k": "Painel do Cabeleireiro",
+ "menu_k": [
+  "Calendário",
+  "Adicionar Agendamento",
+  "Estatísticas",
+  "Finanças",
+  "Configurações"
+ ],
+ "panel_m": "Painel do Cliente",
+ "menu_m": [
+  "Agendar",
+  "Meus Agendamentos",
+  "Encontrar um Cabeleireiro",
+  "Experimentar um Visual"
+ ],
+ "chips": [
+  "Corte de cabelo",
+  "Barba / Bigode",
+  "Coloração",
+  "Ondas",
+  "Alongamentos"
+ ],
+ "slot_book": "Agendar",
+ "slot_full": "Agendado",
+ "aria_board": "Painel do salão",
+ "heat_head": "Você teve 1.218 agendamentos entre 16 de outubro e 13 de janeiro.",
+ "heat_label": "Mapa de calor dos agendamentos por hora e dia da semana",
+ "days": [
+  "S",
+  "T",
+  "Q",
+  "Q",
+  "S",
+  "S",
+  "D"
+ ],
+ "bd_date": "quinta-feira, 5 de março de 2026",
+ "bd_good": "Ótimo! Sua receita está 12% maior que ontem ↑",
+ "bd_total": "Receita Total",
+ "bd_count": "Serviços",
+ "bd_cash": "Dinheiro:",
+ "bd_card": "Cartão:",
+ "fin_card": "Pagamentos em dinheiro, cartão e transferência bancária, receitas diárias e mensais e mapa de calor dos horários de pico.",
+ "bd_iban": "Transferência bancária:",
+ "services": [
+  "Corte Infantil",
+  "Coloração",
+  "Corte de Cabelo",
+  "Barba",
+  "Lavagem e Tratamento"
+ ],
+ "about_h2": "O que é o Kuafix?",
+ "about_p": "Kuafix é um aplicativo de agendamentos que reúne salões de beleza, barbearias e seus clientes em um só aplicativo. O cabeleireiro gerencia o calendário, os horários de trabalho, as folgas, os preços dos serviços e a receita diária. O cliente encontra o cabeleireiro por província e distrito, por nome, pelo ID ou código QR do cabeleireiro, vê os horários disponíveis e agenda sem precisar ligar. Antes do atendimento, os clientes podem experimentar um novo corte, estilo de barba ou cor de cabelo em sua própria foto com IA.",
+ "k_h3": "Para cabeleireiros e barbeiros",
+ "k_points": [
+  [
+   "Agenda de horários",
+   "Visualizações diária, semanal e mensal. Veja rapidamente os horários disponíveis e ocupados; toque duas vezes em um horário para adicionar um agendamento."
+  ],
+  [
+   "Clientes por telefone e sem hora marcada",
+   "Agende também clientes que não usam o aplicativo: basta o nome; telefone e observação são opcionais. Abra um horário extra para um período que não esteja na lista."
+  ],
+  [
+   "Suas regras de trabalho",
+   "Horário de funcionamento, duração do atendimento (30 min, 60 min ou uma duração personalizada de pelo menos 10 min), folgas semanais, feriados e com quantos dias de antecedência os clientes podem agendar."
+  ],
+  [
+   "Controle de receitas e pagamentos",
+   "Marque cada agendamento como pago em dinheiro, cartão ou transferência bancária (IBAN). Veja receitas diárias, semanais e mensais, número de serviços e receita por serviço."
+  ],
+  [
+   "Estatísticas de horários de pico",
+   "Veja seus dias e horários mais movimentados em um mapa de calor, além da quantidade de agendamentos e clientes em qualquer período."
+  ],
+  [
+   "Dados do cliente",
+   "Veja a observação do cliente e a foto do penteado anexada, ligue com um toque ou cancele, se necessário."
+  ]
+ ],
+ "m_h3": "Para clientes",
+ "m_points": [
+  [
+   "Encontre um cabeleireiro",
+   "Liste cabeleireiros por província e distrito, filtre por nome ou use o ID ou código QR fornecido pelo seu cabeleireiro. Adicione seu cabeleireiro habitual aos favoritos."
+  ],
+  [
+   "Agende online",
+   "Veja os horários disponíveis do seu cabeleireiro e toque em um deles para agendar. Não é preciso fazer ligações nem enviar mensagens."
+  ],
+  [
+   "Meus agendamentos",
+   "Agendamentos futuros e anteriores em uma só lista; cancele no aplicativo se faltarem mais de 45 minutos para o horário."
+  ],
+  [
+   "Experimentar um Visual (IA)",
+   "Experimente cortes, barba e bigode, cores de cabelo, ondas ou alongamentos em sua própria foto e salve seus favoritos no arquivo."
+  ],
+  [
+   "Mostre ao seu cabeleireiro",
+   "Adicione ao agendamento uma observação e uma foto de penteado do seu arquivo; seu cabeleireiro verá exatamente o que você deseja."
+  ]
+ ],
+ "topics_h2": "O que você pode fazer com o Kuafix?",
+ "topics_p": "Guias detalhados sobre os três assuntos mais procurados:",
+ "price_h2": "Preços",
+ "price_p": "O download do Kuafix é gratuito. O painel do cabeleireiro e os recursos extras do cliente são liberados por assinatura, e todos recebem 1 mês de teste grátis. Você não paga pelos agendamentos no aplicativo; o serviço é pago diretamente ao cabeleireiro.",
+ "price_items": [
+  [
+   "Premium para Cabeleireiros",
+   "Calendário, agendamentos, estatísticas e finanças: 399 TL por mês ou 999 TL por 3 meses. O primeiro mês é um teste grátis."
+  ],
+  [
+   "Cliente: grátis",
+   "Encontrar cabeleireiros, usar favoritos, agendar online e gerenciar seus agendamentos são recursos gratuitos."
+  ],
+  [
+   "Premium para Clientes",
+   "Observações e fotos nos agendamentos, simulação de cabelos com IA e 6 créditos por semana: 23,99 TL por mês ou 63,99 TL por 3 meses."
+  ],
+  [
+   "Créditos de IA",
+   "Cada foto gerada com sucesso usa 2 créditos. Pacotes extras: 6 créditos por 12,99 TL, 12 créditos por 21,99 TL e 18 créditos por 29,99 TL."
+  ]
+ ],
+ "price_fine": "Os preços são da loja turca, conforme indicado nos termos de uso; o preço atual é exibido na tela de compra. As assinaturas são renovadas de acordo com as regras da loja, salvo cancelamento.",
+ "faq_h2": "Perguntas frequentes",
+ "faq_home": [
+  [
+   "O Kuafix é gratuito?",
+   "Baixar o aplicativo, encontrar um cabeleireiro e fazer agendamentos como cliente são ações gratuitas. O painel do cabeleireiro oferece 1 mês de teste grátis; depois disso, é necessária uma assinatura Premium para Cabeleireiros (399 TL por mês ou 999 TL por 3 meses). Os clientes podem contratar opcionalmente o Premium para Clientes para usar observações, fotos e recursos de IA."
+  ],
+  [
+   "E se meu cliente não usar o aplicativo?",
+   "Não há problema. Você pode adicionar pelo calendário os agendamentos feitos por telefone e de clientes sem hora marcada; basta o nome, enquanto telefone e observação são opcionais."
+  ],
+  [
+   "Como os clientes me encontram?",
+   "Em Encontrar um Cabeleireiro, os clientes escolhem sua província e seu distrito para ver você na lista ou pesquisam pelo seu nome. Se você compartilhar seu ID de cabeleireiro ou código QR, eles encontrarão você diretamente e poderão adicioná-lo aos favoritos."
+  ],
+  [
+   "Em quais dispositivos ele funciona?",
+   "iPhone e iPad (iOS 17.6 ou posterior) e celulares Android. Baixe na App Store ou no Google Play."
+  ],
+  [
+   "Em qual idioma está o aplicativo?",
+   "O aplicativo está em turco e foi criado para salões de beleza e barbearias na Turquia. Este site é publicado em 17 idiomas para apresentar o aplicativo."
+  ],
+  [
+   "É possível cancelar agendamentos?",
+   "Sim. Os clientes podem cancelar pelo aplicativo se faltarem mais de 45 minutos para o horário; caso contrário, devem ligar para o cabeleireiro. O cabeleireiro pode cancelar seguindo a mesma regra."
+  ],
+  [
+   "Como funciona a simulação de cabelos com IA?",
+   "Em Experimentar um Visual, você tira uma foto e escolhe um corte, barba / bigode, cor de cabelo, ondas ou alongamentos. Cada resultado gerado com sucesso usa 2 créditos. Sua foto original é excluída em até 24 horas após o processamento."
+  ],
+  [
+   "Meus dados estão seguros e posso excluir minha conta?",
+   "Os dados são armazenados no Firebase (Google) e compartilhados entre o cabeleireiro e o cliente somente quando necessário para o agendamento. Você pode excluir sua conta pelo aplicativo a qualquer momento; os detalhes estão na política de privacidade e na página de exclusão de conta."
+  ]
+ ],
+ "cta_h2": "Gerencie seu salão pelo celular",
+ "cta_p": "Cabeleireiros: experimentem grátis por 1 mês. Clientes: encontrem seu cabeleireiro e agendem agora.",
+ "aria_docs": "Documentos",
+ "doc_privacy": "Política de Privacidade",
+ "doc_delete": "Exclusão de Conta",
+ "doc_terms": "Termos de Uso (EULA)",
+ "doc_support": "Suporte",
+ "steps_h2": "Como funciona",
+ "other_h2": "Outros guias",
+ "topic_cta_h2": "Baixe o Kuafix",
+ "topic_cta_p": "Para iPhone, iPad e Android. O painel do cabeleireiro é gratuito por 1 mês.",
+ "book_slug": "agendamento-salao-barbearia",
+ "book_name": "Aplicativo de agendamento para salão",
+ "book_title": "Agendamento para salões e barbearias | Kuafix",
+ "book_desc": "Agendamento online para salões de beleza e barbearias na Turquia: disponibilize seus horários livres aos clientes e coloque os agendamentos por telefone no mesmo calendário. Os clientes encontram seu cabeleireiro e agendam sem ligar.",
+ "book_h1": "Aplicativo de agendamento para salões e barbearias",
+ "book_lead": "Menos ligações: permita que os clientes vejam seus horários disponíveis e agendem sozinhos, enquanto você acompanha o dia inteiro em um só calendário.",
+ "book_card": "Agendamento online, horários de trabalho, folgas e regras de cancelamento.",
+ "book_body": [
+  [
+   "Por que oferecer agendamento online?",
+   "Ligações durante o dia interrompem seu trabalho, e os horários anotados em uma agenda podem se confundir. No Kuafix, o cliente vê os <b>horários disponíveis</b> do cabeleireiro e escolhe um deles; o agendamento aparece instantaneamente no calendário do profissional. Clientes por telefone e sem hora marcada ficam no mesmo calendário, evitando sobreposições."
+  ],
+  [
+   "O calendário segue suas regras",
+   "Você define os horários de abertura e fechamento, a duração do atendimento (30 min, 60 min ou uma duração personalizada de pelo menos 10 minutos) e <b>com quantos dias de antecedência</b> os clientes podem agendar (5, 10 ou um valor personalizado). As folgas semanais e os feriados aparecem como fechados, e ninguém pode agendar nesses dias."
+  ],
+  [
+   "A experiência do cliente",
+   "Os clientes encontram o cabeleireiro em Encontrar um Cabeleireiro escolhendo uma província e um distrito, pesquisando pelo nome ou usando o <b>ID ou código QR</b> do profissional, e podem adicioná-lo aos favoritos. Em Agendar, escolhem um dia e tocam em um horário disponível. É possível marcar um agendamento por dia; horários que já passaram ficam fechados."
+  ],
+  [
+   "Cancelamento e contato",
+   "Se faltarem mais de 45 minutos para o agendamento, tanto o cliente quanto o cabeleireiro podem cancelar pelo aplicativo; caso contrário, devem ligar. O cabeleireiro vê a observação do cliente e a foto de penteado anexada nos detalhes do agendamento."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Crie seu perfil",
+   "Cadastre-se como cabeleireiro com seu número de telefone e informe o nome e o endereço do seu salão."
+  ],
+  [
+   "Defina suas regras de trabalho",
+   "Escolha seus horários, a duração dos atendimentos, as folgas e os feriados."
+  ],
+  [
+   "Compartilhe com seus clientes",
+   "Compartilhe seu ID de cabeleireiro ou código QR; os clientes adicionam você aos favoritos."
+  ],
+  [
+   "Os horários entram no seu calendário",
+   "Os agendamentos online e os que você adiciona aparecem no mesmo calendário."
+  ]
+ ],
+ "book_faq": [
+  [
+   "O aplicativo de agendamento para salão é pago?",
+   "O download do Kuafix é gratuito. O painel do cabeleireiro oferece 1 mês de teste grátis; depois disso, o Premium para Cabeleireiros custa 399 TL por mês ou 999 TL por 3 meses. Os clientes não pagam para agendar."
+  ],
+  [
+   "O cliente precisa ter o aplicativo?",
+   "Não. Você pode adicionar agendamentos para clientes que não usam o aplicativo; basta o nome, enquanto telefone e observação são opcionais."
+  ],
+  [
+   "Posso definir a duração do atendimento?",
+   "Sim. Escolha 30 minutos, 60 minutos ou uma duração personalizada de pelo menos 10 minutos. Você também pode abrir um horário extra para um período que não esteja na lista."
+  ],
+  [
+   "Os clientes podem agendar nas minhas folgas?",
+   "Não. As folgas semanais e os feriados adicionados por você ficam fechados no calendário, portanto os clientes não podem agendar nesses dias."
+  ],
+  [
+   "É adequado para barbeiros e cabeleireiros masculinos?",
+   "Sim. O Kuafix funciona da mesma forma para cabeleireiros femininos e masculinos, barbeiros e salões com um único profissional; você edita sua própria lista de serviços (corte, barba, coloração e assim por diante)."
+  ]
+ ],
+ "fin_slug": "controle-renda-salao",
+ "fin_name": "Controle de receitas do salão",
+ "fin_title": "Controle de receitas e horários de pico | Kuafix",
+ "fin_desc": "Controle de receitas para salões de beleza e barbearias: marque cada agendamento como pago em dinheiro, cartão ou transferência bancária e veja receitas diárias e mensais, receita por serviço e seus horários de maior movimento.",
+ "fin_h1": "Controle de receitas e estatísticas do salão",
+ "fin_lead": "Saiba o faturamento do dia sem contar o caixa: quanto você ganhou hoje, qual serviço vendeu mais e quais são seus horários de pico.",
+ "fin_body": [
+  [
+   "Vincule pagamentos aos agendamentos",
+   "Cada agendamento no Kuafix tem um ícone de pagamento. Cinza significa que ainda não há pagamento registrado; toque nele, escolha <b>dinheiro, cartão ou transferência bancária (IBAN)</b>, e o ícone ficará verde. Você informa os preços dos serviços uma única vez em Configurações > Finanças (até 20 serviços), e o valor é preenchido automaticamente."
+  ],
+  [
+   "Receitas diárias, semanais e mensais",
+   "A tela de finanças mostra a <b>receita total</b> do dia selecionado, o número de serviços, a divisão por forma de pagamento e a receita por serviço, além de informar se o resultado aumentou ou diminuiu em relação ao dia anterior. O mesmo resumo está disponível por semana e por mês."
+  ],
+  [
+   "Dias e horários de maior movimento",
+   "O <b>mapa de calor</b> em Estatísticas mostra, por meio de cores, quantos agendamentos você teve em cada dia e horário do período escolhido. Use-o para planejar seus horários, intervalos ou dias de promoção."
+  ],
+  [
+   "Histórico de cada cliente",
+   "As estatísticas dos clientes mostram com que frequência cada cliente comparece e quais serviços utilizou anteriormente. O Kuafix não recebe pagamentos; esses registros servem para seu próprio controle empresarial e não substituem a contabilidade oficial."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Informe os preços dos serviços",
+   "Adicione serviços como corte, barba e coloração com seus preços em Configurações > Finanças."
+  ],
+  [
+   "Registre o pagamento",
+   "Toque no ícone de pagamento e escolha dinheiro, cartão ou transferência bancária."
+  ],
+  [
+   "Veja o fechamento do dia",
+   "A receita total, o número de serviços e a divisão por forma de pagamento ficam disponíveis na tela de finanças."
+  ],
+  [
+   "Analise o período",
+   "Use o mapa de calor e as estatísticas para ver seus horários de pico e clientes habituais."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "O Kuafix recebe pagamentos?",
+   "Não. O cliente paga diretamente ao cabeleireiro, que registra o pagamento no aplicativo. O Kuafix não cobra comissão."
+  ],
+  [
+   "Quais formas de pagamento são controladas separadamente?",
+   "Dinheiro, cartão e transferência bancária (IBAN). A tela de finanças mostra um total separado para cada uma."
+  ],
+  [
+   "Posso ver a receita por serviço?",
+   "Sim. A tela de finanças também divide a receita entre seus serviços, como corte, coloração e barba."
+  ],
+  [
+   "Ele substitui um sistema de contabilidade?",
+   "Não. Os registros de receitas no Kuafix são destinados ao controle interno; o Kuafix não emite notas fiscais e não substitui a contabilidade oficial."
+  ],
+  [
+   "O controle de receitas é pago?",
+   "Finanças e estatísticas fazem parte do Premium para Cabeleireiros; o primeiro mês é um teste grátis."
+  ]
+ ],
+ "ai_slug": "simulador-cabelo-ia",
+ "ai_name": "Simulação de cabelos com IA",
+ "ai_title": "Simule cabelo, barba e coloração com IA | Kuafix",
+ "ai_desc": "Antes de ir ao cabeleireiro, experimente um novo corte, barba e bigode, cor de cabelo, ondas ou alongamentos em sua própria foto com IA e adicione o visual ao agendamento para mostrá-lo ao profissional.",
+ "ai_h1": "Experimente cabelos, barbas e cores com IA",
+ "ai_lead": "Veja o resultado antes de se sentar na cadeira: tire uma foto, escolha um visual e mostre ao cabeleireiro aquele de que você mais gostou.",
+ "ai_card": "Corte, barba / bigode, coloração, ondas e alongamentos em sua própria foto.",
+ "ai_body": [
+  [
+   "O que você pode experimentar?",
+   "Experimentar um Visual no Kuafix oferece cinco tipos de simulação: <b>corte de cabelo</b>, <b>barba / bigode</b>, <b>cor de cabelo</b>, <b>ondas</b> e <b>alongamentos</b>. Para cada tipo, você escolhe entre modelos prontos."
+  ],
+  [
+   "Mostre ao cabeleireiro o que você deseja",
+   "Salve no arquivo o resultado de que você gostou e adicione-o ao agendamento. Seu cabeleireiro vê a foto nos detalhes do agendamento, permitindo que você mostre o resultado em vez de descrevê-lo."
+  ],
+  [
+   "Créditos",
+   "Cada foto gerada com sucesso usa <b>2 créditos</b>. Ao iniciar o teste grátis, você recebe 6 créditos de presente, o Premium adiciona 6 créditos toda semana e você pode comprar pacotes de 6, 12 ou 18 créditos."
+  ],
+  [
+   "O que acontece com sua foto?",
+   "Sua foto só é processada quando você inicia uma simulação. O processamento de imagens usa o serviço Perfect Corp; a foto original enviada por você é excluída <b>em até 24 horas</b> após o processamento. As imagens dos resultados permanecem no seu arquivo até você excluí-las. Os resultados são apenas uma prévia; o corte real pode não ficar exatamente igual."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Abra Experimentar um Visual",
+   "Toque em Experimentar um Visual no painel do cliente."
+  ],
+  [
+   "Tire sua foto",
+   "Posicione seu rosto na moldura-guia ou escolha uma foto da galeria."
+  ],
+  [
+   "Escolha um visual",
+   "Escolha um modelo de corte, barba / bigode, coloração, ondas ou alongamentos."
+  ],
+  [
+   "Adicione ao agendamento",
+   "Salve no arquivo o resultado de que você gostou e anexe-o ao agendamento."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "A simulação de cabelos com IA é gratuita?",
+   "Experimentar um Visual está disponível para assinantes do Premium para Clientes e para usuários durante o teste grátis. Ao iniciar o teste, você recebe 6 créditos de presente; cada foto gerada com sucesso usa 2 créditos."
+  ],
+  [
+   "Homens podem experimentar barbas e bigodes?",
+   "Sim. Em Barba / Bigode, você pode ver diferentes estilos de barba e bigode em sua própria foto."
+  ],
+  [
+   "Posso experimentar uma cor de cabelo?",
+   "Sim. Em Cor de Cabelo, você pode experimentar diferentes cores antes de pintar; Ondas e Alongamentos são tipos separados."
+  ],
+  [
+   "Minha foto fica armazenada?",
+   "A foto original enviada por você é excluída em até 24 horas após o processamento. A imagem do resultado permanece no seu arquivo até você excluí-la e também é apagada caso você exclua sua conta."
+  ],
+  [
+   "O resultado ficará exatamente igual na vida real?",
+   "O resultado da IA é uma prévia. Seu tipo de cabelo e o trabalho do cabeleireiro podem alterar o resultado; converse sobre o visual com seu cabeleireiro."
+  ]
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Rezerwacja wizyt u fryzjera i barbera w Turcji | Kuafix",
+ "meta_desc": "Kalendarz wizyt, ewidencja przychodów i płatności oraz statystyki obłożenia dla salonów fryzjerskich i barberów w Turcji; dla klientów: wyszukiwanie fryzjera, rezerwacja online i przymierzanie fryzur z AI. iPhone, iPad i Android.",
+ "aria_lang": "Język",
+ "lang_note": "Aplikacja Kuafix jest dostępna wyłącznie w języku tureckim i jest przeznaczona dla salonów fryzjerskich i barberów w Turcji.",
+ "h1_suffix": "aplikacja do rezerwacji wizyt u fryzjera i barbera",
+ "lead": "Fryzjerzy zarządzają wizytami, godzinami pracy i przychodami w jednym miejscu; klienci znajdują swojego fryzjera i rezerwują wolny termin online. Na iPhone, iPad i Android.",
+ "sign": "Czy [k:fryzjer],|czy [m:klient]",
+ "sign_label": "Czy fryzjer, czy klient",
+ "store_as": "Pobierz w App Store",
+ "store_gp": "Pobierz z Google Play",
+ "aria_scroll": "Przewiń w dół",
+ "aria_shots": "Zrzuty ekranu",
+ "shot_alts": [
+  "Ekran mapy obłożenia według godzin",
+  "Ekran dziennego podsumowania finansów",
+  "Ekran statystyk klientów",
+  "Ekran dziennej listy wizyt",
+  "Ekran kalendarza miesięcznego",
+  "Ekran logowania fryzjera i klienta",
+  "Ekran logowania klienta",
+  "Ekran rezerwacji wizyty"
+ ],
+ "aria_panels": "Panele fryzjera i klienta",
+ "panel_k": "Panel fryzjera",
+ "menu_k": [
+  "Kalendarz",
+  "Dodaj wizytę",
+  "Statystyki",
+  "Finanse",
+  "Ustawienia"
+ ],
+ "panel_m": "Panel klienta",
+ "menu_m": [
+  "Zarezerwuj",
+  "Moje wizyty",
+  "Znajdź fryzjera",
+  "Przymierz fryzurę"
+ ],
+ "chips": [
+  "Strzyżenie",
+  "Broda / Wąsy",
+  "Kolor włosów",
+  "Fale",
+  "Przedłużanie włosów"
+ ],
+ "slot_book": "Zarezerwuj",
+ "slot_full": "Zarezerwowane",
+ "aria_board": "Panel salonu",
+ "heat_head": "Od 16 października do 13 stycznia odbyło się u Ciebie 1 218 wizyt.",
+ "heat_label": "Mapa obłożenia wizytami według godzin i dni tygodnia",
+ "days": [
+  "pn.",
+  "wt.",
+  "śr.",
+  "czw.",
+  "pt.",
+  "sob.",
+  "niedz."
+ ],
+ "bd_date": "Czwartek, 5 marca 2026",
+ "bd_good": "Świetnie! Twój przychód jest o 12% wyższy niż wczoraj ↑",
+ "bd_total": "Łączny przychód",
+ "bd_count": "Usługi",
+ "bd_cash": "Gotówka:",
+ "bd_card": "Karta:",
+ "fin_card": "Płatności gotówką, kartą i przelewem, przychody dzienne i miesięczne, mapa obłożenia według godzin.",
+ "bd_iban": "Przelew bankowy:",
+ "services": [
+  "Strzyżenie dziecięce",
+  "Koloryzacja włosów",
+  "Strzyżenie",
+  "Broda",
+  "Mycie i pielęgnacja"
+ ],
+ "about_h2": "Czym jest Kuafix?",
+ "about_p": "Kuafix to aplikacja do rezerwacji wizyt, która łączy salony fryzjerskie i barberskie z ich klientami w jednej aplikacji. Fryzjer zarządza kalendarzem, godzinami pracy, dniami wolnymi, cenami usług i dziennymi przychodami. Klient znajduje fryzjera według prowincji i dzielnicy, nazwy, ID fryzjera lub kodu QR, sprawdza wolne terminy i rezerwuje bez dzwonienia. Przed wizytą klienci mogą przymierzyć nowe strzyżenie, brodę lub kolor włosów na własnym zdjęciu za pomocą AI.",
+ "k_h3": "Dla fryzjerów i barberów",
+ "k_points": [
+  [
+   "Kalendarz wizyt",
+   "Widok dzienny, tygodniowy i miesięczny. Wolne i zarezerwowane terminy widoczne na pierwszy rzut oka; dotknij dwukrotnie terminu, aby dodać wizytę."
+  ],
+  [
+   "Klienci dzwoniący i przychodzący bez rezerwacji",
+   "Zapisuj również klientów, którzy nie korzystają z aplikacji: wystarczy imię, a telefon i notatka są opcjonalne. Dodaj dodatkowy termin o godzinie, której nie ma na liście."
+  ],
+  [
+   "Twoje zasady pracy",
+   "Godziny otwarcia, czas trwania wizyty (30 min, 60 min lub własny czas wynoszący co najmniej 10 min), cotygodniowe dni wolne, urlopy i liczba dni, z jakim wyprzedzeniem klienci mogą rezerwować wizyty."
+  ],
+  [
+   "Ewidencja przychodów i płatności",
+   "Oznaczaj każdą wizytę jako opłaconą gotówką, kartą lub przelewem bankowym (IBAN). Przychody dzienne, tygodniowe i miesięczne, liczba usług oraz przychody z poszczególnych usług."
+  ],
+  [
+   "Statystyki obłożenia",
+   "Sprawdzaj na mapie obłożenia najbardziej ruchliwe dni i godziny oraz liczbę wizyt i klientów w dowolnym okresie."
+  ],
+  [
+   "Dane klienta",
+   "Sprawdź notatkę klienta i dołączone zdjęcie fryzury, zadzwoń jednym dotknięciem lub w razie potrzeby odwołaj wizytę."
+  ]
+ ],
+ "m_h3": "Dla klientów",
+ "m_points": [
+  [
+   "Znajdź fryzjera",
+   "Przeglądaj fryzjerów według prowincji i dzielnicy, zawęź wyniki według nazwy lub użyj ID albo kodu QR otrzymanego od fryzjera. Dodaj swojego stałego fryzjera do ulubionych."
+  ],
+  [
+   "Rezerwuj online",
+   "Sprawdź wolne terminy u swojego fryzjera i dotknij wybranego, aby zarezerwować wizytę. Bez dzwonienia i wysyłania wiadomości."
+  ],
+  [
+   "Moje wizyty",
+   "Nadchodzące i poprzednie wizyty na jednej liście; odwołuj wizyty w aplikacji, jeśli do ich rozpoczęcia pozostało więcej niż 45 minut."
+  ],
+  [
+   "Przymierz fryzurę (AI)",
+   "Przymierz strzyżenie, brodę i wąsy, kolor włosów, fale lub przedłużane włosy na własnym zdjęciu i zapisz wybrane efekty w swoim archiwum."
+  ],
+  [
+   "Pokaż fryzjerowi",
+   "Dodaj do wizyty notatkę i zdjęcie fryzury ze swojego archiwum; fryzjer zobaczy dokładnie, jaki efekt chcesz uzyskać."
+  ]
+ ],
+ "topics_h2": "Co możesz zrobić z Kuafix?",
+ "topics_p": "Szczegółowe poradniki dotyczące trzech najczęściej poruszanych tematów:",
+ "price_h2": "Cennik",
+ "price_p": "Kuafix można pobrać bezpłatnie. Panel fryzjera i dodatkowe funkcje dla klienta są dostępne w ramach subskrypcji, a każdy otrzymuje 1-miesięczny bezpłatny okres próbny. Nie płacisz za wizyty w aplikacji; za usługę płacisz bezpośrednio fryzjerowi.",
+ "price_items": [
+  [
+   "Premium dla fryzjera",
+   "Kalendarz, rezerwacje, statystyki i finanse: 399 TL miesięcznie lub 999 TL za 3 miesiące. Pierwszy miesiąc to bezpłatny okres próbny."
+  ],
+  [
+   "Klient: bezpłatnie",
+   "Wyszukiwanie fryzjerów, ulubione, rezerwacja online i zarządzanie wizytami są bezpłatne."
+  ],
+  [
+   "Premium dla klienta",
+   "Notatki i zdjęcia dołączane do wizyt, przymierzanie fryzur z AI i 6 kredytów co tydzień: 23,99 TL miesięcznie lub 63,99 TL za 3 miesiące."
+  ],
+  [
+   "Kredyty AI",
+   "Każde pomyślnie wygenerowane zdjęcie zużywa 2 kredyty. Dodatkowe pakiety: 6 kredytów za 12,99 TL, 12 kredytów za 21,99 TL, 18 kredytów za 29,99 TL."
+  ]
+ ],
+ "price_fine": "Ceny dotyczą tureckiego sklepu, zgodnie z warunkami użytkowania; aktualna cena jest widoczna na ekranie zakupu. Subskrypcje odnawiają się zgodnie z zasadami sklepu, chyba że zostaną anulowane.",
+ "faq_h2": "Najczęściej zadawane pytania",
+ "faq_home": [
+  [
+   "Czy Kuafix jest bezpłatny?",
+   "Pobranie aplikacji oraz wyszukiwanie fryzjera i rezerwowanie wizyt jako klient są bezpłatne. Panel fryzjera ma 1-miesięczny bezpłatny okres próbny, po którym wymagana jest subskrypcja Premium dla fryzjera (399 TL miesięcznie lub 999 TL za 3 miesiące). Klienci mogą opcjonalnie wykupić Premium dla klienta, aby korzystać z notatek, zdjęć i funkcji AI."
+  ],
+  [
+   "Co jeśli mój klient nie korzysta z aplikacji?",
+   "Żaden problem. Możesz dodawać w kalendarzu wizyty klientów dzwoniących i przychodzących bez rezerwacji; wystarczy imię, a telefon i notatka są opcjonalne."
+  ],
+  [
+   "Jak klienci mnie znajdą?",
+   "W sekcji Znajdź fryzjera klienci wybierają Twoją prowincję i dzielnicę, aby zobaczyć Cię na liście, lub wyszukują Cię po nazwie. Jeśli udostępnisz swoje ID fryzjera lub kod QR, znajdą Cię bezpośrednio i dodadzą do ulubionych."
+  ],
+  [
+   "Na jakich urządzeniach działa aplikacja?",
+   "Na iPhone i iPad (iOS 17.6 lub nowszy) oraz telefonach z Android. Pobierz ją z App Store lub Google Play."
+  ],
+  [
+   "W jakim języku jest aplikacja?",
+   "Aplikacja jest dostępna wyłącznie w języku tureckim i jest przeznaczona dla salonów fryzjerskich i barberów w Turcji. Ta strona jest publikowana w 17 językach, aby przedstawić aplikację."
+  ],
+  [
+   "Czy można odwołać wizytę?",
+   "Tak. Klienci mogą odwołać wizytę w aplikacji, jeśli do jej rozpoczęcia pozostało więcej niż 45 minut; w przeciwnym razie dzwonią do fryzjera. Fryzjer może odwołać wizytę na tej samej zasadzie."
+  ],
+  [
+   "Jak działa przymierzanie fryzur z AI?",
+   "W sekcji Przymierz fryzurę robisz zdjęcie i wybierasz strzyżenie, brodę / wąsy, kolor włosów, fale lub przedłużanie włosów. Każdy pomyślnie wygenerowany rezultat zużywa 2 kredyty. Twoje oryginalne zdjęcie jest usuwane w ciągu 24 godzin od przetworzenia."
+  ],
+  [
+   "Czy moje dane są bezpieczne i czy mogę usunąć konto?",
+   "Dane są przechowywane w Firebase (Google) i udostępniane między fryzjerem a klientem tylko w zakresie niezbędnym do realizacji wizyty. Możesz w każdej chwili usunąć konto w aplikacji; szczegóły znajdziesz w polityce prywatności i na stronie usuwania konta."
+  ]
+ ],
+ "cta_h2": "Zarządzaj salonem z telefonu",
+ "cta_p": "Fryzjerzy: wypróbujcie bezpłatnie przez 1 miesiąc. Klienci: znajdźcie swojego fryzjera i zarezerwujcie wizytę już teraz.",
+ "aria_docs": "Dokumenty",
+ "doc_privacy": "Polityka prywatności",
+ "doc_delete": "Usuwanie konta",
+ "doc_terms": "Warunki użytkowania (EULA)",
+ "doc_support": "Pomoc",
+ "steps_h2": "Jak to działa",
+ "other_h2": "Pozostałe poradniki",
+ "topic_cta_h2": "Pobierz Kuafix",
+ "topic_cta_p": "Na iPhone, iPad i Android. Panel fryzjera jest bezpłatny przez 1 miesiąc.",
+ "book_slug": "aplikacja-do-rezerwacji-wizyt-u-fryzjera",
+ "book_name": "Aplikacja do rezerwacji wizyt u fryzjera",
+ "book_title": "Rezerwacja online u fryzjera i barbera | Kuafix",
+ "book_desc": "Rezerwacja online dla salonów fryzjerskich i barberów w Turcji: udostępnij klientom wolne terminy i zapisuj rezerwacje telefoniczne w tym samym kalendarzu. Klienci znajdują swojego fryzjera i rezerwują wizyty bez dzwonienia.",
+ "book_h1": "Aplikacja do rezerwacji wizyt u fryzjera i barbera",
+ "book_lead": "Mniej telefonów: pozwól klientom sprawdzać wolne terminy i samodzielnie rezerwować wizyty, a cały dzień zobaczysz w jednym kalendarzu.",
+ "book_card": "Rezerwacje online, godziny pracy, dni wolne i zasady odwoływania wizyt.",
+ "book_body": [
+  [
+   "Dlaczego warto rezerwować online?",
+   "Telefony w ciągu dnia przerywają Ci pracę, a w rezerwacjach zapisywanych w notesie łatwo o pomyłki. W Kuafix klient widzi <b>wolne terminy</b> fryzjera i wybiera jeden z nich; rezerwacja od razu pojawia się w kalendarzu fryzjera. Klienci dzwoniący i przychodzący bez rezerwacji trafiają do tego samego kalendarza, więc terminy się nie nakładają."
+  ],
+  [
+   "Kalendarz działa według Twoich zasad",
+   "Ustawiasz godziny otwarcia i zamknięcia, czas trwania wizyty (30 min, 60 min lub własny czas wynoszący co najmniej 10 minut) oraz <b>z iludniowym wyprzedzeniem</b> klienci mogą rezerwować wizyty (5, 10 lub inna liczba dni). Cotygodniowe dni wolne i urlopy są oznaczone jako niedostępne i nikt nie może zarezerwować wtedy wizyty."
+  ],
+  [
+   "Jak to wygląda po stronie klienta",
+   "Klienci znajdują fryzjera w sekcji Znajdź fryzjera, wybierając prowincję i dzielnicę, wyszukując po nazwie lub używając <b>ID albo kodu QR</b> fryzjera, a następnie dodają go do ulubionych. W sekcji Zarezerwuj wybierają dzień i dotykają wolnego terminu. Można zarezerwować jedną wizytę dziennie; minione godziny są niedostępne."
+  ],
+  [
+   "Odwoływanie wizyt i kontakt",
+   "Jeśli do wizyty pozostało więcej niż 45 minut, zarówno klient, jak i fryzjer mogą odwołać ją w aplikacji; w przeciwnym razie kontaktują się telefonicznie. Fryzjer widzi notatkę klienta i dołączone zdjęcie fryzury w szczegółach wizyty."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Utwórz profil",
+   "Zarejestruj się jako fryzjer, podając numer telefonu, i wpisz nazwę oraz adres salonu."
+  ],
+  [
+   "Ustaw zasady pracy",
+   "Wybierz godziny pracy, czas trwania wizyty, dni wolne i urlopy."
+  ],
+  [
+   "Udostępnij klientom",
+   "Udostępnij swoje ID fryzjera lub kod QR; klienci dodadzą Cię do ulubionych."
+  ],
+  [
+   "Rezerwacje trafiają do kalendarza",
+   "Rezerwacje online i wizyty dodane przez Ciebie pojawiają się w tym samym kalendarzu."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Czy aplikacja do rezerwacji wizyt w salonie jest płatna?",
+   "Kuafix można pobrać bezpłatnie. Panel fryzjera ma 1-miesięczny bezpłatny okres próbny; później Premium dla fryzjera kosztuje 399 TL miesięcznie lub 999 TL za 3 miesiące. Klienci nie płacą za rezerwowanie wizyt."
+  ],
+  [
+   "Czy klient musi mieć aplikację?",
+   "Nie. Możesz dodawać wizyty klientów, którzy nie mają aplikacji; wystarczy imię, a telefon i notatka są opcjonalne."
+  ],
+  [
+   "Czy mogę ustawić czas trwania wizyty?",
+   "Tak. Wybierz 30 minut, 60 minut lub własny czas wynoszący co najmniej 10 minut. Możesz też dodać dodatkowy termin o godzinie, której nie ma na liście."
+  ],
+  [
+   "Czy klienci mogą rezerwować wizyty w moje dni wolne?",
+   "Nie. Cotygodniowe dni wolne i dodane przez Ciebie urlopy są niedostępne w kalendarzu, więc klienci nie mogą wtedy rezerwować wizyt."
+  ],
+  [
+   "Czy aplikacja nadaje się dla barberów i fryzjerów męskich?",
+   "Tak. Kuafix działa tak samo dla fryzjerów damskich i męskich, barberów oraz salonów jednoosobowych; samodzielnie edytujesz swoją listę usług (strzyżenie, broda, koloryzacja i inne)."
+  ]
+ ],
+ "fin_slug": "ewidencja-przychodow-salonu-fryzjerskiego",
+ "fin_name": "Ewidencja przychodów salonu fryzjerskiego",
+ "fin_title": "Przychody salonu fryzjerskiego i godziny szczytu | Kuafix",
+ "fin_desc": "Ewidencja przychodów dla salonów fryzjerskich i barberów: oznaczaj wizyty jako opłacone gotówką, kartą lub przelewem i sprawdzaj przychody dzienne i miesięczne, przychody z poszczególnych usług oraz godziny największego obłożenia.",
+ "fin_h1": "Ewidencja przychodów i statystyki salonu",
+ "fin_lead": "Poznaj dzienny utarg bez liczenia gotówki w kasie: ile dziś zarobiono, która usługa sprzedawała się najlepiej i kiedy masz najwięcej pracy.",
+ "fin_body": [
+  [
+   "Powiąż płatności z wizytami",
+   "Każda wizyta w Kuafix ma ikonę płatności. Szary kolor oznacza, że płatność nie została jeszcze odnotowana; dotknij ikony i wybierz <b>gotówkę, kartę lub przelew bankowy (IBAN)</b>, a zmieni kolor na zielony. Ceny usług wpisujesz raz w sekcji Ustawienia > Finanse (do 20 usług), a kwota uzupełnia się automatycznie."
+  ],
+  [
+   "Przychody dzienne, tygodniowe i miesięczne",
+   "Ekran finansów pokazuje <b>łączny przychód</b> z wybranego dnia, liczbę usług, podział według metod płatności i przychody z poszczególnych usług oraz informuje, czy wynik wzrósł, czy spadł względem poprzedniego dnia. To samo podsumowanie jest dostępne dla tygodnia i miesiąca."
+  ],
+  [
+   "Najbardziej ruchliwe dni i godziny",
+   "<b>Mapa obłożenia</b> w sekcji Statystyki pokazuje za pomocą kolorów liczbę wizyt w poszczególnych dniach i godzinach w wybranym okresie. Wykorzystaj ją do planowania godzin pracy, przerw lub dni promocyjnych."
+  ],
+  [
+   "Historia każdego klienta",
+   "Statystyki klientów pokazują, jak często przychodzi każdy klient i z jakich usług korzystał. Kuafix nie obsługuje płatności; te zapisy służą do monitorowania własnej działalności i nie zastępują oficjalnej ewidencji księgowej."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Wprowadź ceny usług",
+   "Dodaj usługi, takie jak strzyżenie, broda i koloryzacja, wraz z cenami w sekcji Ustawienia > Finanse."
+  ],
+  [
+   "Oznacz płatność",
+   "Dotknij ikony płatności i wybierz gotówkę, kartę lub przelew bankowy."
+  ],
+  [
+   "Sprawdź podsumowanie dnia",
+   "Łączny przychód, liczba usług i podział płatności są dostępne na ekranie finansów."
+  ],
+  [
+   "Przeanalizuj wybrany okres",
+   "Korzystaj z mapy obłożenia i statystyk, aby sprawdzać godziny największego ruchu i stałych klientów."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Czy Kuafix obsługuje płatności?",
+   "Nie. Klient płaci bezpośrednio fryzjerowi, a fryzjer odnotowuje płatność w aplikacji. Kuafix nie pobiera prowizji."
+  ],
+  [
+   "Które metody płatności są ewidencjonowane oddzielnie?",
+   "Gotówka, karta i przelew bankowy (IBAN). Ekran finansów pokazuje osobną sumę dla każdej z nich."
+  ],
+  [
+   "Czy mogę sprawdzić przychody z poszczególnych usług?",
+   "Tak. Ekran finansów dzieli również przychody według Twoich usług, takich jak strzyżenie, koloryzacja i broda."
+  ],
+  [
+   "Czy aplikacja zastępuje program księgowy?",
+   "Nie. Ewidencja przychodów w Kuafix służy do wewnętrznego monitorowania działalności; Kuafix nie wystawia faktur i nie zastępuje oficjalnej ewidencji księgowej."
+  ],
+  [
+   "Czy ewidencja przychodów jest płatna?",
+   "Finanse i statystyki są częścią Premium dla fryzjera; pierwszy miesiąc to bezpłatny okres próbny."
+  ]
+ ],
+ "ai_slug": "przymierzanie-fryzur-z-ai",
+ "ai_name": "Przymierzanie fryzur z AI",
+ "ai_title": "Przymierz fryzury, brody i kolory włosów z AI | Kuafix",
+ "ai_desc": "Przed wizytą u fryzjera przymierz nowe strzyżenie, brodę i wąsy, kolor włosów, fale lub przedłużane włosy na własnym zdjęciu za pomocą AI, a następnie dołącz wybrany wygląd do wizyty, aby pokazać go fryzjerowi.",
+ "ai_h1": "Przymierz fryzury, brody i kolory włosów z AI",
+ "ai_lead": "Zobacz efekt, zanim usiądziesz na fotelu: zrób zdjęcie, wybierz wygląd i pokaż fryzjerowi ten, który Ci się podoba.",
+ "ai_card": "Strzyżenie, broda / wąsy, kolor, fale i przedłużane włosy na Twoim zdjęciu.",
+ "ai_body": [
+  [
+   "Co możesz przymierzyć?",
+   "Sekcja Przymierz fryzurę w Kuafix oferuje pięć rodzajów przymierzania: <b>strzyżenie</b>, <b>broda / wąsy</b>, <b>kolor włosów</b>, <b>fale</b> i <b>przedłużanie włosów</b>. W każdym z nich wybierasz spośród gotowych szablonów."
+  ],
+  [
+   "Pokaż fryzjerowi, jaki efekt chcesz uzyskać",
+   "Zapisz wybrany efekt w swoim archiwum i dodaj go do wizyty. Fryzjer zobaczy zdjęcie w szczegółach wizyty, więc pokażesz efekt zamiast go opisywać."
+  ],
+  [
+   "Kredyty",
+   "Każde pomyślnie wygenerowane zdjęcie zużywa <b>2 kredyty</b>. Rozpoczęcie bezpłatnego okresu próbnego daje Ci 6 kredytów w prezencie, Premium dodaje 6 kredytów co tydzień, a dodatkowo możesz kupić pakiety po 6, 12 lub 18 kredytów."
+  ],
+  [
+   "Co dzieje się z Twoim zdjęciem?",
+   "Twoje zdjęcie jest przetwarzane dopiero po rozpoczęciu przymierzania. Do przetwarzania zdjęć wykorzystywana jest usługa Perfect Corp; przesłane przez Ciebie oryginalne zdjęcie jest usuwane <b>w ciągu 24 godzin</b> od przetworzenia. Wygenerowane zdjęcia pozostają w Twoim archiwum, dopóki ich nie usuniesz. Rezultaty są podglądem; rzeczywista fryzura może nie wyglądać dokładnie tak samo."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Otwórz Przymierz fryzurę",
+   "Dotknij Przymierz fryzurę w panelu klienta."
+  ],
+  [
+   "Zrób zdjęcie",
+   "Umieść twarz w ramce pomocniczej lub wybierz zdjęcie z galerii."
+  ],
+  [
+   "Wybierz wygląd",
+   "Wybierz szablon strzyżenia, brody / wąsów, koloru, fal lub przedłużania włosów."
+  ],
+  [
+   "Dodaj do wizyty",
+   "Zapisz wybrany efekt w swoim archiwum i dołącz go do wizyty."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Czy przymierzanie fryzur z AI jest bezpłatne?",
+   "Funkcja Przymierz fryzurę jest dostępna dla osób z Premium dla klienta oraz użytkowników w bezpłatnym okresie próbnym. Rozpoczęcie okresu próbnego daje 6 kredytów w prezencie; każde pomyślnie wygenerowane zdjęcie zużywa 2 kredyty."
+  ],
+  [
+   "Czy mężczyźni mogą przymierzać brody i wąsy?",
+   "Tak. W sekcji Broda / Wąsy możesz zobaczyć różne stylizacje brody i wąsów na własnym zdjęciu."
+  ],
+  [
+   "Czy mogę przymierzyć kolor włosów?",
+   "Tak. W sekcji Kolor włosów możesz przymierzyć różne kolory przed farbowaniem; Fale i Przedłużanie włosów to osobne rodzaje przymierzania."
+  ],
+  [
+   "Czy moje zdjęcie jest przechowywane?",
+   "Przesłane przez Ciebie oryginalne zdjęcie jest usuwane w ciągu 24 godzin od przetworzenia. Wygenerowane zdjęcie pozostaje w Twoim archiwum, dopóki go nie usuniesz, i jest usuwane po usunięciu konta."
+  ],
+  [
+   "Czy efekt w rzeczywistości będzie wyglądał dokładnie tak samo?",
+   "Rezultat AI jest podglądem. Rodzaj włosów i praca fryzjera mogą wpłynąć na efekt; omów wybrany wygląd ze swoim fryzjerem."
+  ]
+ ]
+}

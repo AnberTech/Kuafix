@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: Aplikasi Booking Salon & Barber di Turki",
+ "meta_desc": "Kalender janji temu, pencatatan pendapatan dan pembayaran, serta statistik jam sibuk untuk salon rambut dan barbershop di Turki; untuk pelanggan: cari penata rambut, booking online, dan coba gaya rambut dengan AI. iPhone, iPad, dan Android.",
+ "aria_lang": "Bahasa",
+ "lang_note": "Aplikasi Kuafix berbahasa Turki dan dibuat untuk salon rambut serta barbershop di Turki.",
+ "h1_suffix": "aplikasi booking salon rambut dan barbershop",
+ "lead": "Penata rambut mengelola janji temu, jam kerja, dan pendapatan di satu tempat; pelanggan menemukan penata rambut mereka dan memesan jadwal kosong secara online. Untuk iPhone, iPad, dan Android.",
+ "sign": "Jadi [k:Stylist],|atau [m:Pelanggan]",
+ "sign_label": "Jadi Stylist, atau Pelanggan",
+ "store_as": "Unduh di App Store",
+ "store_gp": "Temukan di Google Play",
+ "aria_scroll": "Gulir ke bawah",
+ "aria_shots": "Tangkapan layar",
+ "shot_alts": [
+  "Layar peta panas jam sibuk",
+  "Layar ringkasan keuangan harian",
+  "Layar statistik pelanggan",
+  "Layar daftar janji temu harian",
+  "Layar kalender bulanan",
+  "Layar masuk penata rambut dan pelanggan",
+  "Layar masuk pelanggan",
+  "Layar pemesanan janji temu"
+ ],
+ "aria_panels": "Panel penata rambut dan pelanggan",
+ "panel_k": "Panel Penata Rambut",
+ "menu_k": [
+  "Kalender",
+  "Tambah Janji Temu",
+  "Statistik",
+  "Keuangan",
+  "Pengaturan"
+ ],
+ "panel_m": "Panel Pelanggan",
+ "menu_m": [
+  "Pesan",
+  "Janji Temu Saya",
+  "Cari Penata Rambut",
+  "Coba Gaya"
+ ],
+ "chips": [
+  "Potong Rambut",
+  "Janggut / Kumis",
+  "Warna Rambut",
+  "Rambut Bergelombang",
+  "Sambung Rambut"
+ ],
+ "slot_book": "Pesan",
+ "slot_full": "Penuh",
+ "aria_board": "Dasbor salon",
+ "heat_head": "Anda memiliki 1.218 janji temu antara 16 Oktober dan 13 Januari.",
+ "heat_label": "Peta panas janji temu berdasarkan jam dan hari",
+ "days": [
+  "Sen",
+  "Sel",
+  "Rab",
+  "Kam",
+  "Jum",
+  "Sab",
+  "Min"
+ ],
+ "bd_date": "Kamis, 5 Maret 2026",
+ "bd_good": "Bagus! Pendapatan Anda 12% lebih tinggi dari kemarin ↑",
+ "bd_total": "Total Pendapatan",
+ "bd_count": "Layanan",
+ "bd_cash": "Tunai:",
+ "bd_card": "Kartu:",
+ "fin_card": "Pembayaran tunai, kartu, dan transfer bank, pendapatan harian dan bulanan, peta panas jam sibuk.",
+ "bd_iban": "Transfer bank:",
+ "services": [
+  "Potong Anak",
+  "Pewarnaan Rambut",
+  "Potong Rambut",
+  "Janggut",
+  "Cuci & Perawatan"
+ ],
+ "about_h2": "Apa itu Kuafix?",
+ "about_p": "Kuafix adalah aplikasi janji temu yang mempertemukan salon rambut dan barbershop dengan pelanggan mereka dalam satu aplikasi. Penata rambut mengelola kalender, jam kerja, hari libur, harga layanan, dan pendapatan harian. Pelanggan mencari penata rambut berdasarkan provinsi dan distrik, nama, ID penata rambut, atau kode QR, melihat jadwal kosong, dan memesan tanpa perlu menelepon. Sebelum janji temu, pelanggan dapat mencoba potongan rambut baru, gaya janggut, atau warna rambut pada foto mereka sendiri dengan AI.",
+ "k_h3": "Untuk penata rambut dan barber",
+ "k_points": [
+  [
+   "Kalender janji temu",
+   "Tampilan harian, mingguan, dan bulanan. Lihat jadwal kosong dan terisi secara sekilas; ketuk dua kali pada jadwal untuk menambahkan janji temu."
+  ],
+  [
+   "Pelanggan telepon dan datang langsung",
+   "Catat juga pesanan pelanggan yang tidak menggunakan aplikasi: cukup masukkan nama, sedangkan nomor telepon dan catatan bersifat opsional. Buka jadwal tambahan untuk waktu yang tidak ada di daftar."
+  ],
+  [
+   "Aturan kerja Anda",
+   "Jam buka, durasi janji temu (30 mnt, 60 mnt, atau durasi khusus minimal 10 mnt), hari libur mingguan, hari raya, dan berapa hari sebelumnya pelanggan dapat memesan."
+  ],
+  [
+   "Pencatatan pendapatan dan pembayaran",
+   "Tandai setiap janji temu yang dibayar secara tunai, dengan kartu, atau melalui transfer bank (IBAN). Pendapatan harian, mingguan, dan bulanan, jumlah layanan, serta pendapatan per layanan."
+  ],
+  [
+   "Statistik jam sibuk",
+   "Lihat hari dan jam tersibuk Anda pada peta panas, ditambah jumlah janji temu dan pelanggan untuk periode apa pun."
+  ],
+  [
+   "Detail pelanggan",
+   "Lihat catatan pelanggan dan foto gaya rambut yang mereka lampirkan, hubungi mereka dengan satu ketukan, atau batalkan jika perlu."
+  ]
+ ],
+ "m_h3": "Untuk pelanggan",
+ "m_points": [
+  [
+   "Cari penata rambut",
+   "Tampilkan daftar penata rambut berdasarkan provinsi dan distrik, persempit pencarian dengan nama, atau gunakan ID maupun kode QR yang diberikan penata rambut Anda. Tambahkan penata rambut langganan Anda ke favorit."
+  ],
+  [
+   "Booking online",
+   "Lihat jadwal kosong penata rambut Anda dan ketuk salah satu untuk memesan. Tidak perlu menelepon atau mengirim pesan."
+  ],
+  [
+   "Janji temu saya",
+   "Janji temu mendatang dan sebelumnya dalam satu daftar; batalkan di aplikasi jika waktu janji temu masih lebih dari 45 menit lagi."
+  ],
+  [
+   "Coba Gaya (AI)",
+   "Coba potongan rambut, janggut dan kumis, warna rambut, rambut bergelombang, atau sambung rambut pada foto Anda sendiri, lalu simpan hasil yang Anda sukai ke arsip."
+  ],
+  [
+   "Tunjukkan pada penata rambut Anda",
+   "Tambahkan catatan dan foto gaya rambut dari arsip Anda ke janji temu; penata rambut akan melihat dengan tepat apa yang Anda inginkan."
+  ]
+ ],
+ "topics_h2": "Apa saja yang bisa dilakukan dengan Kuafix?",
+ "topics_p": "Panduan lengkap untuk tiga topik yang paling sering ditanyakan:",
+ "price_h2": "Harga",
+ "price_p": "Kuafix gratis untuk diunduh. Panel penata rambut dan fitur tambahan pelanggan dapat dibuka dengan langganan, dan semua pengguna mendapatkan uji coba gratis selama 1 bulan. Anda tidak membayar janji temu di dalam aplikasi; Anda membayar layanan langsung kepada penata rambut.",
+ "price_items": [
+  [
+   "Premium Penata Rambut",
+   "Kalender, pemesanan, statistik, dan keuangan: 399 TL per bulan atau 999 TL untuk 3 bulan. Bulan pertama adalah uji coba gratis."
+  ],
+  [
+   "Pelanggan: gratis",
+   "Mencari penata rambut, favorit, memesan online, dan mengelola janji temu Anda semuanya gratis."
+  ],
+  [
+   "Premium Pelanggan",
+   "Catatan dan foto pada janji temu, coba gaya rambut AI, dan 6 kredit setiap minggu: 23,99 TL per bulan atau 63,99 TL untuk 3 bulan."
+  ],
+  [
+   "Kredit AI",
+   "Setiap foto yang berhasil menggunakan 2 kredit. Paket tambahan: 6 kredit 12,99 TL, 12 kredit 21,99 TL, 18 kredit 29,99 TL."
+  ]
+ ],
+ "price_fine": "Harga berlaku untuk toko aplikasi wilayah Turki sebagaimana tercantum dalam ketentuan penggunaan; harga saat ini ditampilkan pada layar pembelian. Langganan diperpanjang secara otomatis sesuai aturan toko aplikasi kecuali dibatalkan.",
+ "faq_h2": "Pertanyaan yang sering diajukan",
+ "faq_home": [
+  [
+   "Apakah Kuafix gratis?",
+   "Mengunduh aplikasi serta mencari penata rambut dan memesan jadwal sebagai pelanggan adalah gratis. Panel penata rambut memiliki uji coba gratis 1 bulan, setelah itu diperlukan langganan Premium Penata Rambut (399 TL per bulan atau 999 TL untuk 3 bulan). Pelanggan dapat memilih langganan Premium Pelanggan untuk fitur catatan, foto, dan AI."
+  ],
+  [
+   "Bagaimana jika pelanggan saya tidak menggunakan aplikasi?",
+   "Tidak masalah. Anda dapat menambahkan janji temu untuk pelanggan yang memesan lewat telepon atau datang langsung melalui kalender; cukup masukkan nama, sedangkan nomor telepon dan catatan bersifat opsional."
+  ],
+  [
+   "Bagaimana cara pelanggan menemukan saya?",
+   "Di menu Cari Penata Rambut, pelanggan memilih provinsi dan distrik Anda untuk melihat Anda dalam daftar, atau mencari berdasarkan nama Anda. Jika Anda membagikan ID penata rambut atau kode QR Anda, mereka dapat langsung menemukan Anda dan menambahkannya ke favorit."
+  ],
+  [
+   "Di perangkat apa saja aplikasi ini dapat dijalankan?",
+   "iPhone dan iPad (iOS 17.6 atau versi lebih baru) serta ponsel Android. Unduh dari App Store atau Google Play."
+  ],
+  [
+   "Aplikasi ini menggunakan bahasa apa?",
+   "Aplikasi ini berbahasa Turki dan dibuat khusus untuk salon rambut serta barbershop di Turki. Situs web ini diterbitkan dalam 17 bahasa untuk memperkenalkan aplikasi."
+  ],
+  [
+   "Apakah janji temu dapat dibatalkan?",
+   "Ya. Pelanggan dapat membatalkan melalui aplikasi jika waktu janji temu masih lebih dari 45 menit lagi; jika kurang dari itu, mereka harus menelepon penata rambut. Penata rambut juga dapat membatalkan dengan aturan yang sama."
+  ],
+  [
+   "Bagaimana cara kerja fitur coba gaya rambut AI?",
+   "Di menu Coba Gaya, Anda mengambil foto dan memilih potongan rambut, janggut / kumis, warna rambut, rambut bergelombang, atau sambung rambut. Setiap hasil foto yang berhasil menggunakan 2 kredit. Foto asli Anda akan dihapus dalam waktu 24 jam setelah pemrosesan."
+  ],
+  [
+   "Apakah data saya aman, dan dapatkah saya menghapus akun saya?",
+   "Data disimpan di Firebase (Google) dan dibagikan antara penata rambut dan pelanggan hanya sebatas yang diperlukan untuk janji temu. Anda dapat menghapus akun di aplikasi kapan saja; detailnya tersedia di kebijakan privasi dan halaman penghapusan akun."
+  ]
+ ],
+ "cta_h2": "Kelola salon dari saku Anda",
+ "cta_p": "Penata rambut: coba gratis selama 1 bulan. Pelanggan: temukan penata rambut Anda dan pesan sekarang.",
+ "aria_docs": "Dokumen",
+ "doc_privacy": "Kebijakan Privasi",
+ "doc_delete": "Penghapusan Akun",
+ "doc_terms": "Ketentuan Penggunaan (EULA)",
+ "doc_support": "Dukungan",
+ "steps_h2": "Cara kerjanya",
+ "other_h2": "Panduan lainnya",
+ "topic_cta_h2": "Unduh Kuafix",
+ "topic_cta_p": "Untuk iPhone, iPad, dan Android. Panel penata rambut gratis selama 1 bulan.",
+ "book_slug": "aplikasi-booking-salon",
+ "book_name": "Aplikasi booking salon rambut",
+ "book_title": "Aplikasi Booking Salon & Barber: Janji Temu Online | Kuafix",
+ "book_desc": "Booking online untuk salon rambut dan barbershop di Turki: buka jadwal kosong Anda untuk pelanggan dan catat pesanan telepon di kalender yang sama. Pelanggan menemukan penata rambut dan memesan tanpa menelepon.",
+ "book_h1": "Aplikasi booking salon rambut dan barbershop",
+ "book_lead": "Kurangi panggilan telepon: biarkan pelanggan melihat jadwal kosong Anda dan memesan sendiri, serta pantau seluruh jadwal harian Anda dalam satu kalender.",
+ "book_card": "Booking online, jam kerja, hari libur, dan aturan pembatalan.",
+ "book_body": [
+  [
+   "Mengapa booking online?",
+   "Panggilan telepon di siang hari sering mengganggu pekerjaan Anda, dan pesanan yang ditulis di buku catatan mudah tertukar. Di Kuafix, pelanggan melihat <b>jadwal kosong</b> penata rambut dan memilihnya; pesanan tersebut langsung muncul di kalender penata rambut. Pelanggan yang memesan lewat telepon maupun yang datang langsung dicatat di kalender yang sama, sehingga jadwal tidak bentrok."
+  ],
+  [
+   "Kalender mengikuti aturan Anda",
+   "Anda mengatur jam buka dan tutup, durasi janji temu (30 mnt, 60 mnt, atau durasi khusus minimal 10 menit), dan <b>berapa hari sebelumnya</b> pelanggan dapat memesan (5, 10, atau khusus). Hari libur mingguan dan hari raya ditampilkan sebagai tutup, sehingga tidak ada yang bisa memesannya."
+  ],
+  [
+   "Dari sisi pelanggan",
+   "Pelanggan menemukan penata rambut di menu Cari Penata Rambut dengan memilih provinsi dan distrik, mencari berdasarkan nama, atau menggunakan <b>ID atau kode QR</b> penata rambut, lalu menambahkannya ke favorit. Di menu Pesan, mereka memilih hari dan mengetuk jadwal yang kosong. Pelanggan dapat memesan satu janji temu per hari; waktu yang sudah lewat akan ditutup."
+  ],
+  [
+   "Pembatalan dan kontak",
+   "Jika waktu janji temu masih lebih dari 45 menit lagi, baik pelanggan maupun penata rambut dapat membatalkannya di aplikasi; jika kurang dari itu, mereka dapat menelepon. Penata rambut dapat melihat catatan pelanggan dan lampiran foto gaya rambut pada detail janji temu."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Buat profil Anda",
+   "Daftar sebagai penata rambut dengan nomor telepon Anda, lalu masukkan nama dan alamat salon Anda."
+  ],
+  [
+   "Atur aturan kerja Anda",
+   "Pilih jam kerja, durasi janji temu, hari libur mingguan, dan hari raya."
+  ],
+  [
+   "Bagikan kepada pelanggan Anda",
+   "Bagikan ID penata rambut atau kode QR Anda; pelanggan akan menambahkan Anda ke favorit."
+  ],
+  [
+   "Pesanan masuk ke kalender Anda",
+   "Pesanan online maupun janji temu yang Anda tambahkan sendiri akan tampil di kalender yang sama."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Apakah aplikasi booking salon ini berbayar?",
+   "Kuafix gratis untuk diunduh. Panel penata rambut memiliki uji coba gratis selama 1 bulan; setelah itu, langganan Premium Penata Rambut seharga 399 TL per bulan atau 999 TL untuk 3 bulan. Pelanggan tidak dikenakan biaya untuk memesan."
+  ],
+  [
+   "Apakah pelanggan harus menggunakan aplikasi?",
+   "Tidak. Anda dapat menambahkan janji temu untuk pelanggan yang tidak menggunakan aplikasi; cukup masukkan nama, sedangkan nomor telepon dan catatan bersifat opsional."
+  ],
+  [
+   "Bisakah saya mengatur durasi janji temu?",
+   "Ya. Pilih 30 menit, 60 menit, atau durasi khusus minimal 10 menit. Anda juga dapat membuka jadwal tambahan untuk waktu yang tidak ada di daftar."
+  ],
+  [
+   "Bisakah pelanggan memesan pada hari libur saya?",
+   "Tidak. Hari libur mingguan dan hari raya yang Anda tambahkan akan ditutup pada kalender, sehingga pelanggan tidak dapat memesannya."
+  ],
+  [
+   "Apakah cocok untuk barbershop dan salon pria?",
+   "Ya. Kuafix berfungsi sama baiknya untuk salon wanita maupun pria, barbershop, dan salon perorangan; Anda dapat menyesuaikan sendiri daftar layanan Anda (potong rambut, janggut, pewarnaan, dan sebagainya)."
+  ]
+ ],
+ "fin_slug": "pencatat-pendapatan-salon",
+ "fin_name": "Pencatat pendapatan salon",
+ "fin_title": "Pencatat Pendapatan Salon: Omzet Harian & Jam Sibuk | Kuafix",
+ "fin_desc": "Pencatatan pendapatan untuk salon rambut dan barbershop: tandai setiap janji temu yang dibayar tunai, dengan kartu, atau transfer bank, dan lihat pendapatan harian serta bulanan, pendapatan per layanan, dan jam tersibuk Anda.",
+ "fin_h1": "Pencatatan pendapatan dan statistik salon",
+ "fin_lead": "Ketahui pemasukan harian Anda tanpa perlu menghitung laci kasir: berapa banyak yang Anda hasilkan hari ini, layanan mana yang paling laris, dan kapan waktu tersibuk Anda.",
+ "fin_body": [
+  [
+   "Hubungkan pembayaran dengan janji temu",
+   "Setiap janji temu di Kuafix memiliki ikon pembayaran. Warna abu-abu berarti belum ada pembayaran yang dicatat; ketuk ikon tersebut dan pilih <b>tunai, kartu, atau transfer bank (IBAN)</b>, maka warnanya akan berubah menjadi hijau. Anda cukup memasukkan harga layanan satu kali di Pengaturan > Keuangan (hingga 20 layanan), dan nominalnya akan terisi secara otomatis."
+  ],
+  [
+   "Pendapatan harian, mingguan, dan bulanan",
+   "Layar keuangan menampilkan <b>total pendapatan</b> pada hari yang dipilih, jumlah layanan, rincian berdasarkan metode pembayaran, serta pendapatan per layanan, dan memberi tahu apakah pendapatan Anda naik atau turun dibandingkan hari sebelumnya. Ringkasan yang sama juga tersedia secara mingguan dan bulanan."
+  ],
+  [
+   "Hari dan jam tersibuk",
+   "<b>Peta panas</b> di menu Statistik menunjukkan dengan warna berapa banyak janji temu yang Anda miliki pada setiap hari dan jam dalam periode yang dipilih. Gunakan fitur ini untuk merencanakan jam kerja, waktu istirahat, atau hari promosi Anda."
+  ],
+  [
+   "Riwayat per pelanggan",
+   "Statistik pelanggan menampilkan seberapa sering setiap pelanggan datang dan layanan apa saja yang pernah mereka gunakan. Kuafix tidak memproses pembayaran; catatan ini hanya untuk pemantauan bisnis internal Anda dan tidak menggantikan pembukuan resmi."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Masukkan harga layanan Anda",
+   "Tambahkan layanan seperti potong rambut, janggut, dan pewarnaan beserta harganya di Pengaturan > Keuangan."
+  ],
+  [
+   "Tandai pembayaran",
+   "Ketuk ikon pembayaran dan pilih tunai, kartu, atau transfer bank."
+  ],
+  [
+   "Lihat hasil di akhir hari",
+   "Total pendapatan, jumlah layanan, dan rincian pembayaran langsung siap dilihat di layar keuangan."
+  ],
+  [
+   "Analisis periode berjalan",
+   "Gunakan peta panas dan statistik untuk melihat jam sibuk dan pelanggan tetap Anda."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Apakah Kuafix menerima pembayaran?",
+   "Tidak. Pelanggan membayar langsung kepada penata rambut, dan penata rambut mencatat pembayaran tersebut di aplikasi. Kuafix tidak memungut komisi apa pun."
+  ],
+  [
+   "Metode pembayaran apa saja yang dicatat secara terpisah?",
+   "Tunai, kartu, dan transfer bank (IBAN). Layar keuangan menampilkan total terpisah untuk masing-masing metode pembayaran."
+  ],
+  [
+   "Bisakah saya melihat pendapatan per layanan?",
+   "Ya. Layar keuangan juga memisahkan pendapatan berdasarkan layanan Anda, seperti potong rambut, pewarnaan, dan janggut."
+  ],
+  [
+   "Apakah fitur ini menggantikan perangkat lunak akuntansi?",
+   "Tidak. Catatan pendapatan di Kuafix hanya untuk pemantauan internal; Kuafix tidak menerbitkan faktur dan tidak menggantikan pembukuan resmi."
+  ],
+  [
+   "Apakah fitur pencatatan pendapatan ini berbayar?",
+   "Fitur keuangan dan statistik merupakan bagian dari langganan Premium Penata Rambut; bulan pertama adalah uji coba gratis."
+  ]
+ ],
+ "ai_slug": "coba-gaya-rambut-ai",
+ "ai_name": "Coba gaya rambut AI",
+ "ai_title": "Coba Gaya Rambut, Janggut & Warna Rambut dengan AI | Kuafix",
+ "ai_desc": "Sebelum pergi ke salon, coba potongan rambut baru, janggut dan kumis, warna rambut, rambut bergelombang, atau sambung rambut pada foto Anda sendiri dengan AI, lalu tambahkan hasilnya ke janji temu untuk ditunjukkan kepada penata rambut Anda.",
+ "ai_h1": "Coba gaya rambut, janggut, dan warna rambut dengan AI",
+ "ai_lead": "Lihat hasilnya sebelum Anda duduk di kursi salon: ambil foto, pilih gaya, dan tunjukkan model yang Anda sukai kepada penata rambut Anda.",
+ "ai_card": "Potong rambut, janggut / kumis, warna, gelombang, dan sambung rambut pada foto Anda sendiri.",
+ "ai_body": [
+  [
+   "Apa saja yang bisa Anda coba?",
+   "Fitur Coba Gaya di Kuafix memiliki lima jenis simulasi: <b>potong rambut</b>, <b>janggut / kumis</b>, <b>warna rambut</b>, <b>rambut bergelombang</b>, dan <b>sambung rambut</b>. Untuk masing-masing kategori, Anda dapat memilih dari templat yang sudah tersedia."
+  ],
+  [
+   "Tunjukkan keinginan Anda kepada penata rambut",
+   "Simpan hasil yang Anda sukai ke dalam arsip dan tambahkan ke janji temu Anda. Penata rambut akan melihat foto tersebut di detail janji temu, sehingga Anda cukup menunjukkan hasilnya tanpa perlu repot menjelaskannya."
+  ],
+  [
+   "Kredit",
+   "Setiap foto yang berhasil diproses menggunakan <b>2 kredit</b>. Saat memulai uji coba gratis, Anda mendapatkan 6 kredit hadiah, langganan Premium menambahkan 6 kredit setiap minggu, dan Anda juga dapat membeli paket 6, 12, atau 18 kredit."
+  ],
+  [
+   "Apa yang terjadi pada foto Anda?",
+   "Foto Anda hanya diproses saat Anda memulai simulasi gaya. Pemrosesan gambar menggunakan layanan Perfect Corp; foto asli yang Anda unggah akan dihapus <b>dalam waktu 24 jam</b> setelah pemrosesan selesai. Gambar hasil simulasi tetap tersimpan di arsip Anda sampai Anda menghapusnya. Hasil tersebut merupakan pratinjau; hasil potongan rambut asli mungkin tidak terlihat persis sama."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Buka Coba Gaya",
+   "Ketuk menu Coba Gaya di panel pelanggan."
+  ],
+  [
+   "Ambil foto Anda",
+   "Posisikan wajah Anda di dalam bingkai panduan atau pilih foto dari galeri Anda."
+  ],
+  [
+   "Pilih gaya",
+   "Pilih templat potong rambut, janggut / kumis, warna, gelombang, atau sambung rambut."
+  ],
+  [
+   "Tambahkan ke janji temu Anda",
+   "Simpan hasil yang Anda sukai ke arsip dan lampirkan pada janji temu Anda."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Apakah fitur coba gaya rambut AI ini gratis?",
+   "Fitur Coba Gaya tersedia untuk anggota Premium Pelanggan dan pengguna dalam masa uji coba gratis. Memulai masa uji coba akan memberikan 6 kredit hadiah; setiap foto yang berhasil diproses menggunakan 2 kredit."
+  ],
+  [
+   "Bisakah pria mencoba gaya janggut dan kumis?",
+   "Ya. Pada kategori Janggut / Kumis, Anda dapat melihat berbagai gaya janggut dan kumis pada foto Anda sendiri."
+  ],
+  [
+   "Bisakah saya mencoba warna rambut?",
+   "Ya. Pada kategori Warna Rambut, Anda dapat mencoba berbagai warna sebelum mengecat rambut; Rambut Bergelombang dan Sambung Rambut tersedia sebagai kategori terpisah."
+  ],
+  [
+   "Apakah foto saya disimpan?",
+   "Foto asli yang Anda unggah akan dihapus dalam waktu 24 jam setelah pemrosesan. Gambar hasil simulasi tetap tersimpan di arsip Anda hingga Anda menghapusnya, dan akan ikut terhapus jika Anda menghapus akun."
+  ],
+  [
+   "Apakah hasil aslinya nanti akan terlihat persis sama?",
+   "Hasil AI hanyalah pratinjau. Jenis rambut Anda dan pengerjaan penata rambut dapat memengaruhi hasil akhirnya; diskusikan gaya yang Anda inginkan dengan penata rambut Anda."
+  ]
+ ]
+}

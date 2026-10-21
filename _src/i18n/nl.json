@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Afsprakenapp voor kappers en barbiers in Turkije | Kuafix",
+ "meta_desc": "Afsprakenagenda, inkomsten- en betalingsregistratie en statistieken over drukke uren voor kappers en barbiers in Turkije; voor klanten: vind een kapper, boek online en probeer kapsels met AI. Voor iPhone, iPad en Android.",
+ "aria_lang": "Taal",
+ "lang_note": "De Kuafix-app is in het Turks en is gemaakt voor kapsalons en barbiers in Turkije.",
+ "h1_suffix": "afsprakenapp voor kapsalons en barbiers",
+ "lead": "Kappers beheren afspraken, werktijden en inkomsten op één plek; klanten vinden hun kapper en boeken online een beschikbaar tijdstip. Voor iPhone, iPad en Android.",
+ "sign": "Of je [k:kapper] bent|of [m:klant]",
+ "sign_label": "Of je kapper bent of klant",
+ "store_as": "Download in de App Store",
+ "store_gp": "Download via Google Play",
+ "aria_scroll": "Omlaag scrollen",
+ "aria_shots": "Schermafbeeldingen",
+ "shot_alts": [
+  "Scherm met heatmap van drukke uren",
+  "Scherm met dagelijks financieel overzicht",
+  "Scherm met klantstatistieken",
+  "Scherm met dagelijkse afsprakenlijst",
+  "Scherm met maandkalender",
+  "Inlogscherm voor kappers en klanten",
+  "Inlogscherm voor klanten",
+  "Scherm om een afspraak te boeken"
+ ],
+ "aria_panels": "Kappers- en klantenpanelen",
+ "panel_k": "Kapperspaneel",
+ "menu_k": [
+  "Agenda",
+  "Afspraak toevoegen",
+  "Statistieken",
+  "Financiën",
+  "Instellingen"
+ ],
+ "panel_m": "Klantenpaneel",
+ "menu_m": [
+  "Afspraak boeken",
+  "Mijn afspraken",
+  "Kapper zoeken",
+  "Look uitproberen"
+ ],
+ "chips": [
+  "Knippen",
+  "Baard / snor",
+  "Haarkleur",
+  "Golven",
+  "Extensions"
+ ],
+ "slot_book": "Boeken",
+ "slot_full": "Geboekt",
+ "aria_board": "Salondashboard",
+ "heat_head": "Je had 1.218 afspraken tussen 16 oktober en 13 januari.",
+ "heat_label": "Heatmap van afspraken per uur en weekdag",
+ "days": [
+  "ma",
+  "di",
+  "wo",
+  "do",
+  "vr",
+  "za",
+  "zo"
+ ],
+ "bd_date": "donderdag 5 maart 2026",
+ "bd_good": "Mooi! Je inkomsten zijn 12% hoger dan gisteren ↑",
+ "bd_total": "Totale inkomsten",
+ "bd_count": "Behandelingen",
+ "bd_cash": "Contant:",
+ "bd_card": "Kaart:",
+ "fin_card": "Contante betalingen, kaartbetalingen en bankoverschrijvingen, dagelijkse en maandelijkse inkomsten, heatmap van drukke uren.",
+ "bd_iban": "Bankoverschrijving:",
+ "services": [
+  "Kinderen knippen",
+  "Haar kleuren",
+  "Knippen",
+  "Baard",
+  "Wassen en verzorgen"
+ ],
+ "about_h2": "Wat is Kuafix?",
+ "about_p": "Kuafix is een afsprakenapp die kapsalons en barbiers met hun klanten samenbrengt in één app. De kapper beheert de agenda, werktijden, vrije dagen, behandelprijzen en dagelijkse inkomsten. De klant vindt de kapper op provincie en district, op naam, via het ID of de QR-code van de kapper, ziet de beschikbare tijdstippen en boekt zonder te bellen. Vóór de afspraak kunnen klanten met AI een nieuw kapsel, een baard of een andere haarkleur uitproberen op hun eigen foto.",
+ "k_h3": "Voor kappers en barbiers",
+ "k_points": [
+  [
+   "Afsprakenagenda",
+   "Dag-, week- en maandweergave. Beschikbare en geboekte tijdstippen in één oogopslag; tik twee keer op een tijdstip om een afspraak toe te voegen."
+  ],
+  [
+   "Telefonische afspraken en inloopklanten",
+   "Plan ook klanten in die de app niet gebruiken: een naam is voldoende, een telefoonnummer en notitie zijn optioneel. Voeg een extra tijdstip toe dat niet in de lijst staat."
+  ],
+  [
+   "Jouw werkafspraken",
+   "Openingstijden, afspraakduur (30 min, 60 min of een eigen duur van minimaal 10 min), vaste vrije dagen, vakantiedagen en hoeveel dagen van tevoren klanten kunnen boeken."
+  ],
+  [
+   "Inkomsten- en betalingsregistratie",
+   "Markeer elke afspraak als contant, per kaart of via bankoverschrijving (IBAN) betaald. Dagelijkse, wekelijkse en maandelijkse inkomsten, het aantal behandelingen en inkomsten per behandeling."
+  ],
+  [
+   "Statistieken over drukke uren",
+   "Bekijk je drukste dagen en uren op een heatmap, plus het aantal afspraken en klanten voor elke gewenste periode."
+  ],
+  [
+   "Klantgegevens",
+   "Bekijk de notitie van de klant en de toegevoegde kapselfoto, bel met één tik of annuleer indien nodig."
+  ]
+ ],
+ "m_h3": "Voor klanten",
+ "m_points": [
+  [
+   "Kapper zoeken",
+   "Bekijk kappers per provincie en district, verfijn op naam of gebruik het ID of de QR-code die je van je kapper krijgt. Voeg je vaste kapper toe aan je favorieten."
+  ],
+  [
+   "Online boeken",
+   "Bekijk de beschikbare tijdstippen van je kapper en tik op een tijdstip om te boeken. Bellen of berichten sturen is niet nodig."
+  ],
+  [
+   "Mijn afspraken",
+   "Komende en eerdere afspraken in één lijst; annuleer in de app als de afspraak over meer dan 45 minuten begint."
+  ],
+  [
+   "Look uitproberen (AI)",
+   "Probeer een kapsel, baard en snor, haarkleur, golven of extensions op je eigen foto en sla de resultaten die je mooi vindt op in je archief."
+  ],
+  [
+   "Laat het je kapper zien",
+   "Voeg een notitie en een kapselfoto uit je archief toe aan de afspraak; je kapper ziet precies wat je wilt."
+  ]
+ ],
+ "topics_h2": "Wat kun je met Kuafix?",
+ "topics_p": "Uitgebreide uitleg over de drie onderwerpen waar de meeste vragen over zijn:",
+ "price_h2": "Prijzen",
+ "price_p": "Kuafix is gratis te downloaden. Het kapperspaneel en de extra functies voor klanten worden beschikbaar met een abonnement, en iedereen krijgt een gratis proefperiode van 1 maand. Je betaalt afspraken niet in de app; je betaalt de kapper rechtstreeks voor de behandeling.",
+ "price_items": [
+  [
+   "Kapper Premium",
+   "Agenda, afspraken boeken, statistieken en financiën: 399 TL per maand of 999 TL voor 3 maanden. De eerste maand is een gratis proefperiode."
+  ],
+  [
+   "Klant: gratis",
+   "Kappers zoeken, favorieten, online boeken en je afspraken beheren zijn gratis."
+  ],
+  [
+   "Klant Premium",
+   "Notities en foto's bij afspraken, kapsels uitproberen met AI en elke week 6 credits: 23,99 TL per maand of 63,99 TL voor 3 maanden."
+  ],
+  [
+   "AI-credits",
+   "Elke geslaagde foto kost 2 credits. Extra bundels: 6 credits voor 12,99 TL, 12 credits voor 21,99 TL, 18 credits voor 29,99 TL."
+  ]
+ ],
+ "price_fine": "De prijzen gelden voor de Turkse appwinkel, zoals vermeld in de gebruiksvoorwaarden; de actuele prijs staat op het aankoopscherm. Abonnementen worden volgens de regels van de appwinkel verlengd, tenzij je opzegt.",
+ "faq_h2": "Veelgestelde vragen",
+ "faq_home": [
+  [
+   "Is Kuafix gratis?",
+   "De app downloaden, als klant een kapper zoeken en een afspraak boeken zijn gratis. Het kapperspaneel heeft een gratis proefperiode van 1 maand, daarna is een abonnement op Kapper Premium nodig (399 TL per maand of 999 TL voor 3 maanden). Klanten kunnen optioneel Klant Premium nemen voor notities, foto's en AI-functies."
+  ],
+  [
+   "Wat als mijn klant de app niet gebruikt?",
+   "Geen probleem. Je kunt via de agenda afspraken toevoegen voor telefonische boekingen en inloopklanten; een naam is voldoende, een telefoonnummer en notitie zijn optioneel."
+  ],
+  [
+   "Hoe vinden klanten mij?",
+   "Bij Kapper zoeken kiezen klanten je provincie en district om je in de lijst te zien, of zoeken ze op je naam. Als je je kappers-ID of QR-code deelt, vinden ze je direct en voegen ze je toe aan hun favorieten."
+  ],
+  [
+   "Op welke apparaten werkt de app?",
+   "Op iPhone en iPad (iOS 17.6 of nieuwer) en Android-telefoons. Download de app in de App Store of via Google Play."
+  ],
+  [
+   "In welke taal is de app?",
+   "De app is in het Turks en is gemaakt voor kapsalons en barbiers in Turkije. Deze website is beschikbaar in 17 talen om de app te introduceren."
+  ],
+  [
+   "Kunnen afspraken worden geannuleerd?",
+   "Ja. Klanten kunnen in de app annuleren als de afspraak over meer dan 45 minuten begint; anders bellen ze de kapper. De kapper kan onder dezelfde voorwaarde annuleren."
+  ],
+  [
+   "Hoe werkt kapsels uitproberen met AI?",
+   "Bij Look uitproberen maak je een foto en kies je een kapsel, baard / snor, haarkleur, golven of extensions. Elk geslaagd resultaat kost 2 credits. Je oorspronkelijke foto wordt binnen 24 uur na verwerking verwijderd."
+  ],
+  [
+   "Zijn mijn gegevens veilig en kan ik mijn account verwijderen?",
+   "Gegevens worden opgeslagen op Firebase (Google) en alleen tussen kapper en klant gedeeld voor zover dat nodig is voor de afspraak. Je kunt je account op elk moment in de app verwijderen; meer informatie staat in het privacybeleid en op de pagina over accountverwijdering."
+  ]
+ ],
+ "cta_h2": "Beheer je salon vanuit je broekzak",
+ "cta_p": "Kappers: probeer het 1 maand gratis. Klanten: vind je kapper en boek nu.",
+ "aria_docs": "Documenten",
+ "doc_privacy": "Privacybeleid",
+ "doc_delete": "Account verwijderen",
+ "doc_terms": "Gebruiksvoorwaarden (EULA)",
+ "doc_support": "Ondersteuning",
+ "steps_h2": "Zo werkt het",
+ "other_h2": "Andere handleidingen",
+ "topic_cta_h2": "Download Kuafix",
+ "topic_cta_p": "Voor iPhone, iPad en Android. Het kapperspaneel is 1 maand gratis.",
+ "book_slug": "afsprakenapp-voor-kappers",
+ "book_name": "Afsprakenapp voor kapsalons",
+ "book_title": "Afsprakenapp voor kappers: online boeken | Kuafix",
+ "book_desc": "Online afspraken boeken bij kapsalons en barbiers in Turkije: stel je beschikbare tijdstippen open voor klanten en zet telefonische afspraken in dezelfde agenda. Klanten vinden hun kapper en boeken zonder te bellen.",
+ "book_h1": "Afsprakenapp voor kapsalons en barbiers",
+ "book_lead": "Minder telefoontjes: laat klanten je beschikbare tijdstippen bekijken en zelf boeken, en zie je hele dag in één agenda.",
+ "book_card": "Online boeken, werktijden, vrije dagen en annuleringsregels.",
+ "book_body": [
+  [
+   "Waarom online afspraken boeken?",
+   "Telefoontjes overdag onderbreken je werk en afspraken in een notitieboekje raken door elkaar. In Kuafix ziet de klant de <b>beschikbare tijdstippen</b> van de kapper en kiest er één; de afspraak verschijnt direct in de agenda van de kapper. Telefonische afspraken en inloopklanten komen in dezelfde agenda, zodat afspraken elkaar niet overlappen."
+  ],
+  [
+   "De agenda volgt jouw regels",
+   "Je stelt je openings- en sluitingstijden in, de afspraakduur (30 min, 60 min of een eigen duur van minimaal 10 minuten) en <b>hoeveel dagen van tevoren</b> klanten kunnen boeken (5, 10 of een eigen aantal). Vaste vrije dagen en vakantiedagen staan als gesloten in de agenda en niemand kan daarop boeken."
+  ],
+  [
+   "Voor de klant",
+   "Klanten vinden de kapper bij Kapper zoeken door een provincie en district te kiezen, op naam te zoeken of het <b>ID of de QR-code</b> van de kapper te gebruiken, en voegen de kapper toe aan hun favorieten. Bij Afspraak boeken kiezen ze een dag en tikken ze op een beschikbaar tijdstip. Er kan één afspraak per dag worden geboekt; verstreken tijdstippen zijn niet beschikbaar."
+  ],
+  [
+   "Annuleren en contact",
+   "Als de afspraak over meer dan 45 minuten begint, kunnen zowel de klant als de kapper in de app annuleren; anders nemen ze telefonisch contact op. De kapper ziet de notitie van de klant en de toegevoegde kapselfoto bij de afspraakgegevens."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Maak je profiel aan",
+   "Meld je als kapper aan met je telefoonnummer en vul de naam en het adres van je salon in."
+  ],
+  [
+   "Stel je werkafspraken in",
+   "Kies je werktijden, afspraakduur, vrije dagen en vakantiedagen."
+  ],
+  [
+   "Deel met je klanten",
+   "Deel je kappers-ID of QR-code; klanten voegen je toe aan hun favorieten."
+  ],
+  [
+   "Afspraken verschijnen in je agenda",
+   "Online afspraken en afspraken die je zelf toevoegt, staan in dezelfde agenda."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Is de afsprakenapp voor kapsalons betaald?",
+   "Kuafix is gratis te downloaden. Het kapperspaneel heeft een gratis proefperiode van 1 maand; daarna kost Kapper Premium 399 TL per maand of 999 TL voor 3 maanden. Klanten betalen niet om te boeken."
+  ],
+  [
+   "Heeft de klant de app nodig?",
+   "Nee. Je kunt afspraken toevoegen voor klanten zonder de app; een naam is voldoende, een telefoonnummer en notitie zijn optioneel."
+  ],
+  [
+   "Kan ik de afspraakduur instellen?",
+   "Ja. Kies 30 minuten, 60 minuten of een eigen duur van minimaal 10 minuten. Je kunt ook een extra tijdstip toevoegen dat niet in de lijst staat."
+  ],
+  [
+   "Kunnen klanten op mijn vrije dagen boeken?",
+   "Nee. Vaste vrije dagen en de vakantiedagen die je toevoegt, staan als gesloten in de agenda, zodat klanten daarop niet kunnen boeken."
+  ],
+  [
+   "Is de app geschikt voor barbiers en herenkappers?",
+   "Ja. Kuafix werkt hetzelfde voor dames- en herenkappers, barbiers en eenpersoonssalons; je beheert je eigen lijst met behandelingen (knippen, baard, kleuren enzovoort)."
+  ]
+ ],
+ "fin_slug": "inkomsten-bijhouden-kapsalon",
+ "fin_name": "Inkomsten bijhouden voor kapsalons",
+ "fin_title": "Inkomsten kapsalon: dagomzet en drukke uren | Kuafix",
+ "fin_desc": "Inkomsten bijhouden voor kapsalons en barbiers: markeer elke afspraak als contant, per kaart of via bankoverschrijving betaald en bekijk dagelijkse en maandelijkse inkomsten, inkomsten per behandeling en je drukste uren.",
+ "fin_h1": "Inkomstenregistratie en statistieken voor kapsalons",
+ "fin_lead": "Weet wat je dag heeft opgebracht zonder de kassa te tellen: hoeveel je vandaag hebt verdiend, welke behandeling het meest is geboekt en wanneer je het drukst bent.",
+ "fin_body": [
+  [
+   "Koppel betalingen aan afspraken",
+   "Elke afspraak in Kuafix heeft een betaalpictogram. Grijs betekent dat er nog geen betaling is geregistreerd; tik erop en kies <b>contant, kaart of bankoverschrijving (IBAN)</b> en het wordt groen. Je voert je behandelprijzen één keer in bij Instellingen > Financiën (maximaal 20 behandelingen), waarna het bedrag automatisch wordt ingevuld."
+  ],
+  [
+   "Dagelijkse, wekelijkse en maandelijkse inkomsten",
+   "Het financiële scherm toont de <b>totale inkomsten</b> van de gekozen dag, het aantal behandelingen, de verdeling per betaalwijze en de inkomsten per behandeling, en geeft aan of je meer of minder hebt verdiend dan de vorige dag. Hetzelfde overzicht is beschikbaar per week en per maand."
+  ],
+  [
+   "Drukste dagen en uren",
+   "De <b>heatmap</b> bij Statistieken laat met kleuren zien hoeveel afspraken je op elke dag en elk uur in de gekozen periode had. Gebruik die om je werktijden, pauzes of actiedagen te plannen."
+  ],
+  [
+   "Geschiedenis per klant",
+   "Klantstatistieken laten zien hoe vaak elke klant komt en welke behandelingen die eerder heeft gehad. Kuafix verwerkt geen betalingen; deze gegevens zijn bedoeld om je eigen bedrijfsactiviteiten bij te houden en vervangen geen officiële boekhouding."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Voer je behandelprijzen in",
+   "Voeg behandelingen zoals knippen, baard en kleuren met hun prijzen toe bij Instellingen > Financiën."
+  ],
+  [
+   "Registreer de betaling",
+   "Tik op het betaalpictogram en kies contant, kaart of bankoverschrijving."
+  ],
+  [
+   "Bekijk het dagoverzicht",
+   "De totale inkomsten, het aantal behandelingen en de verdeling per betaalwijze staan klaar op het financiële scherm."
+  ],
+  [
+   "Analyseer de periode",
+   "Gebruik de heatmap en statistieken om je drukke uren en vaste klanten te bekijken."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Verwerkt Kuafix betalingen?",
+   "Nee. De klant betaalt de kapper rechtstreeks en de kapper registreert de betaling in de app. Kuafix rekent geen commissie."
+  ],
+  [
+   "Welke betaalwijzen worden apart bijgehouden?",
+   "Contant, kaart en bankoverschrijving (IBAN). Het financiële scherm toont voor elke betaalwijze een apart totaal."
+  ],
+  [
+   "Kan ik de inkomsten per behandeling zien?",
+   "Ja. Het financiële scherm splitst de inkomsten ook uit per behandeling, zoals knippen, kleuren en baard."
+  ],
+  [
+   "Vervangt de app boekhoudsoftware?",
+   "Nee. De inkomstenregistratie in Kuafix is bedoeld voor intern gebruik; Kuafix maakt geen facturen en vervangt geen officiële boekhouding."
+  ],
+  [
+   "Is inkomsten bijhouden betaald?",
+   "Financiën en statistieken zijn onderdeel van Kapper Premium; de eerste maand is een gratis proefperiode."
+  ]
+ ],
+ "ai_slug": "kapsels-uitproberen-met-ai",
+ "ai_name": "Kapsels uitproberen met AI",
+ "ai_title": "Kapsels, baarden en haarkleuren uitproberen met AI | Kuafix",
+ "ai_desc": "Probeer vóór je kappersbezoek met AI een nieuw kapsel, baard en snor, haarkleur, golven of extensions op je eigen foto en voeg de look toe aan je afspraak om die aan je kapper te laten zien.",
+ "ai_h1": "Probeer kapsels, baarden en haarkleuren met AI",
+ "ai_lead": "Bekijk het resultaat voordat je in de kappersstoel zit: maak een foto, kies een look en laat je kapper zien welke je mooi vindt.",
+ "ai_card": "Kapsel, baard / snor, kleur, golven en extensions op je eigen foto.",
+ "ai_body": [
+  [
+   "Wat kun je uitproberen?",
+   "Look uitproberen in Kuafix biedt vijf mogelijkheden: <b>kapsel</b>, <b>baard / snor</b>, <b>haarkleur</b>, <b>golven</b> en <b>extensions</b>. Voor elke mogelijkheid kies je uit vooraf gemaakte sjablonen."
+  ],
+  [
+   "Laat je kapper zien wat je wilt",
+   "Sla het resultaat dat je mooi vindt op in je archief en voeg het toe aan je afspraak. Je kapper ziet de foto bij de afspraakgegevens, zodat je het resultaat laat zien in plaats van het te beschrijven."
+  ],
+  [
+   "Credits",
+   "Elke geslaagde foto kost <b>2 credits</b>. Bij het starten van de gratis proefperiode krijg je 6 credits cadeau, Premium voegt elke week 6 credits toe en je kunt bundels van 6, 12 of 18 credits kopen."
+  ],
+  [
+   "Wat gebeurt er met je foto?",
+   "Je foto wordt alleen verwerkt wanneer je een look gaat uitproberen. De beeldverwerking gebruikt de dienst van Perfect Corp; de oorspronkelijke foto die je uploadt, wordt <b>binnen 24 uur</b> na verwerking verwijderd. De resultaatfoto's blijven in je archief totdat je ze verwijdert. De resultaten geven een voorbeeld; het echte kapsel kan er anders uitzien."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Open Look uitproberen",
+   "Tik op Look uitproberen in het klantenpaneel."
+  ],
+  [
+   "Maak je foto",
+   "Plaats je gezicht in het kader of kies een foto uit je galerij."
+  ],
+  [
+   "Kies een look",
+   "Kies een sjabloon voor een kapsel, baard / snor, kleur, golven of extensions."
+  ],
+  [
+   "Voeg de foto toe aan je afspraak",
+   "Sla het resultaat dat je mooi vindt op in je archief en voeg het toe aan je afspraak."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Is kapsels uitproberen met AI gratis?",
+   "Look uitproberen is beschikbaar voor leden van Klant Premium en gebruikers in hun gratis proefperiode. Bij het starten van de proefperiode krijg je 6 credits cadeau; elke geslaagde foto kost 2 credits."
+  ],
+  [
+   "Kunnen mannen baarden en snorren uitproberen?",
+   "Ja. Bij Baard / snor kun je verschillende baard- en snorstijlen op je eigen foto bekijken."
+  ],
+  [
+   "Kan ik een haarkleur uitproberen?",
+   "Ja. Bij Haarkleur kun je verschillende kleuren uitproberen voordat je je haar laat verven; Golven en Extensions zijn aparte categorieën."
+  ],
+  [
+   "Wordt mijn foto opgeslagen?",
+   "De oorspronkelijke foto die je uploadt, wordt binnen 24 uur na verwerking verwijderd. De resultaatfoto blijft in je archief totdat je die verwijdert en wordt ook verwijderd als je je account verwijdert."
+  ],
+  [
+   "Ziet het resultaat er in het echt precies hetzelfde uit?",
+   "Het AI-resultaat is een voorbeeld. Je haartype en het werk van de kapper kunnen het resultaat beïnvloeden; bespreek de look met je kapper."
+  ]
+ ]
+}

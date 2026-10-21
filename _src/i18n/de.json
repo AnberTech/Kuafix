@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Termin-App für Friseure und Barbiere in der Türkei | Kuafix",
+ "meta_desc": "Terminkalender, Einnahmen- und Zahlungsübersicht sowie Auslastungsstatistiken für Friseure und Barbiere in der Türkei; für Kunden: Friseur finden, online buchen und Frisuren mit KI ausprobieren. Für iPhone, iPad und Android.",
+ "aria_lang": "Sprache",
+ "lang_note": "Die Kuafix-App ist auf Türkisch und für Friseursalons und Barbiere in der Türkei entwickelt.",
+ "h1_suffix": "Termin-App für Friseursalons und Barbiere",
+ "lead": "Friseure verwalten Termine, Arbeitszeiten und Einnahmen an einem Ort; Kunden finden ihren Friseur und buchen einen freien Termin online. Für iPhone, iPad und Android.",
+ "sign": "Ob [k:Friseur],|oder [m:Kunde]",
+ "sign_label": "Ob Friseur, oder Kunde",
+ "store_as": "Im App Store laden",
+ "store_gp": "Jetzt bei Google Play",
+ "aria_scroll": "Nach unten scrollen",
+ "aria_shots": "Screenshots",
+ "shot_alts": [
+  "Ansicht der Heatmap zur Auslastung",
+  "Ansicht der täglichen Finanzübersicht",
+  "Ansicht der Kundenstatistik",
+  "Ansicht der täglichen Terminliste",
+  "Ansicht des Monatskalenders",
+  "Anmeldebildschirm für Friseure und Kunden",
+  "Anmeldebildschirm für Kunden",
+  "Ansicht der Terminbuchung"
+ ],
+ "aria_panels": "Friseur- und Kundenbereich",
+ "panel_k": "Friseurbereich",
+ "menu_k": [
+  "Kalender",
+  "Termin hinzufügen",
+  "Statistik",
+  "Finanzen",
+  "Einstellungen"
+ ],
+ "panel_m": "Kundenbereich",
+ "menu_m": [
+  "Termin buchen",
+  "Meine Termine",
+  "Friseur finden",
+  "Look ausprobieren"
+ ],
+ "chips": [
+  "Haarschnitt",
+  "Bart / Schnurrbart",
+  "Haarfarbe",
+  "Wellen",
+  "Extensions"
+ ],
+ "slot_book": "Buchen",
+ "slot_full": "Gebucht",
+ "aria_board": "Salonübersicht",
+ "heat_head": "Du hattest zwischen dem 16. Oktober und dem 13. Januar 1.218 Termine.",
+ "heat_label": "Heatmap der Termine nach Uhrzeit und Wochentag",
+ "days": [
+  "Mo",
+  "Di",
+  "Mi",
+  "Do",
+  "Fr",
+  "Sa",
+  "So"
+ ],
+ "bd_date": "Donnerstag, 5. März 2026",
+ "bd_good": "Super! Deine Einnahmen sind 12% höher als gestern ↑",
+ "bd_total": "Gesamteinnahmen",
+ "bd_count": "Leistungen",
+ "bd_cash": "Bar:",
+ "bd_card": "Karte:",
+ "fin_card": "Bar-, Karten- und Überweisungszahlungen, tägliche und monatliche Einnahmen, Heatmap zur Auslastung.",
+ "bd_iban": "Überweisung:",
+ "services": [
+  "Kinderhaarschnitt",
+  "Haare färben",
+  "Haarschnitt",
+  "Bart",
+  "Waschen & Pflege"
+ ],
+ "about_h2": "Was ist Kuafix?",
+ "about_p": "Kuafix ist eine Termin-App, die Friseursalons und Barbershops mit ihren Kunden in einer App zusammenbringt. Der Friseur verwaltet den Kalender, Arbeitszeiten, freie Tage, Leistungspreise und tägliche Einnahmen. Der Kunde findet den Friseur nach Provinz und Bezirk, nach Namen, über die ID oder den QR-Code des Friseurs, sieht die freien Termine und bucht ohne Anruf. Vor dem Termin können Kunden einen neuen Haarschnitt, Bart oder eine neue Haarfarbe mit KI auf ihrem eigenen Foto ausprobieren.",
+ "k_h3": "Für Friseure und Barbiere",
+ "k_points": [
+  [
+   "Terminkalender",
+   "Tages-, Wochen- und Monatsansicht. Freie und gebuchte Termine auf einen Blick; tippe doppelt auf ein Zeitfenster, um einen Termin hinzuzufügen."
+  ],
+  [
+   "Telefonische und spontane Kunden",
+   "Trage auch Kunden ein, die die App nicht nutzen: Ein Name genügt, Telefonnummer und Notiz sind optional. Öffne ein zusätzliches Zeitfenster für eine Uhrzeit, die nicht in der Liste steht."
+  ],
+  [
+   "Deine Arbeitsregeln",
+   "Öffnungszeiten, Termindauer (30 Min., 60 Min. oder eine individuelle Dauer von mindestens 10 Min.), wöchentliche Ruhetage, Urlaubstage und wie viele Tage im Voraus Kunden buchen können."
+  ],
+  [
+   "Einnahmen und Zahlungen erfassen",
+   "Markiere jeden Termin als bar, per Karte oder per Überweisung (IBAN) bezahlt. Tägliche, wöchentliche und monatliche Einnahmen, Anzahl der Leistungen und Einnahmen pro Leistung."
+  ],
+  [
+   "Auslastungsstatistik",
+   "Sieh deine stärksten Tage und Uhrzeiten auf einer Heatmap sowie die Anzahl der Termine und Kunden für einen beliebigen Zeitraum."
+  ],
+  [
+   "Kundendetails",
+   "Sieh dir die Notiz des Kunden und das angehängte Frisurenfoto an, rufe mit einem Fingertipp an oder storniere bei Bedarf."
+  ]
+ ],
+ "m_h3": "Für Kunden",
+ "m_points": [
+  [
+   "Friseur finden",
+   "Lass dir Friseure nach Provinz und Bezirk anzeigen, grenze die Suche nach Namen ein oder nutze die ID oder den QR-Code deines Friseurs. Füge deinen Stammfriseur zu deinen Favoriten hinzu."
+  ],
+  [
+   "Online buchen",
+   "Sieh die freien Termine deines Friseurs und tippe auf einen, um ihn zu buchen. Anrufe oder Nachrichten sind nicht nötig."
+  ],
+  [
+   "Meine Termine",
+   "Anstehende und vergangene Termine in einer Liste; storniere in der App, wenn der Termin noch mehr als 45 Minuten entfernt ist."
+  ],
+  [
+   "Look ausprobieren (KI)",
+   "Probiere einen Haarschnitt, Bart und Schnurrbart, eine Haarfarbe, Wellen oder Extensions auf deinem eigenen Foto aus und speichere die Ergebnisse, die dir gefallen, in deinem Archiv."
+  ],
+  [
+   "Zeig es deinem Friseur",
+   "Füge dem Termin eine Notiz und ein Frisurenfoto aus deinem Archiv hinzu; so sieht dein Friseur genau, was du möchtest."
+  ]
+ ],
+ "topics_h2": "Was kannst du mit Kuafix machen?",
+ "topics_p": "Ausführliche Ratgeber zu den drei meistgefragten Themen:",
+ "price_h2": "Preise",
+ "price_p": "Kuafix lässt sich kostenlos herunterladen. Der Friseurbereich und die Zusatzfunktionen für Kunden werden mit einem Abonnement freigeschaltet, und alle erhalten eine kostenlose Testphase von 1 Monat. Du bezahlst Termine nicht in der App; die Leistung bezahlst du direkt beim Friseur.",
+ "price_items": [
+  [
+   "Friseur-Premium",
+   "Kalender, Terminbuchung, Statistik und Finanzen: 399 TL pro Monat oder 999 TL für 3 Monate. Der erste Monat ist eine kostenlose Testphase."
+  ],
+  [
+   "Kunden: kostenlos",
+   "Friseure finden, Favoriten, Online-Terminbuchung und die Verwaltung deiner Termine sind kostenlos."
+  ],
+  [
+   "Kunden-Premium",
+   "Notizen und Fotos zu Terminen, Frisuren mit KI ausprobieren und 6 Guthabenpunkte jede Woche: 23,99 TL pro Monat oder 63,99 TL für 3 Monate."
+  ],
+  [
+   "KI-Guthaben",
+   "Jedes erfolgreich erstellte Foto verbraucht 2 Guthabenpunkte. Zusatzpakete: 6 Guthabenpunkte für 12,99 TL, 12 Guthabenpunkte für 21,99 TL, 18 Guthabenpunkte für 29,99 TL."
+  ]
+ ],
+ "price_fine": "Die Preise gelten für den türkischen Store und entsprechen den Angaben in den Nutzungsbedingungen; der aktuelle Preis wird beim Kauf angezeigt. Abonnements verlängern sich gemäß den Regeln des jeweiligen Stores, sofern sie nicht gekündigt werden.",
+ "faq_h2": "Häufig gestellte Fragen",
+ "faq_home": [
+  [
+   "Ist Kuafix kostenlos?",
+   "Das Herunterladen der App sowie die Friseursuche und Terminbuchung als Kunde sind kostenlos. Für den Friseurbereich gibt es eine kostenlose Testphase von 1 Monat; danach ist ein Friseur-Premium-Abonnement erforderlich (399 TL pro Monat oder 999 TL für 3 Monate). Kunden können optional Kunden-Premium für Notizen, Fotos und KI-Funktionen abonnieren."
+  ],
+  [
+   "Was ist, wenn mein Kunde die App nicht nutzt?",
+   "Kein Problem. Du kannst Termine für telefonische und spontane Kunden im Kalender hinzufügen; ein Name genügt, Telefonnummer und Notiz sind optional."
+  ],
+  [
+   "Wie finden mich Kunden?",
+   "Unter Friseur finden wählen Kunden deine Provinz und deinen Bezirk aus, um dich in der Liste zu sehen, oder suchen nach deinem Namen. Wenn du deine Friseur-ID oder deinen QR-Code teilst, finden sie dich direkt und fügen dich zu ihren Favoriten hinzu."
+  ],
+  [
+   "Auf welchen Geräten funktioniert die App?",
+   "Auf iPhone und iPad (iOS 17.6 oder neuer) sowie auf Android-Smartphones. Lade sie im App Store oder bei Google Play herunter."
+  ],
+  [
+   "In welcher Sprache ist die App verfügbar?",
+   "Die App ist auf Türkisch und für Friseursalons und Barbiere in der Türkei entwickelt. Diese Website wird in 17 Sprachen veröffentlicht, um die App vorzustellen."
+  ],
+  [
+   "Können Termine storniert werden?",
+   "Ja. Kunden können in der App stornieren, wenn der Termin noch mehr als 45 Minuten entfernt ist; andernfalls rufen sie den Friseur an. Für den Friseur gilt beim Stornieren dieselbe Regel."
+  ],
+  [
+   "Wie funktioniert das Ausprobieren von Frisuren mit KI?",
+   "Unter Look ausprobieren nimmst du ein Foto auf und wählst einen Haarschnitt, Bart / Schnurrbart, eine Haarfarbe, Wellen oder Extensions aus. Jedes erfolgreiche Ergebnis verbraucht 2 Guthabenpunkte. Dein Originalfoto wird innerhalb von 24 Stunden nach der Verarbeitung gelöscht."
+  ],
+  [
+   "Sind meine Daten sicher und kann ich mein Konto löschen?",
+   "Die Daten werden auf Firebase (Google) gespeichert und nur im für den Termin erforderlichen Umfang zwischen Friseur und Kunde geteilt. Du kannst dein Konto jederzeit in der App löschen; Einzelheiten findest du in der Datenschutzerklärung und auf der Seite zur Kontolöschung."
+  ]
+ ],
+ "cta_h2": "Dein Salon in deiner Hosentasche",
+ "cta_p": "Für Friseure: 1 Monat kostenlos testen. Für Kunden: Friseur finden und jetzt buchen.",
+ "aria_docs": "Dokumente",
+ "doc_privacy": "Datenschutzerklärung",
+ "doc_delete": "Konto löschen",
+ "doc_terms": "Nutzungsbedingungen (EULA)",
+ "doc_support": "Hilfe",
+ "steps_h2": "So funktioniert es",
+ "other_h2": "Weitere Ratgeber",
+ "topic_cta_h2": "Kuafix herunterladen",
+ "topic_cta_p": "Für iPhone, iPad und Android. Der Friseurbereich ist 1 Monat kostenlos.",
+ "book_slug": "friseur-terminbuchung-app",
+ "book_name": "Terminbuchungs-App für Friseure",
+ "book_title": "Termin-App für Friseure & Barbiere: Online buchen | Kuafix",
+ "book_desc": "Online-Terminbuchung für Friseure und Barbiere in der Türkei: Gib deine freien Termine für Kunden frei und trage telefonische Buchungen im selben Kalender ein. Kunden finden ihren Friseur und buchen ohne Anruf.",
+ "book_h1": "Terminbuchungs-App für Friseure und Barbiere",
+ "book_lead": "Weniger Anrufe: Lass Kunden deine freien Termine sehen und selbst buchen und behalte deinen gesamten Tag in einem Kalender im Blick.",
+ "book_card": "Online-Terminbuchung, Arbeitszeiten, freie Tage und Stornierungsregeln.",
+ "book_body": [
+  [
+   "Warum online buchen?",
+   "Anrufe unterbrechen tagsüber deine Arbeit, und in einem Notizbuch eingetragene Termine geraten durcheinander. In Kuafix sieht der Kunde die <b>freien Termine</b> des Friseurs und wählt einen aus; die Buchung erscheint sofort im Kalender des Friseurs. Telefonische und spontane Kunden werden im selben Kalender eingetragen, sodass sich nichts überschneidet."
+  ],
+  [
+   "Der Kalender richtet sich nach deinen Regeln",
+   "Du legst deine Öffnungs- und Schließzeiten, die Termindauer (30 Min., 60 Min. oder eine individuelle Dauer von mindestens 10 Minuten) und <b>wie viele Tage im Voraus</b> Kunden buchen können (5, 10 oder individuell) fest. Wöchentliche Ruhetage und Urlaubstage werden als geschlossen angezeigt und können nicht gebucht werden."
+  ],
+  [
+   "So buchen Kunden",
+   "Kunden finden den Friseur unter Friseur finden durch die Auswahl von Provinz und Bezirk, eine Namenssuche oder mit der <b>ID oder dem QR-Code</b> des Friseurs und fügen ihn zu ihren Favoriten hinzu. Unter Termin buchen wählen sie einen Tag und tippen auf ein freies Zeitfenster. Pro Tag kann ein Termin gebucht werden; vergangene Uhrzeiten sind gesperrt."
+  ],
+  [
+   "Stornierung und Kontakt",
+   "Wenn der Termin noch mehr als 45 Minuten entfernt ist, können sowohl der Kunde als auch der Friseur in der App stornieren; andernfalls nehmen sie telefonisch Kontakt auf. Der Friseur sieht die Notiz des Kunden und das angehängte Frisurenfoto in den Termindetails."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Profil erstellen",
+   "Registriere dich mit deiner Telefonnummer als Friseur und gib den Namen und die Adresse deines Salons ein."
+  ],
+  [
+   "Arbeitsregeln festlegen",
+   "Wähle deine Arbeitszeiten, Termindauer, Ruhetage und Urlaubstage."
+  ],
+  [
+   "Mit deinen Kunden teilen",
+   "Teile deine Friseur-ID oder deinen QR-Code; Kunden fügen dich zu ihren Favoriten hinzu."
+  ],
+  [
+   "Buchungen erscheinen in deinem Kalender",
+   "Online-Buchungen und selbst eingetragene Termine erscheinen im selben Kalender."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Ist die Terminbuchungs-App für Friseure kostenpflichtig?",
+   "Kuafix lässt sich kostenlos herunterladen. Für den Friseurbereich gibt es eine kostenlose Testphase von 1 Monat; danach kostet Friseur-Premium 399 TL pro Monat oder 999 TL für 3 Monate. Kunden zahlen nichts für die Terminbuchung."
+  ],
+  [
+   "Braucht der Kunde die App?",
+   "Nein. Du kannst Termine für Kunden ohne App hinzufügen; ein Name genügt, Telefonnummer und Notiz sind optional."
+  ],
+  [
+   "Kann ich die Termindauer festlegen?",
+   "Ja. Wähle 30 Minuten, 60 Minuten oder eine individuelle Dauer von mindestens 10 Minuten. Du kannst auch ein zusätzliches Zeitfenster für eine Uhrzeit öffnen, die nicht in der Liste steht."
+  ],
+  [
+   "Können Kunden an meinen freien Tagen buchen?",
+   "Nein. Wöchentliche Ruhetage und eingetragene Urlaubstage sind im Kalender gesperrt und können von Kunden nicht gebucht werden."
+  ],
+  [
+   "Ist die App für Barbiere und Herrenfriseure geeignet?",
+   "Ja. Kuafix funktioniert für Damen- und Herrenfriseure, Barbiere und Einpersonensalons gleichermaßen; du passt deine Leistungsliste selbst an (Haarschnitt, Bart, Färben und so weiter)."
+  ]
+ ],
+ "fin_slug": "friseursalon-einnahmen-erfassen",
+ "fin_name": "Einnahmenübersicht für Friseursalons",
+ "fin_title": "Friseursalon: Einnahmen & Auslastung im Blick | Kuafix",
+ "fin_desc": "Einnahmen erfassen für Friseure und Barbiere: Markiere jeden Termin als bar, per Karte oder per Überweisung bezahlt und sieh tägliche und monatliche Einnahmen, Einnahmen pro Leistung und deine stärksten Zeiten.",
+ "fin_h1": "Einnahmen und Statistiken für deinen Salon",
+ "fin_lead": "Behalte deine Tageseinnahmen im Blick, ohne die Kasse zu zählen: wie viel du heute eingenommen hast, welche Leistung am häufigsten gebucht wurde und wann du am stärksten ausgelastet bist.",
+ "fin_body": [
+  [
+   "Zahlungen Terminen zuordnen",
+   "Jeder Termin in Kuafix hat ein Zahlungssymbol. Grau bedeutet, dass noch keine Zahlung erfasst wurde; tippe darauf und wähle <b>Barzahlung, Karte oder Überweisung (IBAN)</b>, dann wird es grün. Deine Leistungspreise gibst du einmal unter Einstellungen > Finanzen ein (bis zu 20 Leistungen), und der Betrag wird automatisch eingetragen."
+  ],
+  [
+   "Tägliche, wöchentliche und monatliche Einnahmen",
+   "Die Finanzübersicht zeigt die <b>Gesamteinnahmen</b> des gewählten Tages, die Anzahl der Leistungen, die Aufteilung nach Zahlungsart und die Einnahmen pro Leistung sowie die Entwicklung gegenüber dem Vortag. Dieselbe Übersicht ist auch für Wochen und Monate verfügbar."
+  ],
+  [
+   "Die stärksten Tage und Uhrzeiten",
+   "Die <b>Heatmap</b> unter Statistik zeigt farblich, wie viele Termine du im gewählten Zeitraum an den einzelnen Wochentagen und zu den jeweiligen Uhrzeiten hattest. Nutze sie, um deine Arbeitszeiten, Pausen oder Aktionstage zu planen."
+  ],
+  [
+   "Verlauf pro Kunde",
+   "Die Kundenstatistik zeigt, wie oft einzelne Kunden kommen und welche Leistungen sie bisher gebucht haben. Kuafix wickelt keine Zahlungen ab; diese Aufzeichnungen dienen deiner internen Geschäftsübersicht und ersetzen keine ordnungsgemäße Buchführung."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Leistungspreise eingeben",
+   "Füge unter Einstellungen > Finanzen Leistungen wie Haarschnitt, Bart und Färben mit ihren Preisen hinzu."
+  ],
+  [
+   "Zahlung markieren",
+   "Tippe auf das Zahlungssymbol und wähle Barzahlung, Karte oder Überweisung."
+  ],
+  [
+   "Tagesabschluss ansehen",
+   "Gesamteinnahmen, Anzahl der Leistungen und Aufteilung nach Zahlungsart stehen in der Finanzübersicht bereit."
+  ],
+  [
+   "Zeitraum auswerten",
+   "Nutze die Heatmap und Statistiken, um deine stärksten Zeiten und Stammkunden zu erkennen."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Wickelt Kuafix Zahlungen ab?",
+   "Nein. Der Kunde bezahlt den Friseur direkt, und der Friseur erfasst die Zahlung in der App. Kuafix erhebt keine Provision."
+  ],
+  [
+   "Welche Zahlungsarten werden getrennt erfasst?",
+   "Barzahlung, Karte und Überweisung (IBAN). Die Finanzübersicht zeigt für jede Zahlungsart eine eigene Summe."
+  ],
+  [
+   "Kann ich die Einnahmen pro Leistung sehen?",
+   "Ja. Die Finanzübersicht schlüsselt die Einnahmen auch nach deinen Leistungen auf, etwa Haarschnitt, Färben und Bart."
+  ],
+  [
+   "Ersetzt die App eine Buchhaltungssoftware?",
+   "Nein. Die Einnahmenaufzeichnungen in Kuafix dienen der internen Übersicht; Kuafix stellt keine Rechnungen aus und ersetzt keine ordnungsgemäße Buchführung."
+  ],
+  [
+   "Ist die Einnahmenerfassung kostenpflichtig?",
+   "Finanzen und Statistik gehören zu Friseur-Premium; der erste Monat ist eine kostenlose Testphase."
+  ]
+ ],
+ "ai_slug": "frisuren-mit-ki-ausprobieren",
+ "ai_name": "Frisuren mit KI ausprobieren",
+ "ai_title": "Frisuren, Bart & Haarfarben mit KI ausprobieren | Kuafix",
+ "ai_desc": "Probiere vor dem Friseurbesuch einen neuen Haarschnitt, Bart und Schnurrbart, eine Haarfarbe, Wellen oder Extensions mit KI auf deinem eigenen Foto aus und füge den Look deinem Termin hinzu, um ihn deinem Friseur zu zeigen.",
+ "ai_h1": "Frisuren, Bärte und Haarfarben mit KI ausprobieren",
+ "ai_lead": "Sieh das Ergebnis, bevor du im Friseurstuhl sitzt: Nimm ein Foto auf, wähle einen Look und zeige deinem Friseur den, der dir gefällt.",
+ "ai_card": "Haarschnitt, Bart / Schnurrbart, Haarfarbe, Wellen und Extensions auf deinem eigenen Foto.",
+ "ai_body": [
+  [
+   "Was kannst du ausprobieren?",
+   "Look ausprobieren in Kuafix bietet fünf Kategorien: <b>Haarschnitt</b>, <b>Bart / Schnurrbart</b>, <b>Haarfarbe</b>, <b>Wellen</b> und <b>Extensions</b>. Für jede Kategorie wählst du aus fertigen Vorlagen."
+  ],
+  [
+   "Zeig deinem Friseur, was du möchtest",
+   "Speichere das Ergebnis, das dir gefällt, in deinem Archiv und füge es deinem Termin hinzu. Dein Friseur sieht das Foto in den Termindetails, sodass du das Ergebnis zeigen kannst, statt es zu beschreiben."
+  ],
+  [
+   "Guthaben",
+   "Jedes erfolgreich erstellte Foto verbraucht <b>2 Guthabenpunkte</b>. Zu Beginn der kostenlosen Testphase erhältst du 6 Guthabenpunkte geschenkt, mit Premium kommen jede Woche 6 Guthabenpunkte hinzu, und du kannst Pakete mit 6, 12 oder 18 Guthabenpunkten kaufen."
+  ],
+  [
+   "Was passiert mit deinem Foto?",
+   "Dein Foto wird erst verarbeitet, wenn du einen Look ausprobierst. Die Bildverarbeitung erfolgt über den Dienst von Perfect Corp; dein hochgeladenes Originalfoto wird <b>innerhalb von 24 Stunden</b> nach der Verarbeitung gelöscht. Die Ergebnisbilder bleiben in deinem Archiv, bis du sie löschst. Die Ergebnisse dienen als Vorschau; der tatsächliche Haarschnitt kann davon abweichen."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Look ausprobieren öffnen",
+   "Tippe im Kundenbereich auf Look ausprobieren."
+  ],
+  [
+   "Foto aufnehmen",
+   "Positioniere dein Gesicht im angezeigten Rahmen oder wähle ein Foto aus deiner Galerie."
+  ],
+  [
+   "Look auswählen",
+   "Wähle eine Vorlage für Haarschnitt, Bart / Schnurrbart, Haarfarbe, Wellen oder Extensions."
+  ],
+  [
+   "Zum Termin hinzufügen",
+   "Speichere das Ergebnis, das dir gefällt, in deinem Archiv und hänge es deinem Termin an."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Ist das Ausprobieren von Frisuren mit KI kostenlos?",
+   "Look ausprobieren steht Kunden mit Kunden-Premium und Nutzern in ihrer kostenlosen Testphase zur Verfügung. Zu Beginn der Testphase erhältst du 6 Guthabenpunkte geschenkt; jedes erfolgreich erstellte Foto verbraucht 2 Guthabenpunkte."
+  ],
+  [
+   "Können Männer Bärte und Schnurrbärte ausprobieren?",
+   "Ja. Unter Bart / Schnurrbart kannst du verschiedene Bart- und Schnurrbartstile auf deinem eigenen Foto sehen."
+  ],
+  [
+   "Kann ich eine Haarfarbe ausprobieren?",
+   "Ja. Unter Haarfarbe kannst du vor dem Färben verschiedene Farben ausprobieren; Wellen und Extensions sind eigene Kategorien."
+  ],
+  [
+   "Wird mein Foto gespeichert?",
+   "Dein hochgeladenes Originalfoto wird innerhalb von 24 Stunden nach der Verarbeitung gelöscht. Das Ergebnisbild bleibt in deinem Archiv, bis du es löschst, und wird auch gelöscht, wenn du dein Konto löschst."
+  ],
+  [
+   "Wird das Ergebnis in Wirklichkeit genauso aussehen?",
+   "Das KI-Ergebnis dient als Vorschau. Dein Haartyp und die Arbeit des Friseurs können das Ergebnis beeinflussen; besprich den Look mit deinem Friseur."
+  ]
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: app di prenotazione per parrucchieri e barbieri in Turchia",
+ "meta_desc": "Agenda appuntamenti, monitoraggio di incassi e pagamenti e statistiche sugli orari di punta per parrucchieri e barbieri in Turchia; per i clienti: trova un parrucchiere, prenota online e prova acconciature con l'IA. Per iPhone, iPad e Android.",
+ "aria_lang": "Lingua",
+ "lang_note": "L'app Kuafix è in turco ed è pensata per i saloni di parrucchieri e i barbieri in Turchia.",
+ "h1_suffix": "app di prenotazione per parrucchieri e barbieri",
+ "lead": "I parrucchieri gestiscono appuntamenti, orari di lavoro e incassi in un unico posto; i clienti trovano il proprio parrucchiere e prenotano online un orario libero. Per iPhone, iPad e Android.",
+ "sign": "Sei [k:Parrucchiere],|o [m:Cliente]",
+ "sign_label": "Sei Parrucchiere, o Cliente",
+ "store_as": "Scarica su App Store",
+ "store_gp": "Disponibile su Google Play",
+ "aria_scroll": "Scorri verso il basso",
+ "aria_shots": "Schermate",
+ "shot_alts": [
+  "Schermata della mappa di calore degli orari di punta",
+  "Schermata del riepilogo finanziario giornaliero",
+  "Schermata delle statistiche sui clienti",
+  "Schermata dell'elenco degli appuntamenti giornalieri",
+  "Schermata del calendario mensile",
+  "Schermata di accesso per parrucchieri e clienti",
+  "Schermata di accesso per i clienti",
+  "Schermata di prenotazione"
+ ],
+ "aria_panels": "Pannelli parrucchiere e cliente",
+ "panel_k": "Pannello parrucchiere",
+ "menu_k": [
+  "Calendario",
+  "Aggiungi appuntamento",
+  "Statistiche",
+  "Finanze",
+  "Impostazioni"
+ ],
+ "panel_m": "Pannello cliente",
+ "menu_m": [
+  "Prenota",
+  "I miei appuntamenti",
+  "Trova un parrucchiere",
+  "Prova un look"
+ ],
+ "chips": [
+  "Taglio",
+  "Barba / Baffi",
+  "Colore capelli",
+  "Onde",
+  "Extension"
+ ],
+ "slot_book": "Prenota",
+ "slot_full": "Prenotato",
+ "aria_board": "Pannello di controllo del salone",
+ "heat_head": "Hai avuto 1.218 appuntamenti tra il 16 ottobre e il 13 gennaio.",
+ "heat_label": "Mappa di calore degli appuntamenti per ora e giorno della settimana",
+ "days": [
+  "L",
+  "M",
+  "M",
+  "G",
+  "V",
+  "S",
+  "D"
+ ],
+ "bd_date": "Giovedì 5 marzo 2026",
+ "bd_good": "Ottimo! I tuoi incassi sono superiori del 12% rispetto a ieri ↑",
+ "bd_total": "Incassi totali",
+ "bd_count": "Servizi",
+ "bd_cash": "Contanti:",
+ "bd_card": "Carta:",
+ "fin_card": "Pagamenti in contanti, con carta e bonifico, incassi giornalieri e mensili, mappa di calore degli orari di punta.",
+ "bd_iban": "Bonifico:",
+ "services": [
+  "Taglio bambino",
+  "Colorazione capelli",
+  "Taglio",
+  "Barba",
+  "Lavaggio e trattamento"
+ ],
+ "about_h2": "Cos'è Kuafix?",
+ "about_p": "Kuafix è un'app per appuntamenti che riunisce saloni di parrucchieri, barbieri e clienti in un'unica app. Il parrucchiere gestisce il calendario, gli orari di lavoro, i giorni di chiusura, i prezzi dei servizi e gli incassi giornalieri. Il cliente trova il parrucchiere per provincia e distretto, per nome, tramite l'ID o il codice QR del parrucchiere, visualizza gli orari liberi e prenota senza telefonare. Prima dell'appuntamento, i clienti possono provare un nuovo taglio, una barba o un colore di capelli sulla propria foto con l'IA.",
+ "k_h3": "Per parrucchieri e barbieri",
+ "k_points": [
+  [
+   "Agenda appuntamenti",
+   "Viste giornaliera, settimanale e mensile. Orari liberi e prenotati a colpo d'occhio; tocca due volte un orario per aggiungere un appuntamento."
+  ],
+  [
+   "Clienti al telefono e senza prenotazione",
+   "Inserisci appuntamenti anche per i clienti che non usano l'app: basta un nome, telefono e nota sono facoltativi. Apri uno spazio aggiuntivo per un orario che non è nell'elenco."
+  ],
+  [
+   "Le tue regole di lavoro",
+   "Orari di apertura, durata degli appuntamenti (30 min, 60 min o una durata personalizzata di almeno 10 min), giorni di chiusura settimanali, ferie e quanti giorni prima i clienti possono prenotare."
+  ],
+  [
+   "Monitoraggio di incassi e pagamenti",
+   "Segna ogni appuntamento come pagato in contanti, con carta o tramite bonifico (IBAN). Incassi giornalieri, settimanali e mensili, numero di servizi e incassi per servizio."
+  ],
+  [
+   "Statistiche sugli orari di punta",
+   "Visualizza i giorni e gli orari con più appuntamenti su una mappa di calore, insieme al numero di appuntamenti e clienti per qualsiasi periodo."
+  ],
+  [
+   "Dettagli del cliente",
+   "Visualizza la nota del cliente e la foto dell'acconciatura allegata, chiamalo con un tocco o annulla l'appuntamento se necessario."
+  ]
+ ],
+ "m_h3": "Per i clienti",
+ "m_points": [
+  [
+   "Trova un parrucchiere",
+   "Visualizza i parrucchieri per provincia e distretto, restringi la ricerca per nome oppure usa l'ID o il codice QR fornito dal tuo parrucchiere. Aggiungi il tuo parrucchiere abituale ai preferiti."
+  ],
+  [
+   "Prenota online",
+   "Visualizza gli orari liberi del tuo parrucchiere e toccane uno per prenotare. Non servono telefonate o messaggi."
+  ],
+  [
+   "I miei appuntamenti",
+   "Appuntamenti futuri e passati in un unico elenco; annulla dall'app se mancano più di 45 minuti all'appuntamento."
+  ],
+  [
+   "Prova un look (IA)",
+   "Prova tagli, barba e baffi, colori di capelli, onde o extension sulla tua foto e salva i risultati che ti piacciono nel tuo archivio."
+  ],
+  [
+   "Mostralo al parrucchiere",
+   "Aggiungi all'appuntamento una nota e una foto dell'acconciatura dal tuo archivio; il tuo parrucchiere vede esattamente cosa desideri."
+  ]
+ ],
+ "topics_h2": "Cosa puoi fare con Kuafix?",
+ "topics_p": "Guide dettagliate sui tre argomenti più richiesti:",
+ "price_h2": "Prezzi",
+ "price_p": "Kuafix si scarica gratuitamente. Il pannello parrucchiere e le funzioni aggiuntive per i clienti si sbloccano con un abbonamento e tutti hanno 1 mese di prova gratuita. Gli appuntamenti non si pagano nell'app; paghi il servizio direttamente al parrucchiere.",
+ "price_items": [
+  [
+   "Premium parrucchiere",
+   "Calendario, prenotazioni, statistiche e finanze: 399 TL al mese oppure 999 TL per 3 mesi. Il primo mese è di prova gratuita."
+  ],
+  [
+   "Cliente: gratis",
+   "Cercare parrucchieri, salvarli nei preferiti, prenotare online e gestire i propri appuntamenti è gratuito."
+  ],
+  [
+   "Premium cliente",
+   "Note e foto negli appuntamenti, prova dei capelli con l'IA e 6 crediti ogni settimana: 23,99 TL al mese oppure 63,99 TL per 3 mesi."
+  ],
+  [
+   "Crediti IA",
+   "Ogni foto elaborata correttamente utilizza 2 crediti. Pacchetti aggiuntivi: 6 crediti a 12,99 TL, 12 crediti a 21,99 TL, 18 crediti a 29,99 TL."
+  ]
+ ],
+ "price_fine": "I prezzi si riferiscono allo store turco, come indicato nei termini di utilizzo; il prezzo aggiornato viene mostrato nella schermata di acquisto. Gli abbonamenti si rinnovano secondo le regole dello store, salvo disdetta.",
+ "faq_h2": "Domande frequenti",
+ "faq_home": [
+  [
+   "Kuafix è gratis?",
+   "Scaricare l'app, trovare un parrucchiere e prenotare come cliente è gratuito. Il pannello parrucchiere prevede 1 mese di prova gratuita, dopodiché è necessario un abbonamento Premium parrucchiere (399 TL al mese oppure 999 TL per 3 mesi). I clienti possono scegliere Premium cliente per note, foto e funzioni IA."
+  ],
+  [
+   "E se il mio cliente non usa l'app?",
+   "Nessun problema. Puoi aggiungere dal calendario appuntamenti per i clienti che telefonano o si presentano senza prenotazione; basta un nome, telefono e nota sono facoltativi."
+  ],
+  [
+   "Come mi trovano i clienti?",
+   "In Trova un parrucchiere, i clienti scelgono la tua provincia e il tuo distretto per trovarti nell'elenco oppure cercano il tuo nome. Se condividi il tuo ID parrucchiere o il codice QR, ti trovano direttamente e ti aggiungono ai preferiti."
+  ],
+  [
+   "Su quali dispositivi funziona?",
+   "Su iPhone e iPad (iOS 17.6 o versioni successive) e telefoni Android. Scaricala da App Store o Google Play."
+  ],
+  [
+   "In che lingua è l'app?",
+   "L'app è in turco ed è pensata per i saloni di parrucchieri e i barbieri in Turchia. Questo sito è pubblicato in 17 lingue per presentare l'app."
+  ],
+  [
+   "Si possono annullare gli appuntamenti?",
+   "Sì. I clienti possono annullare dall'app se mancano più di 45 minuti all'appuntamento; altrimenti devono chiamare il parrucchiere. Il parrucchiere può annullare secondo la stessa regola."
+  ],
+  [
+   "Come funziona la prova dei capelli con l'IA?",
+   "In Prova un look, scatti una foto e scegli un taglio, barba / baffi, un colore di capelli, onde o extension. Ogni risultato generato correttamente utilizza 2 crediti. La foto originale viene eliminata entro 24 ore dall'elaborazione."
+  ],
+  [
+   "I miei dati sono al sicuro e posso eliminare il mio account?",
+   "I dati sono archiviati su Firebase (Google) e condivisi tra parrucchiere e cliente solo nella misura necessaria per l'appuntamento. Puoi eliminare il tuo account dall'app in qualsiasi momento; i dettagli sono nell'informativa sulla privacy e nella pagina di eliminazione dell'account."
+  ]
+ ],
+ "cta_h2": "Gestisci il tuo salone dal telefono",
+ "cta_p": "Parrucchieri: provatela gratis per 1 mese. Clienti: trovate il vostro parrucchiere e prenotate subito.",
+ "aria_docs": "Documenti",
+ "doc_privacy": "Informativa sulla privacy",
+ "doc_delete": "Eliminazione dell'account",
+ "doc_terms": "Termini di utilizzo (EULA)",
+ "doc_support": "Assistenza",
+ "steps_h2": "Come funziona",
+ "other_h2": "Altre guide",
+ "topic_cta_h2": "Scarica Kuafix",
+ "topic_cta_p": "Per iPhone, iPad e Android. Il pannello parrucchiere è gratuito per 1 mese.",
+ "book_slug": "app-prenotazioni-parrucchieri",
+ "book_name": "App di prenotazione per parrucchieri",
+ "book_title": "App parrucchieri e barbieri: prenotazioni online | Kuafix",
+ "book_desc": "Prenotazioni online per parrucchieri e barbieri in Turchia: rendi disponibili i tuoi orari liberi ai clienti e inserisci le prenotazioni telefoniche nello stesso calendario. I clienti trovano il proprio parrucchiere e prenotano senza telefonare.",
+ "book_h1": "App di prenotazione per parrucchieri e barbieri",
+ "book_lead": "Meno telefonate: consenti ai clienti di vedere i tuoi orari liberi e prenotare da soli, e visualizza tutta la giornata in un unico calendario.",
+ "book_card": "Prenotazioni online, orari di lavoro, giorni di chiusura e regole di annullamento.",
+ "book_body": [
+  [
+   "Perché prenotare online?",
+   "Le telefonate durante la giornata interrompono il lavoro e le prenotazioni scritte su un'agenda possono creare confusione. In Kuafix il cliente vede gli <b>orari liberi</b> del parrucchiere e ne sceglie uno; la prenotazione appare subito nel calendario del parrucchiere. Anche i clienti che telefonano o si presentano senza prenotazione vengono inseriti nello stesso calendario, così gli appuntamenti non si sovrappongono."
+  ],
+  [
+   "Il calendario segue le tue regole",
+   "Imposti gli orari di apertura e chiusura, la durata degli appuntamenti (30 min, 60 min o una durata personalizzata di almeno 10 minuti) e <b>quanti giorni prima</b> i clienti possono prenotare (5, 10 o un valore personalizzato). I giorni di chiusura settimanali e le ferie risultano chiusi e nessuno può prenotarli."
+  ],
+  [
+   "Dal lato del cliente",
+   "I clienti trovano il parrucchiere in Trova un parrucchiere scegliendo provincia e distretto, cercando per nome oppure usando l'<b>ID o il codice QR</b> del parrucchiere, e lo aggiungono ai preferiti. In Prenota scelgono un giorno e toccano un orario libero. È possibile prenotare un appuntamento al giorno; gli orari già trascorsi non sono disponibili."
+  ],
+  [
+   "Annullamento e contatti",
+   "Se mancano più di 45 minuti all'appuntamento, sia il cliente sia il parrucchiere possono annullare dall'app; altrimenti si contattano telefonicamente. Il parrucchiere vede la nota del cliente e la foto dell'acconciatura allegata nei dettagli dell'appuntamento."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Crea il tuo profilo",
+   "Registrati come parrucchiere con il tuo numero di telefono e inserisci il nome e l'indirizzo del salone."
+  ],
+  [
+   "Imposta le tue regole di lavoro",
+   "Scegli orari, durata degli appuntamenti, giorni di chiusura e ferie."
+  ],
+  [
+   "Condividi con i tuoi clienti",
+   "Condividi il tuo ID parrucchiere o il codice QR; i clienti ti aggiungono ai preferiti."
+  ],
+  [
+   "Le prenotazioni arrivano nel tuo calendario",
+   "Le prenotazioni online e quelle che aggiungi tu compaiono nello stesso calendario."
+  ]
+ ],
+ "book_faq": [
+  [
+   "L'app di prenotazione per saloni è a pagamento?",
+   "Kuafix si scarica gratuitamente. Il pannello parrucchiere prevede 1 mese di prova gratuita; in seguito Premium parrucchiere costa 399 TL al mese oppure 999 TL per 3 mesi. I clienti non pagano per prenotare."
+  ],
+  [
+   "Il cliente deve avere l'app?",
+   "No. Puoi aggiungere appuntamenti per i clienti senza app; basta un nome, telefono e nota sono facoltativi."
+  ],
+  [
+   "Posso impostare la durata degli appuntamenti?",
+   "Sì. Scegli 30 minuti, 60 minuti o una durata personalizzata di almeno 10 minuti. Puoi anche aprire uno spazio aggiuntivo per un orario che non è nell'elenco."
+  ],
+  [
+   "I clienti possono prenotare nei miei giorni di chiusura?",
+   "No. I giorni di chiusura settimanali e le ferie che aggiungi risultano chiusi nel calendario, quindi i clienti non possono prenotarli."
+  ],
+  [
+   "È adatta a barbieri e parrucchieri da uomo?",
+   "Sì. Kuafix funziona allo stesso modo per parrucchieri da donna e da uomo, barbieri e saloni gestiti da una sola persona; puoi modificare il tuo elenco di servizi (taglio, barba, colorazione e così via)."
+  ]
+ ],
+ "fin_slug": "monitoraggio-incassi-salone",
+ "fin_name": "Monitoraggio incassi del salone",
+ "fin_title": "Incassi del salone: totali giornalieri e orari di punta | Kuafix",
+ "fin_desc": "Monitoraggio degli incassi per parrucchieri e barbieri: segna ogni appuntamento come pagato in contanti, con carta o tramite bonifico e visualizza incassi giornalieri e mensili, incassi per servizio e orari di punta.",
+ "fin_h1": "Monitoraggio incassi e statistiche del salone",
+ "fin_lead": "Conosci gli incassi della giornata senza contare la cassa: quanto hai incassato oggi, qual è stato il servizio più richiesto e quando hai più appuntamenti.",
+ "fin_body": [
+  [
+   "Collega i pagamenti agli appuntamenti",
+   "Ogni appuntamento in Kuafix ha un'icona di pagamento. Il grigio indica che non è ancora stato registrato alcun pagamento; toccala e scegli <b>contanti, carta o bonifico (IBAN)</b> e diventa verde. Inserisci i prezzi dei servizi una sola volta in Impostazioni > Finanze (fino a 20 servizi) e l'importo viene compilato automaticamente."
+  ],
+  [
+   "Incassi giornalieri, settimanali e mensili",
+   "La schermata Finanze mostra gli <b>incassi totali</b> del giorno selezionato, il numero di servizi, la suddivisione per tipo di pagamento e gli incassi per servizio, e indica se sono aumentati o diminuiti rispetto al giorno precedente. Lo stesso riepilogo è disponibile per settimana e per mese."
+  ],
+  [
+   "Giorni e orari di punta",
+   "La <b>mappa di calore</b> in Statistiche mostra con i colori quanti appuntamenti hai avuto in ogni giorno e fascia oraria nel periodo selezionato. Usala per pianificare orari, pause o giornate promozionali."
+  ],
+  [
+   "Storico per cliente",
+   "Le statistiche sui clienti mostrano con quale frequenza viene ogni cliente e i servizi effettuati in passato. Kuafix non incassa pagamenti; questi dati servono per il monitoraggio interno della tua attività e non sostituiscono la contabilità ufficiale."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Inserisci i prezzi dei servizi",
+   "Aggiungi servizi come taglio, barba e colorazione con i relativi prezzi in Impostazioni > Finanze."
+  ],
+  [
+   "Registra il pagamento",
+   "Tocca l'icona di pagamento e scegli contanti, carta o bonifico."
+  ],
+  [
+   "Consulta il riepilogo di fine giornata",
+   "Incassi totali, numero di servizi e suddivisione dei pagamenti sono già disponibili nella schermata Finanze."
+  ],
+  [
+   "Analizza il periodo",
+   "Usa la mappa di calore e le statistiche per individuare gli orari di punta e i clienti abituali."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Kuafix incassa i pagamenti?",
+   "No. Il cliente paga direttamente il parrucchiere, che registra il pagamento nell'app. Kuafix non applica commissioni."
+  ],
+  [
+   "Quali tipi di pagamento vengono monitorati separatamente?",
+   "Contanti, carta e bonifico (IBAN). La schermata Finanze mostra un totale separato per ciascuno."
+  ],
+  [
+   "Posso vedere gli incassi per servizio?",
+   "Sì. La schermata Finanze suddivide gli incassi anche per servizio, ad esempio taglio, colorazione e barba."
+  ],
+  [
+   "Sostituisce un software di contabilità?",
+   "No. Le registrazioni degli incassi in Kuafix servono per il monitoraggio interno; Kuafix non emette fatture e non sostituisce la contabilità ufficiale."
+  ],
+  [
+   "Il monitoraggio degli incassi è a pagamento?",
+   "Finanze e statistiche fanno parte di Premium parrucchiere; il primo mese è di prova gratuita."
+  ]
+ ],
+ "ai_slug": "prova-acconciature-intelligenza-artificiale",
+ "ai_name": "Prova acconciature con l'IA",
+ "ai_title": "Prova acconciature, barba e colori di capelli con l'IA | Kuafix",
+ "ai_desc": "Prima di andare dal parrucchiere, prova un nuovo taglio, barba e baffi, un colore di capelli, onde o extension sulla tua foto con l'IA, poi aggiungi il look al tuo appuntamento per mostrarlo al parrucchiere.",
+ "ai_h1": "Prova acconciature, barbe e colori di capelli con l'IA",
+ "ai_lead": "Vedi il risultato prima di sederti in poltrona: scatta una foto, scegli un look e mostra al parrucchiere quello che ti piace.",
+ "ai_card": "Taglio, barba / baffi, colore, onde ed extension sulla tua foto.",
+ "ai_body": [
+  [
+   "Cosa puoi provare?",
+   "Prova un look di Kuafix offre cinque tipi di prova: <b>taglio</b>, <b>barba / baffi</b>, <b>colore capelli</b>, <b>onde</b> ed <b>extension</b>. Per ciascuno puoi scegliere tra modelli predefiniti."
+  ],
+  [
+   "Mostra al parrucchiere cosa desideri",
+   "Salva il risultato che ti piace nel tuo archivio e aggiungilo all'appuntamento. Il parrucchiere vede la foto nei dettagli dell'appuntamento, così puoi mostrare il risultato anziché descriverlo."
+  ],
+  [
+   "Crediti",
+   "Ogni foto elaborata correttamente utilizza <b>2 crediti</b>. Attivando la prova gratuita ricevi 6 crediti in regalo, Premium aggiunge 6 crediti ogni settimana e puoi acquistare pacchetti da 6, 12 o 18 crediti."
+  ],
+  [
+   "Cosa succede alla tua foto?",
+   "La tua foto viene elaborata solo quando avvii una prova. Per l'elaborazione delle immagini viene utilizzato il servizio Perfect Corp; la foto originale che carichi viene eliminata <b>entro 24 ore</b> dall'elaborazione. Le immagini dei risultati rimangono nel tuo archivio finché non le elimini. I risultati sono un'anteprima; il taglio reale potrebbe non essere identico."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Apri Prova un look",
+   "Tocca Prova un look nel pannello cliente."
+  ],
+  [
+   "Scatta la tua foto",
+   "Posiziona il viso nella cornice guida oppure scegli una foto dalla galleria."
+  ],
+  [
+   "Scegli un look",
+   "Scegli un modello di taglio, barba / baffi, colore, onde o extension."
+  ],
+  [
+   "Aggiungilo all'appuntamento",
+   "Salva il risultato che ti piace nel tuo archivio e allegalo all'appuntamento."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "La prova dei capelli con l'IA è gratuita?",
+   "Prova un look è disponibile per gli abbonati a Premium cliente e per gli utenti nel periodo di prova gratuita. Attivando la prova ricevi 6 crediti in regalo; ogni foto elaborata correttamente utilizza 2 crediti."
+  ],
+  [
+   "Gli uomini possono provare barba e baffi?",
+   "Sì. In Barba / Baffi puoi vedere diversi stili di barba e baffi sulla tua foto."
+  ],
+  [
+   "Posso provare un colore di capelli?",
+   "Sì. In Colore capelli puoi provare diversi colori prima della tinta; Onde ed Extension sono categorie separate."
+  ],
+  [
+   "La mia foto viene conservata?",
+   "La foto originale che carichi viene eliminata entro 24 ore dall'elaborazione. L'immagine del risultato rimane nel tuo archivio finché non la elimini e viene eliminata se cancelli il tuo account."
+  ],
+  [
+   "Il risultato sarà identico nella realtà?",
+   "Il risultato dell'IA è un'anteprima. Il tuo tipo di capelli e il lavoro del parrucchiere possono modificare il risultato; confrontati con il parrucchiere sul look desiderato."
+  ]
+ ]
+}

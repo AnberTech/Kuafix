@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: Sepana Randevûyên Salonên Poran û Berberan",
+ "meta_desc": "Salnameya randevûyan, şopandina dahat û dravdanan û amarên demên mijûl ji bo salonên poran û berberên li Tirkiyeyê; ji bo mişteriyan: kuaforek bibînin, online randevû bistînin û modelên poran bi AI biceribînin. Ji bo iPhone, iPad û Android.",
+ "aria_lang": "Ziman",
+ "lang_note": "Sepana Kuafix bi tirkî ye û ji bo salonên poran û berberên li Tirkiyeyê hatiye çêkirin.",
+ "h1_suffix": "sepana randevûyên salonên poran û berberan",
+ "lead": "Kuafor randevû, demên xebatê û dahatê li yek cihî birêve dibin; mişterî kuaforê xwe dibînin û online ji demên vala randevû digirin. Ji bo iPhone, iPad û Android.",
+ "sign": "Bibe [k:Kuafor],|an jî [m:Mişterî]",
+ "sign_label": "Bibe Kuafor, an jî Mişterî",
+ "store_as": "Ji App Store daxînin",
+ "store_gp": "Ji Google Play bistînin",
+ "aria_scroll": "Ber bi jêr ve biçin",
+ "aria_shots": "Wêneyên ekranê",
+ "shot_alts": [
+  "Ekrana nexşeya germayê ya demên mijûl",
+  "Ekrana kurteya darayî ya rojane",
+  "Ekrana amarên mişteriyan",
+  "Ekrana lîsteya randevûyên rojane",
+  "Ekrana salnameya mehane",
+  "Ekrana têketina kuafor û mişteriyan",
+  "Ekrana têketina mişteriyan",
+  "Ekrana randevûgirtinê"
+ ],
+ "aria_panels": "Panelên kuafor û mişteriyan",
+ "panel_k": "Panela Kuaforan",
+ "menu_k": [
+  "Salname",
+  "Randevû Lê Zêde Bike",
+  "Amar",
+  "Darayî",
+  "Mîheng"
+ ],
+ "panel_m": "Panela Mişteriyan",
+ "menu_m": [
+  "Randevû Bistîne",
+  "Randevûyên Min",
+  "Kuaforek Bibîne",
+  "Modelek Biceribîne"
+ ],
+ "chips": [
+  "Birîna Poran",
+  "Rih / Simbel",
+  "Rengê Poran",
+  "Pêl",
+  "Porên Pêvek"
+ ],
+ "slot_book": "Randevû Bistîne",
+ "slot_full": "Randevû Hatiye Girtin",
+ "aria_board": "Panela salonê",
+ "heat_head": "Di navbera 16 Cotmeh û 13 Rêbendanê de 1,218 randevûyên we hebûn.",
+ "heat_label": "Nexşeya germayê ya randevûyan li gorî saet û roja hefteyê",
+ "days": [
+  "D",
+  "S",
+  "Ç",
+  "P",
+  "Î",
+  "Ş",
+  "Y"
+ ],
+ "bd_date": "Pêncşem, 5 Adar 2026",
+ "bd_good": "Pir baş! Dahata we ji duh 12% zêdetir e ↑",
+ "bd_total": "Tevahiya Dahatê",
+ "bd_count": "Xizmet",
+ "bd_cash": "Nexd:",
+ "bd_card": "Kart:",
+ "fin_card": "Dravdanên bi nexd, kart û veguhastina bankê, dahata rojane û mehane, nexşeya germayê ya demên mijûl.",
+ "bd_iban": "Veguhastina bankê:",
+ "services": [
+  "Birîna Porê Zarokan",
+  "Rengkirina Poran",
+  "Birîna Poran",
+  "Rih",
+  "Şûştin û Lênêrîn"
+ ],
+ "about_h2": "Kuafix çi ye?",
+ "about_p": "Kuafix sepaneke randevûyan e ku salonên poran û berberxaneyan bi mişteriyên wan re di yek sepanê de digihîne hev. Kuafor salname, demên xebatê, rojên betlaneyê, bihayên xizmetan û dahata rojane birêve dibe. Mişterî kuaforê li gorî parêzgeh û navçe, nav, ID ya kuafor an koda QR dibîne, demên vala dibîne û bêyî telefonkirinê randevû distîne. Berî randevûyê, mişterî dikarin bi AI li ser wêneyê xwe birînek nû ya poran, rih an rengê poran biceribînin.",
+ "k_h3": "Ji bo kuafor û berberan",
+ "k_points": [
+  [
+   "Salnameya randevûyan",
+   "Dîtinên rojane, heftane û mehane. Demên vala û girtî bi nihêrînekê; ji bo lêzêdekirina randevûyekê du caran li demekê bidin."
+  ],
+  [
+   "Mişteriyên telefonê û bê randevû",
+   "Ji mişteriyên ku sepanê bikar nayînin re jî randevû çêkin: navek bes e, telefon û not vebijarkî ne. Ji bo demeke ku di lîsteyê de tune ye demeke zêde vekin."
+  ],
+  [
+   "Rêbazên xebata we",
+   "Saetên vekirinê, dirêjahiya randevûyê (30 deqîqe, 60 deqîqe an dirêjahiyeke taybet a herî kêm 10 deqîqeyan), rojên betlaneya heftane, betlane û mişterî çend roj berê dikarin randevû bistînin."
+  ],
+  [
+   "Şopandina dahat û dravdanan",
+   "Her randevûyê wekî bi nexd, kart an veguhastina bankê (IBAN) hatî dayîn nîşan bikin. Dahata rojane, heftane û mehane, hejmara xizmetan û dahata her xizmetê."
+  ],
+  [
+   "Amarên demên mijûl",
+   "Roj û saetên xwe yên herî mijûl li ser nexşeya germayê bibînin, herwiha hejmara randevû û mişteriyan ji bo her heyamê."
+  ],
+  [
+   "Agahiyên mişteriyan",
+   "Nota mişterî û wêneyê modela poran ê ku pêve kiriye bibînin, bi yek lêdanê telefonê bikin an heke pêwîst be betal bikin."
+  ]
+ ],
+ "m_h3": "Ji bo mişteriyan",
+ "m_points": [
+  [
+   "Kuaforek bibîne",
+   "Kuaforan li gorî parêzgeh û navçeyê rêz bikin, li gorî navî teng bikin an ID an koda QR ya kuaforê we daye bikar bînin. Kuaforê xwe yê herdemî li bijareyan zêde bikin."
+  ],
+  [
+   "Online randevû bistîne",
+   "Demên vala yên kuaforê xwe bibînin û ji bo randevûgirtinê li yekê bidin. Pêdivî bi telefon an peyaman tune ye."
+  ],
+  [
+   "Randevûyên min",
+   "Randevûyên pêşerojê û borî di yek lîsteyê de; heke ji randevûyê zêdetirî 45 deqîqe mabe, di sepanê de betal bikin."
+  ],
+  [
+   "Modelek Biceribîne (AI)",
+   "Birîna poran, rih û simbel, rengê poran, pêl an porên pêvek li ser wêneyê xwe biceribînin û yên ku jê hez dikin di arşîva xwe de tomar bikin."
+  ],
+  [
+   "Nîşanî kuaforê xwe bidin",
+   "Ji arşîva xwe notek û wêneyê modela poran li randevûyê zêde bikin; kuaforê we tam dibîne ka hûn çi dixwazin."
+  ]
+ ],
+ "topics_h2": "Hûn dikarin bi Kuafix çi bikin?",
+ "topics_p": "Rêberên berfireh ji bo sê mijarên herî pir tên pirsîn:",
+ "price_h2": "Bihayê",
+ "price_p": "Daxistina Kuafix belaş e. Panela kuaforan û taybetmendiyên zêde yên mişteriyan bi abonetiyê tên vekirin û her kes ceribandineke belaş a 1 mehê distîne. Hûn di sepanê de pereyê randevûyan nadin; pereyê xizmetê rasterast didin kuafor.",
+ "price_items": [
+  [
+   "Kuafor Premium",
+   "Salname, randevû, amar û darayî: mehane 399 TL an ji bo 3 mehan 999 TL. Meha yekem ceribandina belaş e."
+  ],
+  [
+   "Mişterî: belaş",
+   "Dîtina kuaforan, bijare, online randevûgirtin û birêvebirina randevûyên we belaş in."
+  ],
+  [
+   "Mişterî Premium",
+   "Not û wêneyên randevûyan, ceribandina poran bi AI û her hefte 6 kredî: mehane 23,99 TL an ji bo 3 mehan 63,99 TL."
+  ],
+  [
+   "Krediyên AI",
+   "Her wêneyê serketî 2 krediyan bikar tîne. Pakêtên zêde: 6 kredî 12,99 TL, 12 kredî 21,99 TL, 18 kredî 29,99 TL."
+  ]
+ ],
+ "price_fine": "Biha ji bo firoşgeha Tirkiyeyê ne, wekî ku di şertên bikaranînê de hatine nivîsandin; bihayê heyî li ser ekrana kirînê tê nîşandan. Abonetî, heya neyên betalkirin, li gorî rêbazên firoşgehê nû dibin.",
+ "faq_h2": "Pirsên ku gelek tên pirsîn",
+ "faq_home": [
+  [
+   "Kuafix belaş e?",
+   "Daxistina sepanê, dîtina kuaforekî û randevûgirtina wekî mişterî belaş in. Panela kuaforan ceribandineke belaş a 1 mehê heye; piştî wê abonetiyeke Kuafor Premium pêwîst e (mehane 399 TL an ji bo 3 mehan 999 TL). Mişterî dikarin ji bo not, wêne û taybetmendiyên AI bi vebijarkî Mişterî Premium bistînin."
+  ],
+  [
+   "Heke mişteriyê min sepanê bikar neyne çi dibe?",
+   "Pirsgirêk tune ye. Hûn dikarin ji salnameyê ji mişteriyên telefonê û bê randevû re randevûyan zêde bikin; navek bes e, telefon û not vebijarkî ne."
+  ],
+  [
+   "Mişterî çawa min dibînin?",
+   "Di Kuaforek Bibîne de, mişterî parêzgeh û navçeya we hildibijêrin da ku we di lîsteyê de bibînin, an li gorî navê we digerin. Heke hûn ID ya kuafor an koda QR parve bikin, ew we rasterast dibînin û li bijareyan zêde dikin."
+  ],
+  [
+   "Li ser kîjan amûran dixebite?",
+   "iPhone û iPad (iOS 17.6 an nûtir) û telefonên Android. Ji App Store an Google Play daxînin."
+  ],
+  [
+   "Sepan bi kîjan zimanî ye?",
+   "Sepan bi tirkî ye û ji bo salonên poran û berberên li Tirkiyeyê hatiye çêkirin. Ev malper ji bo danasîna sepanê bi 17 zimanan tê weşandin."
+  ],
+  [
+   "Randevû dikarin werin betalkirin?",
+   "Erê. Heke ji randevûyê zêdetirî 45 deqîqe mabe, mişterî dikarin di sepanê de betal bikin; wekî din telefonî kuafor dikin. Kuafor jî dikare li gorî heman rêbazê betal bike."
+  ],
+  [
+   "Ceribandina poran bi AI çawa dixebite?",
+   "Di Modelek Biceribîne de, hûn wêneyek digirin û birîna poran, rih / simbel, rengê poran, pêl an porên pêvek hildibijêrin. Her encama serketî 2 krediyan bikar tîne. Wêneyê we yê resen piştî pêvajoyê di nav 24 saetan de tê jêbirin."
+  ],
+  [
+   "Daneyên min ewle ne û ez dikarim hesabê xwe jê bibim?",
+   "Dane li Firebase (Google) tên hilanîn û tenê bi qasî pêwîstiya randevûyê di navbera kuafor û mişterî de tên parvekirin. Hûn dikarin her dem di sepanê de hesabê xwe jê bibin; hûragahî di polîtîkaya nepeniyê û rûpela jêbirina hesabê de ne."
+  ]
+ ],
+ "cta_h2": "Salona xwe ji bêrîka xwe birêve bibin",
+ "cta_p": "Kuafor: 1 meh belaş biceribînin. Mişterî: kuaforê xwe bibînin û niha randevû bistînin.",
+ "aria_docs": "Belge",
+ "doc_privacy": "Polîtîkaya Nepeniyê",
+ "doc_delete": "Jêbirina Hesabê",
+ "doc_terms": "Şertên Bikaranînê (EULA)",
+ "doc_support": "Piştgirî",
+ "steps_h2": "Çawa dixebite",
+ "other_h2": "Rêberên din",
+ "topic_cta_h2": "Kuafix daxînin",
+ "topic_cta_p": "Ji bo iPhone, iPad û Android. Panela kuaforan 1 meh belaş e.",
+ "book_slug": "sepana-randevuyan-a-salona-poran",
+ "book_name": "Sepana randevûyên salonên poran",
+ "book_title": "Randevûyên Online ji bo Salon û Berberan | Kuafix",
+ "book_desc": "Randevûgirtina online ji bo salonên poran û berberên li Tirkiyeyê: demên xwe yên vala ji mişteriyan re vekin û randevûyên telefonê têxin heman salnameyê. Mişterî kuaforê xwe dibînin û bêyî telefonkirinê randevû distînin.",
+ "book_h1": "Sepana randevûyên salonên poran û berberan",
+ "book_lead": "Telefonên kêmtir: bila mişterî demên we yên vala bibînin û bi xwe randevû bistînin, hûn jî tevahiya roja xwe li ser salnameyekê bibînin.",
+ "book_card": "Randevûgirtina online, saetên xebatê, rojên betlaneyê û rêbazên betalkirinê.",
+ "book_body": [
+  [
+   "Çima randevûgirtina online?",
+   "Telefonên di nava rojê de xebata we qut dikin û randevûyên di defterê de tên nivîsandin tevlihev dibin. Di Kuafix de mişterî <b>demên vala</b> yên kuafor dibîne û yekê hildibijêre; randevû yekser li salnameya kuafor xuya dibe. Mişteriyên telefonê û bê randevû jî dikevin heman salnameyê, ji ber vê yekê tiştek li ser hev nakeve."
+  ],
+  [
+   "Salname rêbazên we dişopîne",
+   "Hûn saetên vekirin û girtinê, dirêjahiya randevûyê (30 deqîqe, 60 deqîqe an dirêjahiyeke taybet a herî kêm 10 deqîqeyan) û mişterî <b>çend roj berê</b> dikarin randevû bistînin (5, 10 an taybet) destnîşan dikin. Rojên betlaneya heftane û betlane wekî girtî xuya dibin û kes nikare di wan de randevû bistîne."
+  ],
+  [
+   "Aliyê mişteriyan",
+   "Mişterî di Kuaforek Bibîne de bi hilbijartina parêzgeh û navçeyê, lêgerîna li gorî navî an bi <b>ID an koda QR</b> ya kuafor, kuafor dibînin û li bijareyan zêde dikin. Di Randevû Bistîne de rojekê hildibijêrin û li demeke vala didin. Di rojekê de tenê yek randevû dikare were girtin; demên borî girtî ne."
+  ],
+  [
+   "Betalkirin û têkilî",
+   "Heke ji randevûyê zêdetirî 45 deqîqe mabe, hem mişterî hem jî kuafor dikarin di sepanê de betal bikin; wekî din telefonê dikin. Kuafor di hûragahiyên randevûyê de nota mişterî û wêneyê modela poran ê pêvekirî dibîne."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Profîla xwe çêkin",
+   "Bi hejmara telefona xwe wekî kuafor qeyd bibin û nav û navnîşana salona xwe binivîsin."
+  ],
+  [
+   "Rêbazên xebata xwe destnîşan bikin",
+   "Saet, dirêjahiya randevûyê, rojên betlaneyê û betlaneyan hilbijêrin."
+  ],
+  [
+   "Bi mişteriyên xwe re parve bikin",
+   "ID ya kuafor an koda QR parve bikin; mişterî we li bijareyan zêde dikin."
+  ],
+  [
+   "Randevû dikevin salnameya we",
+   "Randevûyên online û yên ku hûn bi xwe zêde dikin li ser heman salnameyê xuya dibin."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Sepana randevûyên salonê bi pere ye?",
+   "Daxistina Kuafix belaş e. Panela kuaforan ceribandineke belaş a 1 mehê heye; piştî wê Kuafor Premium mehane 399 TL an ji bo 3 mehan 999 TL ye. Mişterî ji bo randevûgirtinê pere nadin."
+  ],
+  [
+   "Pêdivî ye mişterî sepanê bikar bîne?",
+   "Na. Hûn dikarin ji mişteriyên bê sepan re randevû zêde bikin; navek bes e, telefon û not vebijarkî ne."
+  ],
+  [
+   "Ez dikarim dirêjahiya randevûyê destnîşan bikim?",
+   "Erê. 30 deqîqe, 60 deqîqe an dirêjahiyeke taybet a herî kêm 10 deqîqeyan hilbijêrin. Hûn dikarin ji bo demeke ku di lîsteyê de tune ye demeke zêde jî vekin."
+  ],
+  [
+   "Mişterî dikarin di rojên betlaneya min de randevû bistînin?",
+   "Na. Rojên betlaneya heftane û betlaneyên ku hûn zêde dikin li ser salnameyê girtî ne, ji ber vê yekê mişterî nikarin di wan de randevû bistînin."
+  ],
+  [
+   "Ji bo berber û kuaforên mêran guncaw e?",
+   "Erê. Kuafix ji bo kuaforên jinan û mêran, berberan û salonên yek-kesî bi heman awayî dixebite; hûn lîsteya xizmetên xwe (birîna poran, rih, rengkirin û hwd.) sererast dikin."
+  ]
+ ],
+ "fin_slug": "sopandina-dahata-salona-poran",
+ "fin_name": "Şopînerê dahata salonê",
+ "fin_title": "Şopandina Dahata Salonê û Demên Mijûl | Kuafix",
+ "fin_desc": "Şopandina dahatê ji bo salonên poran û berberan: her randevûyê wekî bi nexd, kart an veguhastina bankê hatî dayîn nîşan bikin û dahata rojane û mehane, dahata her xizmetê û saetên xwe yên herî mijûl bibînin.",
+ "fin_h1": "Şopandina dahat û amarên salonê",
+ "fin_lead": "Bêyî jimartina sindoqê dahata roja xwe bizanin: îro çiqas qezenc kir, kîjan xizmet herî pir hat firotin û kengî herî mijûl in.",
+ "fin_body": [
+  [
+   "Dravdanan bi randevûyan ve girêdin",
+   "Her randevû di Kuafix de îkoneke dravdanê heye. Gewr tê wê wateyê ku hîn dravdan nehat tomarkirin; lê bidin û <b>nexd, kart an veguhastina bankê (IBAN)</b> hilbijêrin, wê hingê kesk dibe. Hûn bihayên xizmetên xwe carekê di Mîheng > Darayî de dinivîsin (heta 20 xizmetan) û mîqdar bixweber tê dagirtin."
+  ],
+  [
+   "Dahata rojane, heftane û mehane",
+   "Ekrana darayî <b>tevahiya dahata</b> roja hilbijartî, hejmara xizmetan, dabeşkirina li gorî cureya dravdanê û dahata her xizmetê nîşan dide û dibêje ka hûn li gorî roja berê zêde bûne an kêm bûne. Heman kurte li gorî hefte û mehê jî heye."
+  ],
+  [
+   "Roj û saetên herî mijûl",
+   "<b>Nexşeya germayê</b> ya di Amaran de bi rengan nîşan dide ku di heyama hilbijartî de di her roj û saetê de çend randevûyên we hebûn. Ji bo plansaziya saet, navber an rojên kampanyayê wê bikar bînin."
+  ],
+  [
+   "Dîroka her mişterî",
+   "Amarên mişteriyan nîşan didin ku her mişterî çiqas caran tê û xizmetên wî yên borî çi ne. Kuafix dravdanan nastîne; ev tomar ji bo şopandina karsaziya we ne û cihê hesabdariya fermî nagirin."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Bihayên xizmetên xwe binivîsin",
+   "Di Mîheng > Darayî de xizmetên wekî birîna poran, rih û rengkirinê bi bihayên wan zêde bikin."
+  ],
+  [
+   "Dravdanê nîşan bikin",
+   "Li îkona dravdanê bidin û nexd, kart an veguhastina bankê hilbijêrin."
+  ],
+  [
+   "Dawiya rojê bibînin",
+   "Tevahiya dahatê, hejmara xizmetan û dabeşkirina dravdanan li ser ekrana darayî amade ne."
+  ],
+  [
+   "Heyamê analîz bikin",
+   "Nexşeya germayê û amaran bikar bînin da ku saetên xwe yên mijûl û mişteriyên herdemî bibînin."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Kuafix dravdanan distîne?",
+   "Na. Mişterî pereyê rasterast dide kuafor û kuafor dravdanê di sepanê de tomar dike. Kuafix tu komîsyonê nastîne."
+  ],
+  [
+   "Kîjan cureyên dravdanê cuda tên şopandin?",
+   "Nexd, kart û veguhastina bankê (IBAN). Ekrana darayî ji bo her yekê tevahiyeke cuda nîşan dide."
+  ],
+  [
+   "Ez dikarim dahata her xizmetê bibînim?",
+   "Erê. Ekrana darayî dahatê jî li gorî xizmetên we, wekî birîna poran, rengkirin û rih, dabeş dike."
+  ],
+  [
+   "Cihê nermalava hesabdariyê digire?",
+   "Na. Tomarên dahatê yên di Kuafix de ji bo şopandina navxweyî ne; Kuafix fatûre dernake û cihê hesabdariya fermî nagire."
+  ],
+  [
+   "Şopandina dahatê bi pere ye?",
+   "Darayî û amar beşek ji Kuafor Premium in; meha yekem ceribandina belaş e."
+  ]
+ ],
+ "ai_slug": "ceribandina-modele-poran-bi-ai",
+ "ai_name": "Ceribandina modelên poran bi AI",
+ "ai_title": "Ceribandina Por, Rih û Rengê Poran bi AI | Kuafix",
+ "ai_desc": "Berî ku biçin kuafor, li ser wêneyê xwe bi AI birîna nû ya poran, rih û simbel, rengê poran, pêl an porên pêvek biceribînin, paşê modelê li randevûya xwe zêde bikin da ku nîşanî kuaforê xwe bidin.",
+ "ai_h1": "Modelên poran, rihan û rengên poran bi AI biceribînin",
+ "ai_lead": "Berî rûniştina li ser kursiyê encamê bibînin: wêneyek bigirin, modelekê hilbijêrin û ya ku jê hez dikin nîşanî kuaforê xwe bidin.",
+ "ai_card": "Birîna poran, rih / simbel, reng, pêl û porên pêvek li ser wêneyê we.",
+ "ai_body": [
+  [
+   "Hûn dikarin çi biceribînin?",
+   "Modelek Biceribîne di Kuafix de pênc cureyên ceribandinê hene: <b>birîna poran</b>, <b>rih / simbel</b>, <b>rengê poran</b>, <b>pêl</b> û <b>porên pêvek</b>. Ji bo her yekê hûn ji şablonên amade hildibijêrin."
+  ],
+  [
+   "Tişta ku dixwazin nîşanî kuaforê xwe bidin",
+   "Encama ku jê hez dikin di arşîva xwe de tomar bikin û li randevûya xwe zêde bikin. Kuaforê we wêneyê di hûragahiyên randevûyê de dibîne, ji ber vê yekê hûn li şûna ravekirinê encamê nîşan didin."
+  ],
+  [
+   "Kredî",
+   "Her wêneyê serketî <b>2 krediyan</b> bikar tîne. Destpêkirina ceribandina belaş 6 krediyên diyariyê dide we, Premium her hefte 6 krediyan zêde dike û hûn dikarin pakêtên 6, 12 an 18 krediyan bikirin."
+  ],
+  [
+   "Çi dibe serê wêneyê we?",
+   "Wêneyê we tenê dema ku hûn ceribandinekê dest pê dikin tê pêvajokirin. Pêvajokirina wêneyan xizmeta Perfect Corp bikar tîne; wêneyê resen ê ku hûn bar dikin piştî pêvajoyê <b>di nav 24 saetan de</b> tê jêbirin. Wêneyên encamê heta ku hûn wan jê bibin di arşîva we de dimînin. Encam pêşdîtin in; dibe ku birîna poran a rastîn tam wekî wan xuya neke."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Modelek Biceribîne vekin",
+   "Di panela mişteriyan de li Modelek Biceribîne bidin."
+  ],
+  [
+   "Wêneyê xwe bigirin",
+   "Rûyê xwe di çarçoveya rêberê de bi cih bikin an ji galerîya xwe wêneyek hilbijêrin."
+  ],
+  [
+   "Modelekê hilbijêrin",
+   "Şabloneke birîna poran, rih / simbel, reng, pêl an porên pêvek hilbijêrin."
+  ],
+  [
+   "Li randevûya xwe zêde bikin",
+   "Encama ku jê hez dikin di arşîva xwe de tomar bikin û bi randevûya xwe ve girêdin."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Ceribandina poran bi AI belaş e?",
+   "Modelek Biceribîne ji endamên Mişterî Premium û bikarhênerên di ceribandina belaş de re heye. Destpêkirina ceribandinê 6 krediyên diyariyê dide; her wêneyê serketî 2 krediyan bikar tîne."
+  ],
+  [
+   "Mêr dikarin rih û simbelan biceribînin?",
+   "Erê. Di Rih / Simbel de hûn dikarin şêwazên cuda yên rih û simbelan li ser wêneyê xwe bibînin."
+  ],
+  [
+   "Ez dikarim rengê poran biceribînim?",
+   "Erê. Di Rengê Poran de hûn dikarin berî rengkirinê rengên cuda biceribînin; Pêl û Porên Pêvek cureyên cuda ne."
+  ],
+  [
+   "Wêneyê min tê hilanîn?",
+   "Wêneyê resen ê ku hûn bar dikin piştî pêvajoyê di nav 24 saetan de tê jêbirin. Wêneyê encamê heta ku hûn wê jê bibin di arşîva we de dimîne û heke hûn hesabê xwe jê bibin ew jî tê jêbirin."
+  ],
+  [
+   "Encam di jiyana rastîn de dê tam heman rengî xuya bike?",
+   "Encama AI pêşdîtinek e. Cureya porê we û xebata kuafor dikarin encamê biguherînin; modelê bi kuaforê xwe re biaxivin."
+  ]
+ ]
+}

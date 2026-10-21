@@ -1,0 +1,393 @@
+{
+ "_note": "Kaynak metin. Uygulama yalnızca Türkçedir; diğer dillerde lang_note bunu açıkça söyler.",
+ "brand": "Kuafix",
+ "title": "Kuafix: Kuaför ve Berber Randevu Uygulaması, Online Randevu",
+ "meta_desc": "Kuaför ve berberler için randevu takvimi, gelir ve tahsilat takibi, yoğunluk istatistikleri; müşteriler için kuaför bulma, online randevu ve yapay zekâ ile saç modeli deneme. iPhone, iPad ve Android.",
+ "aria_lang": "Dil",
+ "lang_note": "Kuafix uygulaması Türkçedir ve Türkiye'deki kuaför ve berberler için tasarlandı.",
+ "h1_suffix": "kuaför ve berber randevu uygulaması",
+ "lead": "Kuaförler randevularını, çalışma saatlerini ve gelirini tek yerden yönetir; müşteriler kuaförünü bulup boş saate online randevu alır. iPhone, iPad ve Android için.",
+ "sign": "İster [k:Kuaför] Ol,|İster [m:Müşteri]",
+ "sign_label": "İster Kuaför Ol, İster Müşteri",
+ "store_as": "App Store'dan indir",
+ "store_gp": "Google Play'den indir",
+ "aria_scroll": "Aşağı kaydır",
+ "aria_shots": "Ekran görüntüleri",
+ "shot_alts": [
+  "Yoğunluk ısı haritası ekranı",
+  "Günlük finans özeti ekranı",
+  "Müşteri istatistikleri ekranı",
+  "Günlük randevu akışı ekranı",
+  "Aylık takvim ekranı",
+  "Kuaför ve müşteri giriş ekranı",
+  "Müşteri giriş ekranı",
+  "Randevu alma ekranı"
+ ],
+ "aria_panels": "Kuaför ve müşteri panelleri",
+ "panel_k": "Kuaför Paneli",
+ "menu_k": [
+  "Takvim",
+  "Randevu Ver",
+  "İstatistikler",
+  "Finans",
+  "Ayarlar"
+ ],
+ "panel_m": "Müşteri Paneli",
+ "menu_m": [
+  "Randevu Al",
+  "Randevularım",
+  "Kuaför Bul",
+  "Model Dene"
+ ],
+ "chips": [
+  "Saç Modeli",
+  "Sakal / Bıyık",
+  "Saç Rengi",
+  "Dalgalandırma",
+  "Uzatma"
+ ],
+ "slot_book": "Randevu Al",
+ "slot_full": "Dolu",
+ "aria_board": "Salon panosu",
+ "heat_head": "16 Ekim - 13 Ocak aralığında 1.218 randevunuz vardı.",
+ "heat_label": "Saat ve güne göre randevu yoğunluğu ısı haritası",
+ "days": [
+  "P",
+  "S",
+  "Ç",
+  "P",
+  "C",
+  "C",
+  "P"
+ ],
+ "bd_date": "5 Mart 2026, Perşembe",
+ "bd_good": "Harika! Geliriniz düne göre %12 daha yüksek ↑",
+ "bd_total": "Toplam Gelir",
+ "bd_count": "İşlem Sayısı",
+ "bd_cash": "Nakit:",
+ "bd_card": "Kart:",
+ "fin_card": "Nakit, kart ve IBAN tahsilatı, günlük ve aylık gelir, yoğunluk ısı haritası.",
+ "bd_iban": "IBAN:",
+ "services": [
+  "Çocuk Kesimi",
+  "Saç Boyama",
+  "Saç Kesimi",
+  "Sakal",
+  "Yıkama & Bakım"
+ ],
+ "about_h2": "Kuafix nedir?",
+ "about_p": "Kuafix, kuaför ve berber salonları ile müşterilerini aynı uygulamada buluşturan bir randevu uygulamasıdır. Kuaför; takvimini, çalışma saatlerini, tatillerini, hizmet fiyatlarını ve günlük gelirini yönetir. Müşteri; kuaförünü il ve ilçeye, ada, kuaför ID'sine ya da QR koduna göre bulur, boş saati görür ve telefonla aramadan randevu alır. Randevudan önce yapay zekâ ile yeni saç modelini, sakalı veya saç rengini kendi fotoğrafı üzerinde deneyebilir.",
+ "k_h3": "Kuaförler ve berberler için",
+ "k_points": [
+  [
+   "Randevu takvimi",
+   "Günlük, haftalık ve aylık görünüm. Boş ve dolu saatler tek bakışta; bir saate çift dokununca randevu verilir."
+  ],
+  [
+   "Telefonla ve kapıdan gelen müşteri",
+   "Uygulaması olmayan müşteriye de randevu verin: ad yeterli, telefon ve not isteğe bağlı. Listede olmayan saat için ek randevu açın."
+  ],
+  [
+   "Çalışma düzeni",
+   "Mesai saatleri, randevu süresi (30 dk, 60 dk veya en az 10 dk özel süre), haftalık kapalı günler, tatiller ve müşterinin kaç gün ileriye randevu alabileceği."
+  ],
+  [
+   "Gelir ve tahsilat takibi",
+   "Her randevuya nakit, kart veya IBAN tahsilatı girin. Günlük, haftalık ve aylık toplam gelir, işlem sayısı ve hizmete göre gelir dağılımı."
+  ],
+  [
+   "Yoğunluk istatistikleri",
+   "Hangi gün ve saatlerin en yoğun olduğunu ısı haritasında görün; dönem dönem randevu ve müşteri sayıları."
+  ],
+  [
+   "Müşteri detayı",
+   "Müşterinin notunu ve getirdiği saç modeli fotoğrafını randevuda görün, tek dokunuşla arayın, gerekirse iptal edin."
+  ]
+ ],
+ "m_h3": "Müşteriler için",
+ "m_points": [
+  [
+   "Kuaför bul",
+   "İl ve ilçeye göre listeleyin, ad ile daraltın ya da kuaförün verdiği ID'yi veya QR kodunu kullanın. Sık gittiğiniz kuaförü favorilere ekleyin."
+  ],
+  [
+   "Online randevu",
+   "Kuaförün boş saatlerini görün, uygun saate dokunup randevu alın. Telefonla aramaya, mesajlaşmaya gerek yok."
+  ],
+  [
+   "Randevularım",
+   "Yaklaşan ve geçmiş randevularınız tek listede; randevuya 45 dakikadan fazla varsa uygulamadan iptal edin."
+  ],
+  [
+   "Model Dene (yapay zekâ)",
+   "Kendi fotoğrafınızda saç modeli, sakal ve bıyık, saç rengi, dalgalandırma ve uzatma deneyin; beğendiğinizi arşivinize kaydedin."
+  ],
+  [
+   "Kuaförünüze gösterin",
+   "Randevuya not ve arşivinizden saç modeli fotoğrafı ekleyin; kuaförünüz randevu detayında ne istediğinizi görür."
+  ]
+ ],
+ "topics_h2": "Kuafix ile neler yapılır?",
+ "topics_p": "En çok sorulan üç konu için ayrıntılı rehberler:",
+ "price_h2": "Fiyatlar",
+ "price_p": "Kuafix'i indirmek ücretsizdir. Kuaför paneli ve müşterinin ek özellikleri abonelikle açılır; herkes için 1 ay ücretsiz deneme vardır. Uygulama üzerinden randevu ücreti ödenmez, hizmet ücretini kuaföre doğrudan ödersiniz.",
+ "price_items": [
+  [
+   "Kuaför Premium",
+   "Takvim, randevu verme, istatistikler ve finans: aylık 399 TL veya 3 aylık 999 TL. İlk ay ücretsiz denenir."
+  ],
+  [
+   "Müşteri: ücretsiz",
+   "Kuaför bulma, favoriler, online randevu alma ve randevularınızı yönetme ücretsizdir."
+  ],
+  [
+   "Müşteri Premium",
+   "Randevuya not ve fotoğraf ekleme, yapay zekâ ile saç deneme ve her hafta 6 kredi: aylık 23,99 TL veya 3 aylık 63,99 TL."
+  ],
+  [
+   "Yapay zekâ kredisi",
+   "Her başarılı fotoğraf 2 kredi kullanır. Ek paketler: 6 kredi 12,99 TL, 12 kredi 21,99 TL, 18 kredi 29,99 TL."
+  ]
+ ],
+ "price_fine": "Fiyatlar Türkiye mağazası içindir ve kullanım koşullarında yazan fiyatlardır; güncel fiyat satın alma ekranında görünür. Abonelik, iptal edilmezse mağaza kurallarına göre yenilenir.",
+ "faq_h2": "Sıkça sorulan sorular",
+ "faq_home": [
+  [
+   "Kuafix ücretsiz mi?",
+   "Uygulamayı indirmek ve müşteri olarak kuaför bulup randevu almak ücretsizdir. Kuaför paneli 1 ay ücretsiz denenir, sonrasında Kuaför Premium aboneliği gerekir (aylık 399 TL veya 3 aylık 999 TL). Müşteriler isterse not, fotoğraf ve yapay zekâ özellikleri için Müşteri Premium alabilir."
+  ],
+  [
+   "Müşterim uygulamayı kullanmıyorsa ne olur?",
+   "Sorun değil. Telefonla ya da kapıdan gelen müşteriye takvimden randevu verebilirsiniz; ad yazmanız yeterli, telefon ve not isteğe bağlıdır."
+  ],
+  [
+   "Müşteriler beni nasıl bulur?",
+   "Müşteri, Kuaför Bul ekranında ilinizi ve ilçenizi seçerek sizi listede görür veya adınızla arar. Size özel kuaför ID'sini ya da QR kodunuzu paylaşırsanız sizi doğrudan bulur ve favorilerine ekler."
+  ],
+  [
+   "Hangi cihazlarda çalışır?",
+   "iPhone ve iPad (iOS 17.6 veya üstü) ile Android telefonlarda çalışır. App Store ve Google Play'den indirilebilir."
+  ],
+  [
+   "Uygulama hangi dilde?",
+   "Uygulama Türkçedir ve Türkiye'deki kuaför ve berberler için tasarlandı. Bu site, uygulamayı tanıtmak için 17 dilde yayınlanır."
+  ],
+  [
+   "Randevu iptal edilebilir mi?",
+   "Evet. Müşteri, randevuya 45 dakikadan fazla varsa uygulamadan iptal eder; daha az kalmışsa kuaförü arar. Kuaför de aynı kuralla randevuyu iptal edebilir."
+  ],
+  [
+   "Yapay zekâ ile saç deneme nasıl çalışır?",
+   "Model Dene bölümünde fotoğrafınızı çekip saç modeli, sakal / bıyık, saç rengi, dalgalandırma veya uzatma seçersiniz. Her başarılı sonuç 2 kredi kullanır. Yüklediğiniz orijinal fotoğraf işlemden sonra en geç 24 saat içinde silinir."
+  ],
+  [
+   "Verilerim güvende mi, hesabımı silebilir miyim?",
+   "Veriler Firebase (Google) altyapısında saklanır ve yalnızca randevu süreci için gereken ölçüde kuaför ile müşteri arasında paylaşılır. Hesabınızı uygulamadan istediğiniz zaman silebilirsiniz; ayrıntılar gizlilik politikası ve hesap silme sayfasındadır."
+  ]
+ ],
+ "cta_h2": "Salonunuzu cebinizden yönetin",
+ "cta_p": "Kuaförseniz 1 ay ücretsiz deneyin; müşteriyseniz kuaförünüzü bulup hemen randevu alın.",
+ "aria_docs": "Belgeler",
+ "doc_privacy": "Gizlilik Politikası",
+ "doc_delete": "Hesap Silme",
+ "doc_terms": "Kullanım Koşulları (EULA)",
+ "doc_support": "Destek",
+ "steps_h2": "Nasıl çalışır?",
+ "other_h2": "Diğer rehberler",
+ "topic_cta_h2": "Kuafix'i indirin",
+ "topic_cta_p": "iPhone, iPad ve Android için. Kuaför paneli 1 ay ücretsiz.",
+ "book_slug": "kuafor-randevu-uygulamasi",
+ "book_name": "Kuaför randevu uygulaması",
+ "book_title": "Kuaför ve Berber Randevu Uygulaması: Online Randevu Sistemi | Kuafix",
+ "book_desc": "Kuaför ve berberler için online randevu sistemi: boş saatleri müşteriye açın, telefonla gelen randevuyu da aynı takvime yazın. Müşteriler kuaförünü bulup aramadan randevu alır.",
+ "book_h1": "Kuaför ve berber randevu uygulaması",
+ "book_lead": "Telefon trafiğini azaltın: müşteriniz boş saatinizi görüp kendisi randevu alsın, siz bütün günü tek takvimde görün.",
+ "book_card": "Online randevu, çalışma saatleri, tatiller ve iptal kuralları.",
+ "book_body": [
+  [
+   "Neden online randevu?",
+   "Gün içinde gelen aramalar işi böler, deftere yazılan randevular karışır. Kuafix'te müşteri kuaförün <b>boş saatlerini</b> görür ve uygun saati kendisi seçer; randevu anında kuaförün takvimine düşer. Telefonla ya da kapıdan gelen müşteriyi de aynı takvime yazarsınız, böylece çakışma olmaz."
+  ],
+  [
+   "Takvim sizin kurallarınızla çalışır",
+   "Mesai başlangıç ve bitiş saatini, randevu süresini (30 dk, 60 dk veya en az 10 dakikalık özel süre) ve müşterinin <b>kaç gün ileriye</b> randevu alabileceğini (5, 10 veya özel) siz belirlersiniz. Haftalık kapalı günleriniz ve tatilleriniz takvimde kapalı görünür, o günlere randevu alınamaz."
+  ],
+  [
+   "Müşteri tarafında süreç",
+   "Müşteri, Kuaför Bul ekranında il ve ilçe seçerek, adla arayarak ya da kuaförün verdiği <b>ID veya QR kodu</b> ile kuaförü bulur ve favorilerine ekler. Randevu Al ekranında günü seçer, boş saate dokunur. Aynı gün için bir randevu alınabilir; geçmiş saatler kapalıdır."
+  ],
+  [
+   "İptal ve iletişim",
+   "Randevuya 45 dakikadan fazla varsa müşteri de kuaför de randevuyu uygulamadan iptal edebilir; daha az kalmışsa telefonla aranır. Kuaför, randevu detayında müşterinin notunu ve getirdiği saç modeli fotoğrafını görür."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Profilinizi oluşturun",
+   "Telefon numaranızla kuaför hesabı açın; salon adınızı ve adresinizi girin."
+  ],
+  [
+   "Çalışma düzenini ayarlayın",
+   "Mesai saatlerini, randevu süresini, kapalı günleri ve tatilleri seçin."
+  ],
+  [
+   "Müşterilerinizle paylaşın",
+   "Kuaför ID'nizi veya QR kodunuzu paylaşın; müşteriler sizi favorilerine ekler."
+  ],
+  [
+   "Randevular takviminize düşsün",
+   "Online gelen ve sizin verdiğiniz randevular aynı takvimde görünür."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Kuaför randevu uygulaması ücretli mi?",
+   "Kuafix'i indirmek ücretsizdir. Kuaför paneli 1 ay ücretsiz denenir; sonrasında Kuaför Premium aboneliği aylık 399 TL veya 3 aylık 999 TL'dir. Müşteriler randevu almak için ödeme yapmaz."
+  ],
+  [
+   "Müşterinin uygulaması olmak zorunda mı?",
+   "Hayır. Uygulaması olmayan müşteriye de takvimden randevu verebilirsiniz; ad yeterlidir, telefon ve not isteğe bağlıdır."
+  ],
+  [
+   "Randevu süresini kendim belirleyebilir miyim?",
+   "Evet. 30 dakika, 60 dakika ya da en az 10 dakikalık özel bir süre seçebilirsiniz. Listede olmayan bir saat için ek randevu da açabilirsiniz."
+  ],
+  [
+   "Tatil günlerinde randevu alınır mı?",
+   "Hayır. Haftalık kapalı günleriniz ve eklediğiniz tatiller takvimde kapalı görünür; müşteriler o günlere randevu alamaz."
+  ],
+  [
+   "Berber ve erkek kuaförleri için de uygun mu?",
+   "Evet. Kuafix kadın ve erkek kuaförleri, berberler ve tek kişilik salonlar için aynı şekilde çalışır; hizmet listesini (saç kesimi, sakal, boya vb.) kendiniz düzenlersiniz."
+  ]
+ ],
+ "fin_slug": "kuafor-gelir-takibi",
+ "fin_name": "Kuaför gelir takibi",
+ "fin_title": "Kuaför Gelir Takibi ve Tahsilat Kaydı: Günlük Kasa, İstatistik | Kuafix",
+ "fin_desc": "Kuaför ve berberler için gelir takibi: her randevuya nakit, kart veya IBAN tahsilatı girin, günlük ve aylık geliri, hizmete göre dağılımı ve en yoğun saatleri görün.",
+ "fin_h1": "Kuaför gelir takibi ve salon istatistikleri",
+ "fin_lead": "Gün sonunda kasayı saymadan bilin: bugün ne kadar kazandınız, en çok hangi hizmet satıldı, en yoğun saatleriniz hangileri.",
+ "fin_body": [
+  [
+   "Tahsilatı randevuya bağlayın",
+   "Kuafix'te her randevunun yanında bir tahsilat ikonu vardır. Gri ise henüz tahsilat girilmemiştir; dokunup <b>nakit, kart veya IBAN</b> seçtiğinizde kayıt yeşile döner. Hizmet fiyatlarını bir kez Ayarlar > Finans bölümüne girersiniz (en fazla 20 hizmet), tutar otomatik gelir."
+  ],
+  [
+   "Günlük, haftalık, aylık gelir",
+   "Finans ekranı seçtiğiniz günün <b>toplam gelirini</b>, işlem sayısını, ödeme türüne göre dağılımı ve hizmete göre geliri gösterir; bir önceki güne göre artışı ya da düşüşü de yazar. Aynı özeti haftalık ve aylık olarak da görürsünüz."
+  ],
+  [
+   "En yoğun gün ve saatler",
+   "İstatistikler bölümündeki <b>ısı haritası</b>, seçtiğiniz dönemde hangi gün ve saatlerde ne kadar randevu olduğunu renklerle gösterir. Çalışma saatlerinizi, mola zamanınızı ya da kampanya günlerinizi buna göre planlayabilirsiniz."
+  ],
+  [
+   "Müşteri bazında geçmiş",
+   "Müşteri istatistikleri, hangi müşterinin ne sıklıkla geldiğini ve geçmiş işlemlerini gösterir. Kuafix ödeme almaz; bu kayıtlar sizin işletme içi takibiniz içindir, resmî muhasebe kaydı yerine geçmez."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Hizmet fiyatlarını girin",
+   "Saç kesimi, sakal, boya gibi hizmetlerinizi ve fiyatlarını Ayarlar > Finans'a ekleyin."
+  ],
+  [
+   "Randevuda tahsilatı işaretleyin",
+   "Tahsilat ikonuna dokunup nakit, kart veya IBAN seçin."
+  ],
+  [
+   "Gün sonunu görün",
+   "Finans ekranında toplam gelir, işlem sayısı ve ödeme dağılımı hazırdır."
+  ],
+  [
+   "Dönemi analiz edin",
+   "Isı haritası ve istatistiklerle yoğun saatlerinizi ve sadık müşterilerinizi görün."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Kuafix ödeme alıyor mu?",
+   "Hayır. Müşteri hizmet ücretini kuaföre doğrudan öder; kuaför tahsilatı uygulamaya kaydeder. Kuafix komisyon almaz."
+  ],
+  [
+   "Hangi ödeme türleri ayrı tutuluyor?",
+   "Nakit, kart ve IBAN. Finans ekranı her birinin toplamını ayrı gösterir."
+  ],
+  [
+   "Hizmete göre gelir görülebilir mi?",
+   "Evet. Finans ekranı geliri saç kesimi, boya, sakal gibi hizmetlerinize göre de böler."
+  ],
+  [
+   "Muhasebe programı yerine geçer mi?",
+   "Hayır. Kuafix'teki gelir kayıtları işletme içi takip içindir; fatura kesmez ve resmî muhasebe kaydı yerine geçmez."
+  ],
+  [
+   "Gelir takibi ücretli mi?",
+   "Finans ve istatistikler Kuaför Premium kapsamındadır; ilk ay ücretsiz denenir."
+  ]
+ ],
+ "ai_slug": "yapay-zeka-sac-modeli-dene",
+ "ai_name": "Yapay zekâ ile saç modeli dene",
+ "ai_title": "Yapay Zekâ ile Saç Modeli, Sakal ve Saç Rengi Deneme | Kuafix",
+ "ai_desc": "Kuaföre gitmeden önce yeni saç modelini, sakal ve bıyığı, saç rengini, dalgalı saçı veya uzatmayı yapay zekâ ile kendi fotoğrafınızda deneyin; beğendiğinizi randevuya ekleyip kuaförünüze gösterin.",
+ "ai_h1": "Yapay zekâ ile saç modeli, sakal ve saç rengi deneyin",
+ "ai_lead": "Kuaför koltuğuna oturmadan önce sonucu görün: fotoğrafınızı çekin, modeli seçin, beğendiğinizi kuaförünüze gösterin.",
+ "ai_card": "Kendi fotoğrafınızda saç modeli, sakal / bıyık, renk, dalga ve uzatma.",
+ "ai_body": [
+  [
+   "Neleri deneyebilirsiniz?",
+   "Kuafix'in Model Dene bölümünde beş tür deneme vardır: <b>saç modeli</b>, <b>sakal / bıyık</b>, <b>saç rengi</b>, <b>dalgalandırma</b> ve <b>uzatma</b>. Her türde hazır şablonlar arasından seçim yaparsınız."
+  ],
+  [
+   "Kuaförünüze ne istediğinizi gösterin",
+   "Beğendiğiniz sonucu arşivinize kaydedin ve randevunuza ekleyin. Kuaförünüz randevu detayında fotoğrafı görür; \"biraz daha kısa\" gibi tarifler yerine sonucu doğrudan gösterirsiniz."
+  ],
+  [
+   "Krediler",
+   "Her başarılı fotoğraf <b>2 kredi</b> kullanır. Ücretsiz deneme başladığında 6 hediye kredi verilir, Premium üyelikte her hafta 6 kredi yenilenir; isterseniz 6, 12 veya 18 kredilik paketler alabilirsiniz."
+  ],
+  [
+   "Fotoğrafınız ne oluyor?",
+   "Fotoğraf yalnızca siz denemeyi başlattığınızda işlenir. Görsel işleme için Perfect Corp hizmeti kullanılır; yüklediğiniz orijinal fotoğraf işlemden sonra <b>en geç 24 saat içinde</b> silinir. Sonuç görselleri siz silene kadar arşivinizde kalır. Sonuçlar önizlemedir; gerçek kesim birebir aynı olmayabilir."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Model Dene'yi açın",
+   "Müşteri panelinde Model Dene'ye dokunun."
+  ],
+  [
+   "Fotoğrafınızı çekin",
+   "Kılavuz çerçeveye yüzünüzü yerleştirin ya da galeriden seçin."
+  ],
+  [
+   "Modeli seçin",
+   "Saç modeli, sakal / bıyık, renk, dalga veya uzatma şablonlarından birini seçin."
+  ],
+  [
+   "Randevuya ekleyin",
+   "Beğendiğiniz sonucu arşivinize kaydedip randevunuza ekleyin."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Yapay zekâ ile saç deneme ücretsiz mi?",
+   "Model Dene, Müşteri Premium üyelere ve ücretsiz deneme süresindeki kullanıcılara açıktır. Deneme başlarken 6 hediye kredi verilir; her başarılı fotoğraf 2 kredi kullanır."
+  ],
+  [
+   "Erkekler sakal ve bıyık deneyebilir mi?",
+   "Evet. Sakal / Bıyık türünde farklı sakal ve bıyık şekillerini kendi fotoğrafınızda görebilirsiniz."
+  ],
+  [
+   "Saç rengini denemek mümkün mü?",
+   "Evet. Saç Rengi türünde boyatmadan önce farklı renkleri deneyebilirsiniz; Dalgalandırma ve Uzatma da ayrı türlerdir."
+  ],
+  [
+   "Fotoğrafım saklanıyor mu?",
+   "Yüklediğiniz orijinal fotoğraf işlemden sonra en geç 24 saat içinde silinir. Oluşan sonuç görseli siz silene kadar arşivinizde kalır; hesabınızı silerseniz o da silinir."
+  ],
+  [
+   "Sonuç gerçeğiyle aynı olur mu?",
+   "Yapay zekâ sonucu bir önizlemedir. Saç yapınız ve kuaförün uygulaması sonucu değiştirebilir; en doğru fikir için sonucu kuaförünüzle konuşun."
+  ]
+ ]
+}

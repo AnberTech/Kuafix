@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: Hair Salon & Barber Booking App for Turkey",
+ "meta_desc": "Appointment calendar, income and payment tracking and busy-hour statistics for hair salons and barbers in Turkey; for customers: find a hairdresser, book online and try hairstyles with AI. iPhone, iPad and Android.",
+ "aria_lang": "Language",
+ "lang_note": "The Kuafix app is in Turkish and is made for hair salons and barbers in Turkey.",
+ "h1_suffix": "hair salon and barber booking app",
+ "lead": "Hairdressers manage appointments, working hours and income in one place; customers find their hairdresser and book a free slot online. For iPhone, iPad and Android.",
+ "sign": "Be the [k:Stylist],|or the [m:Client]",
+ "sign_label": "Be the Stylist, or the Client",
+ "store_as": "Download on the App Store",
+ "store_gp": "Get it on Google Play",
+ "aria_scroll": "Scroll down",
+ "aria_shots": "Screenshots",
+ "shot_alts": [
+  "Busy-hours heat map screen",
+  "Daily finance summary screen",
+  "Customer statistics screen",
+  "Daily appointment list screen",
+  "Monthly calendar screen",
+  "Hairdresser and customer sign-in screen",
+  "Customer sign-in screen",
+  "Booking screen"
+ ],
+ "aria_panels": "Hairdresser and customer panels",
+ "panel_k": "Hairdresser Panel",
+ "menu_k": [
+  "Calendar",
+  "Add Appointment",
+  "Statistics",
+  "Finance",
+  "Settings"
+ ],
+ "panel_m": "Customer Panel",
+ "menu_m": [
+  "Book",
+  "My Appointments",
+  "Find a Hairdresser",
+  "Try a Look"
+ ],
+ "chips": [
+  "Haircut",
+  "Beard / Moustache",
+  "Hair Colour",
+  "Waves",
+  "Extensions"
+ ],
+ "slot_book": "Book",
+ "slot_full": "Booked",
+ "aria_board": "Salon dashboard",
+ "heat_head": "You had 1,218 appointments between 16 October and 13 January.",
+ "heat_label": "Heat map of appointments by hour and weekday",
+ "days": [
+  "M",
+  "T",
+  "W",
+  "T",
+  "F",
+  "S",
+  "S"
+ ],
+ "bd_date": "Thursday, 5 March 2026",
+ "bd_good": "Great! Your income is 12% higher than yesterday ↑",
+ "bd_total": "Total Income",
+ "bd_count": "Services",
+ "bd_cash": "Cash:",
+ "bd_card": "Card:",
+ "fin_card": "Cash, card and bank transfer payments, daily and monthly income, busy-hour heat map.",
+ "bd_iban": "Bank transfer:",
+ "services": [
+  "Kids' Cut",
+  "Hair Colouring",
+  "Haircut",
+  "Beard",
+  "Wash & Care"
+ ],
+ "about_h2": "What is Kuafix?",
+ "about_p": "Kuafix is an appointment app that brings hair salons and barbershops together with their customers in one app. The hairdresser manages the calendar, working hours, days off, service prices and daily income. The customer finds the hairdresser by province and district, by name, by the hairdresser's ID or QR code, sees the free time slots and books without calling. Before the appointment, customers can try a new haircut, beard or hair colour on their own photo with AI.",
+ "k_h3": "For hairdressers and barbers",
+ "k_points": [
+  [
+   "Appointment calendar",
+   "Daily, weekly and monthly views. Free and booked slots at a glance; double-tap a slot to add an appointment."
+  ],
+  [
+   "Phone and walk-in customers",
+   "Book customers who don't use the app too: a name is enough, phone and note are optional. Open an extra slot for a time that isn't on the list."
+  ],
+  [
+   "Your working rules",
+   "Opening hours, appointment length (30 min, 60 min or a custom length of at least 10 min), weekly days off, holidays and how many days ahead customers can book."
+  ],
+  [
+   "Income and payment tracking",
+   "Mark each appointment as paid in cash, by card or by bank transfer (IBAN). Daily, weekly and monthly income, number of services and income per service."
+  ],
+  [
+   "Busy-hour statistics",
+   "See your busiest days and hours on a heat map, plus appointment and customer counts for any period."
+  ],
+  [
+   "Customer details",
+   "See the customer's note and the hairstyle photo they attached, call them with one tap, or cancel if needed."
+  ]
+ ],
+ "m_h3": "For customers",
+ "m_points": [
+  [
+   "Find a hairdresser",
+   "List hairdressers by province and district, narrow down by name, or use the ID or QR code your hairdresser gives you. Add your regular hairdresser to favourites."
+  ],
+  [
+   "Book online",
+   "See your hairdresser's free slots and tap one to book. No phone calls or messages needed."
+  ],
+  [
+   "My appointments",
+   "Upcoming and past appointments in one list; cancel in the app if the appointment is more than 45 minutes away."
+  ],
+  [
+   "Try a Look (AI)",
+   "Try a haircut, beard and moustache, hair colour, waves or extensions on your own photo, and save the ones you like to your archive."
+  ],
+  [
+   "Show your hairdresser",
+   "Add a note and a hairstyle photo from your archive to the appointment; your hairdresser sees exactly what you want."
+  ]
+ ],
+ "topics_h2": "What can you do with Kuafix?",
+ "topics_p": "Detailed guides for the three most asked topics:",
+ "price_h2": "Pricing",
+ "price_p": "Kuafix is free to download. The hairdresser panel and the customer's extra features are unlocked with a subscription, and everyone gets a 1-month free trial. You don't pay for appointments in the app; you pay the hairdresser directly for the service.",
+ "price_items": [
+  [
+   "Hairdresser Premium",
+   "Calendar, booking, statistics and finance: 399 TL per month or 999 TL for 3 months. The first month is a free trial."
+  ],
+  [
+   "Customer: free",
+   "Finding hairdressers, favourites, booking online and managing your appointments are free."
+  ],
+  [
+   "Customer Premium",
+   "Notes and photos on appointments, AI hair try-on and 6 credits every week: 23.99 TL per month or 63.99 TL for 3 months."
+  ],
+  [
+   "AI credits",
+   "Each successful photo uses 2 credits. Extra packs: 6 credits 12.99 TL, 12 credits 21.99 TL, 18 credits 29.99 TL."
+  ]
+ ],
+ "price_fine": "Prices are for the Turkish store, as listed in the terms of use; the current price is shown on the purchase screen. Subscriptions renew under the store's rules unless cancelled.",
+ "faq_h2": "Frequently asked questions",
+ "faq_home": [
+  [
+   "Is Kuafix free?",
+   "Downloading the app and finding a hairdresser and booking as a customer are free. The hairdresser panel has a 1-month free trial, after which a Hairdresser Premium subscription is needed (399 TL per month or 999 TL for 3 months). Customers can optionally get Customer Premium for notes, photos and AI features."
+  ],
+  [
+   "What if my customer doesn't use the app?",
+   "No problem. You can add appointments for phone and walk-in customers from the calendar; a name is enough, phone and note are optional."
+  ],
+  [
+   "How do customers find me?",
+   "In Find a Hairdresser, customers choose your province and district to see you in the list, or search by your name. If you share your hairdresser ID or QR code, they find you directly and add you to favourites."
+  ],
+  [
+   "Which devices does it run on?",
+   "iPhone and iPad (iOS 17.6 or later) and Android phones. Download it from the App Store or Google Play."
+  ],
+  [
+   "What language is the app in?",
+   "The app is in Turkish and is made for hair salons and barbers in Turkey. This website is published in 17 languages to introduce the app."
+  ],
+  [
+   "Can appointments be cancelled?",
+   "Yes. Customers can cancel in the app if the appointment is more than 45 minutes away; otherwise they call the hairdresser. The hairdresser can cancel under the same rule."
+  ],
+  [
+   "How does the AI hair try-on work?",
+   "In Try a Look, you take a photo and choose a haircut, beard / moustache, hair colour, waves or extensions. Each successful result uses 2 credits. Your original photo is deleted within 24 hours after processing."
+  ],
+  [
+   "Is my data safe, and can I delete my account?",
+   "Data is stored on Firebase (Google) and shared between hairdresser and customer only as needed for the appointment. You can delete your account in the app at any time; details are in the privacy policy and on the account deletion page."
+  ]
+ ],
+ "cta_h2": "Run your salon from your pocket",
+ "cta_p": "Hairdressers: try it free for 1 month. Customers: find your hairdresser and book now.",
+ "aria_docs": "Documents",
+ "doc_privacy": "Privacy Policy",
+ "doc_delete": "Account Deletion",
+ "doc_terms": "Terms of Use (EULA)",
+ "doc_support": "Support",
+ "steps_h2": "How it works",
+ "other_h2": "Other guides",
+ "topic_cta_h2": "Download Kuafix",
+ "topic_cta_p": "For iPhone, iPad and Android. The hairdresser panel is free for 1 month.",
+ "book_slug": "salon-booking-app",
+ "book_name": "Hair salon booking app",
+ "book_title": "Hair Salon & Barber Booking App: Online Appointments | Kuafix",
+ "book_desc": "Online booking for hair salons and barbers in Turkey: open your free slots to customers and put phone bookings on the same calendar. Customers find their hairdresser and book without calling.",
+ "book_h1": "Hair salon and barber booking app",
+ "book_lead": "Fewer phone calls: let customers see your free slots and book themselves, and see your whole day on one calendar.",
+ "book_card": "Online booking, working hours, days off and cancellation rules.",
+ "book_body": [
+  [
+   "Why online booking?",
+   "Calls during the day interrupt your work, and bookings written in a notebook get mixed up. In Kuafix the customer sees the hairdresser's <b>free slots</b> and picks one; the booking appears on the hairdresser's calendar instantly. Phone and walk-in customers go on the same calendar, so nothing overlaps."
+  ],
+  [
+   "The calendar follows your rules",
+   "You set your opening and closing hours, the appointment length (30 min, 60 min or a custom length of at least 10 minutes) and <b>how many days ahead</b> customers can book (5, 10 or custom). Weekly days off and holidays show as closed, and nobody can book them."
+  ],
+  [
+   "The customer side",
+   "Customers find the hairdresser in Find a Hairdresser by choosing a province and district, searching by name, or with the hairdresser's <b>ID or QR code</b>, and add them to favourites. In Book they choose a day and tap a free slot. One appointment can be booked per day; past times are closed."
+  ],
+  [
+   "Cancelling and contact",
+   "If the appointment is more than 45 minutes away, both the customer and the hairdresser can cancel in the app; otherwise they call. The hairdresser sees the customer's note and attached hairstyle photo in the appointment details."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Create your profile",
+   "Sign up as a hairdresser with your phone number and enter your salon's name and address."
+  ],
+  [
+   "Set your working rules",
+   "Choose your hours, appointment length, days off and holidays."
+  ],
+  [
+   "Share with your customers",
+   "Share your hairdresser ID or QR code; customers add you to favourites."
+  ],
+  [
+   "Bookings land on your calendar",
+   "Online bookings and the ones you add yourself show on the same calendar."
+  ]
+ ],
+ "book_faq": [
+  [
+   "Is the salon booking app paid?",
+   "Kuafix is free to download. The hairdresser panel has a 1-month free trial; after that, Hairdresser Premium is 399 TL per month or 999 TL for 3 months. Customers don't pay to book."
+  ],
+  [
+   "Does the customer need the app?",
+   "No. You can add appointments for customers without the app; a name is enough, phone and note are optional."
+  ],
+  [
+   "Can I set the appointment length?",
+   "Yes. Choose 30 minutes, 60 minutes or a custom length of at least 10 minutes. You can also open an extra slot for a time that isn't on the list."
+  ],
+  [
+   "Can customers book on my days off?",
+   "No. Weekly days off and the holidays you add are closed on the calendar, so customers can't book them."
+  ],
+  [
+   "Is it suitable for barbers and men's hairdressers?",
+   "Yes. Kuafix works the same for women's and men's hairdressers, barbers and one-person salons; you edit your own service list (haircut, beard, colouring and so on)."
+  ]
+ ],
+ "fin_slug": "salon-income-tracker",
+ "fin_name": "Salon income tracker",
+ "fin_title": "Hair Salon Income Tracker: Daily Takings & Busy Hours | Kuafix",
+ "fin_desc": "Income tracking for hair salons and barbers: mark each appointment as paid in cash, by card or by bank transfer, and see daily and monthly income, income per service and your busiest hours.",
+ "fin_h1": "Salon income tracking and statistics",
+ "fin_lead": "Know your day's takings without counting the till: how much you earned today, which service sold most and when you are busiest.",
+ "fin_body": [
+  [
+   "Link payments to appointments",
+   "Every appointment in Kuafix has a payment icon. Grey means no payment recorded yet; tap it and choose <b>cash, card or bank transfer (IBAN)</b> and it turns green. You enter your service prices once in Settings > Finance (up to 20 services), and the amount fills in automatically."
+  ],
+  [
+   "Daily, weekly and monthly income",
+   "The finance screen shows the chosen day's <b>total income</b>, number of services, the split by payment type and income per service, and tells you whether you are up or down on the previous day. The same summary is available by week and by month."
+  ],
+  [
+   "Busiest days and hours",
+   "The <b>heat map</b> in Statistics shows with colours how many appointments you had on each day and hour in the chosen period. Use it to plan your hours, breaks or promotion days."
+  ],
+  [
+   "History per customer",
+   "Customer statistics show how often each customer comes and their past services. Kuafix does not take payments; these records are for your own business tracking and do not replace official bookkeeping."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Enter your service prices",
+   "Add services such as haircut, beard and colouring with their prices in Settings > Finance."
+  ],
+  [
+   "Mark the payment",
+   "Tap the payment icon and choose cash, card or bank transfer."
+  ],
+  [
+   "See the end of the day",
+   "Total income, number of services and payment split are ready on the finance screen."
+  ],
+  [
+   "Analyse the period",
+   "Use the heat map and statistics to see your busy hours and regular customers."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "Does Kuafix take payments?",
+   "No. The customer pays the hairdresser directly, and the hairdresser records the payment in the app. Kuafix takes no commission."
+  ],
+  [
+   "Which payment types are tracked separately?",
+   "Cash, card and bank transfer (IBAN). The finance screen shows a separate total for each."
+  ],
+  [
+   "Can I see income per service?",
+   "Yes. The finance screen also splits income by your services, such as haircut, colouring and beard."
+  ],
+  [
+   "Does it replace accounting software?",
+   "No. Income records in Kuafix are for internal tracking; Kuafix doesn't issue invoices and does not replace official bookkeeping."
+  ],
+  [
+   "Is income tracking paid?",
+   "Finance and statistics are part of Hairdresser Premium; the first month is a free trial."
+  ]
+ ],
+ "ai_slug": "ai-hairstyle-try-on",
+ "ai_name": "AI hairstyle try-on",
+ "ai_title": "AI Hairstyle, Beard & Hair Colour Try-On | Kuafix",
+ "ai_desc": "Before you go to the hairdresser, try a new haircut, beard and moustache, hair colour, waves or extensions on your own photo with AI, then add the look to your appointment to show your hairdresser.",
+ "ai_h1": "Try hairstyles, beards and hair colours with AI",
+ "ai_lead": "See the result before you sit in the chair: take a photo, choose a look, and show your hairdresser the one you like.",
+ "ai_card": "Haircut, beard / moustache, colour, waves and extensions on your own photo.",
+ "ai_body": [
+  [
+   "What can you try?",
+   "Try a Look in Kuafix has five kinds of try-on: <b>haircut</b>, <b>beard / moustache</b>, <b>hair colour</b>, <b>waves</b> and <b>extensions</b>. For each, you pick from ready-made templates."
+  ],
+  [
+   "Show your hairdresser what you want",
+   "Save the result you like to your archive and add it to your appointment. Your hairdresser sees the photo in the appointment details, so you show the result instead of describing it."
+  ],
+  [
+   "Credits",
+   "Each successful photo uses <b>2 credits</b>. Starting the free trial gives you 6 gift credits, Premium adds 6 credits every week, and you can buy packs of 6, 12 or 18 credits."
+  ],
+  [
+   "What happens to your photo?",
+   "Your photo is processed only when you start a try-on. Image processing uses the Perfect Corp service; the original photo you upload is deleted <b>within 24 hours</b> after processing. Result images stay in your archive until you delete them. Results are a preview; the real haircut may not look exactly the same."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Open Try a Look",
+   "Tap Try a Look in the customer panel."
+  ],
+  [
+   "Take your photo",
+   "Place your face in the guide frame or choose a photo from your gallery."
+  ],
+  [
+   "Choose a look",
+   "Pick a haircut, beard / moustache, colour, waves or extensions template."
+  ],
+  [
+   "Add it to your appointment",
+   "Save the result you like to your archive and attach it to your appointment."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "Is the AI hair try-on free?",
+   "Try a Look is available to Customer Premium members and to users in their free trial. Starting the trial gives 6 gift credits; each successful photo uses 2 credits."
+  ],
+  [
+   "Can men try beards and moustaches?",
+   "Yes. In Beard / Moustache you can see different beard and moustache styles on your own photo."
+  ],
+  [
+   "Can I try a hair colour?",
+   "Yes. In Hair Colour you can try different colours before dyeing; Waves and Extensions are separate types."
+  ],
+  [
+   "Is my photo stored?",
+   "The original photo you upload is deleted within 24 hours after processing. The result image stays in your archive until you delete it, and it is deleted if you delete your account."
+  ],
+  [
+   "Will the result look exactly the same in real life?",
+   "The AI result is a preview. Your hair type and the hairdresser's work can change the result; talk the look through with your hairdresser."
+  ]
+ ]
+}

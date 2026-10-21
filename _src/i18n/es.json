@@ -1,0 +1,393 @@
+{
+ "_note": "Source for translations. The app itself is Turkish only; lang_note must say so clearly. Prices stay in Turkish lira (TL).",
+ "brand": "Kuafix",
+ "title": "Kuafix: app de citas para peluquerías y barberías",
+ "meta_desc": "Agenda de citas, control de ingresos y pagos y estadísticas de horas punta para peluquerías y barberías de Turquía; para clientes: encuentra un peluquero, reserva online y prueba peinados con IA. iPhone, iPad y Android.",
+ "aria_lang": "Idioma",
+ "lang_note": "La aplicación Kuafix está en turco y está creada para peluquerías y barberías de Turquía.",
+ "h1_suffix": "app de citas para peluquerías y barberías",
+ "lead": "Los peluqueros gestionan citas, horarios e ingresos en un solo lugar; los clientes encuentran a su peluquero y reservan online una hora libre. Para iPhone, iPad y Android.",
+ "sign": "Sé [k:Peluquero],|o [m:Cliente]",
+ "sign_label": "Sé el peluquero o el cliente",
+ "store_as": "Descargar en App Store",
+ "store_gp": "Disponible en Google Play",
+ "aria_scroll": "Desplazarse hacia abajo",
+ "aria_shots": "Capturas de pantalla",
+ "shot_alts": [
+  "Pantalla del mapa de calor de horas punta",
+  "Pantalla del resumen financiero diario",
+  "Pantalla de estadísticas de clientes",
+  "Pantalla de la lista diaria de citas",
+  "Pantalla del calendario mensual",
+  "Pantalla de acceso para peluqueros y clientes",
+  "Pantalla de acceso de clientes",
+  "Pantalla de reserva"
+ ],
+ "aria_panels": "Paneles para peluqueros y clientes",
+ "panel_k": "Panel del peluquero",
+ "menu_k": [
+  "Calendario",
+  "Añadir cita",
+  "Estadísticas",
+  "Finanzas",
+  "Ajustes"
+ ],
+ "panel_m": "Panel del cliente",
+ "menu_m": [
+  "Reservar",
+  "Mis citas",
+  "Buscar peluquero",
+  "Probar un look"
+ ],
+ "chips": [
+  "Corte de pelo",
+  "Barba / Bigote",
+  "Coloración",
+  "Ondas",
+  "Extensiones"
+ ],
+ "slot_book": "Reservar",
+ "slot_full": "Reservado",
+ "aria_board": "Panel de control de la peluquería",
+ "heat_head": "Tuviste 1.218 citas entre el 16 de octubre y el 13 de enero.",
+ "heat_label": "Mapa de calor de citas por hora y día de la semana",
+ "days": [
+  "L",
+  "M",
+  "X",
+  "J",
+  "V",
+  "S",
+  "D"
+ ],
+ "bd_date": "jueves, 5 de marzo de 2026",
+ "bd_good": "¡Genial! Tus ingresos son un 12% superiores a los de ayer ↑",
+ "bd_total": "Ingresos totales",
+ "bd_count": "Servicios",
+ "bd_cash": "Efectivo:",
+ "bd_card": "Tarjeta:",
+ "fin_card": "Pagos en efectivo, con tarjeta y por transferencia bancaria, ingresos diarios y mensuales y mapa de calor de horas punta.",
+ "bd_iban": "Transferencia bancaria:",
+ "services": [
+  "Corte infantil",
+  "Coloración",
+  "Corte de pelo",
+  "Barba",
+  "Lavado y cuidado"
+ ],
+ "about_h2": "¿Qué es Kuafix?",
+ "about_p": "Kuafix es una aplicación de citas que reúne a peluquerías y barberías con sus clientes en una sola app. El peluquero gestiona el calendario, el horario, los días libres, los precios de los servicios y los ingresos diarios. El cliente encuentra al peluquero por provincia y distrito, por nombre, mediante el ID del peluquero o un código QR, consulta las horas libres y reserva sin llamar. Antes de la cita, los clientes pueden probar en su propia foto un nuevo corte, barba o color de pelo con IA.",
+ "k_h3": "Para peluqueros y barberos",
+ "k_points": [
+  [
+   "Agenda de citas",
+   "Vistas diaria, semanal y mensual. Consulta de un vistazo las horas libres y reservadas; toca dos veces una hora para añadir una cita."
+  ],
+  [
+   "Clientes por teléfono y sin cita",
+   "Reserva también para clientes que no usan la app: basta con un nombre; el teléfono y la nota son opcionales. Abre una hora adicional para un momento que no aparezca en la lista."
+  ],
+  [
+   "Tus normas de trabajo",
+   "Horario de apertura, duración de las citas (30 min, 60 min o una duración personalizada de al menos 10 min), días libres semanales, festivos y con cuántos días de antelación pueden reservar los clientes."
+  ],
+  [
+   "Control de ingresos y pagos",
+   "Marca cada cita como pagada en efectivo, con tarjeta o mediante transferencia bancaria (IBAN). Consulta los ingresos diarios, semanales y mensuales, el número de servicios y los ingresos por servicio."
+  ],
+  [
+   "Estadísticas de horas punta",
+   "Consulta tus días y horas de mayor actividad en un mapa de calor, además del número de citas y clientes de cualquier periodo."
+  ],
+  [
+   "Datos del cliente",
+   "Consulta la nota del cliente y la foto del peinado que adjuntó, llámalo con un toque o cancela la cita si es necesario."
+  ]
+ ],
+ "m_h3": "Para clientes",
+ "m_points": [
+  [
+   "Buscar peluquero",
+   "Consulta peluqueros por provincia y distrito, filtra por nombre o utiliza el ID o código QR que te facilite tu peluquero. Añade tu peluquero habitual a favoritos."
+  ],
+  [
+   "Reservar online",
+   "Consulta las horas libres de tu peluquero y toca una para reservar. No necesitas hacer llamadas ni enviar mensajes."
+  ],
+  [
+   "Mis citas",
+   "Citas próximas y anteriores en una sola lista; cancela desde la app si faltan más de 45 minutos para la cita."
+  ],
+  [
+   "Probar un look (IA)",
+   "Prueba en tu propia foto un corte, barba y bigote, coloración, ondas o extensiones y guarda en tu archivo los resultados que te gusten."
+  ],
+  [
+   "Enséñaselo a tu peluquero",
+   "Añade a la cita una nota y una foto del peinado guardada en tu archivo; tu peluquero verá exactamente lo que quieres."
+  ]
+ ],
+ "topics_h2": "¿Qué puedes hacer con Kuafix?",
+ "topics_p": "Guías detalladas sobre los tres temas más consultados:",
+ "price_h2": "Precios",
+ "price_p": "Kuafix se descarga gratis. El panel del peluquero y las funciones adicionales del cliente se desbloquean con una suscripción, y todos reciben una prueba gratuita de 1 mes. No pagas las citas en la app; pagas el servicio directamente al peluquero.",
+ "price_items": [
+  [
+   "Premium para peluqueros",
+   "Calendario, reservas, estadísticas y finanzas: 399 TL al mes o 999 TL por 3 meses. El primer mes es una prueba gratuita."
+  ],
+  [
+   "Cliente: gratis",
+   "Buscar peluqueros, guardar favoritos, reservar online y gestionar tus citas es gratis."
+  ],
+  [
+   "Premium para clientes",
+   "Notas y fotos en las citas, prueba de peinados con IA y 6 créditos cada semana: 23,99 TL al mes o 63,99 TL por 3 meses."
+  ],
+  [
+   "Créditos de IA",
+   "Cada foto generada correctamente utiliza 2 créditos. Paquetes adicionales: 6 créditos por 12,99 TL, 12 créditos por 21,99 TL y 18 créditos por 29,99 TL."
+  ]
+ ],
+ "price_fine": "Los precios corresponden a la tienda turca, según se indica en las condiciones de uso; el precio vigente aparece en la pantalla de compra. Las suscripciones se renuevan conforme a las normas de la tienda salvo que se cancelen.",
+ "faq_h2": "Preguntas frecuentes",
+ "faq_home": [
+  [
+   "¿Kuafix es gratis?",
+   "Descargar la app, buscar un peluquero y reservar como cliente es gratis. El panel del peluquero incluye una prueba gratuita de 1 mes; después se necesita una suscripción Premium para peluqueros (399 TL al mes o 999 TL por 3 meses). Los clientes pueden contratar opcionalmente Premium para clientes para usar notas, fotos y funciones de IA."
+  ],
+  [
+   "¿Qué ocurre si mi cliente no usa la app?",
+   "No pasa nada. Puedes añadir desde el calendario citas para clientes que llamen por teléfono o acudan sin cita; basta con un nombre, y el teléfono y la nota son opcionales."
+  ],
+  [
+   "¿Cómo me encuentran los clientes?",
+   "En Buscar peluquero, los clientes eligen tu provincia y distrito para verte en la lista o buscan tu nombre. Si compartes tu ID de peluquero o código QR, te encontrarán directamente y podrán añadirte a favoritos."
+  ],
+  [
+   "¿En qué dispositivos funciona?",
+   "En iPhone y iPad (iOS 17.6 o posterior) y teléfonos Android. Descárgala desde App Store o Google Play."
+  ],
+  [
+   "¿En qué idioma está la app?",
+   "La app está en turco y está creada para peluquerías y barberías de Turquía. Este sitio web se publica en 17 idiomas para presentar la app."
+  ],
+  [
+   "¿Se pueden cancelar las citas?",
+   "Sí. Los clientes pueden cancelar desde la app si faltan más de 45 minutos para la cita; en caso contrario, deben llamar al peluquero. El peluquero puede cancelar con la misma condición."
+  ],
+  [
+   "¿Cómo funciona la prueba de peinados con IA?",
+   "En Probar un look, haces una foto y eliges un corte, barba / bigote, coloración, ondas o extensiones. Cada resultado generado correctamente utiliza 2 créditos. Tu foto original se elimina en un plazo de 24 horas tras el procesamiento."
+  ],
+  [
+   "¿Están seguros mis datos y puedo eliminar mi cuenta?",
+   "Los datos se almacenan en Firebase (Google) y solo se comparten entre el peluquero y el cliente cuando es necesario para la cita. Puedes eliminar tu cuenta desde la app en cualquier momento; encontrarás más información en la política de privacidad y en la página de eliminación de cuentas."
+  ]
+ ],
+ "cta_h2": "Gestiona tu peluquería desde el bolsillo",
+ "cta_p": "Peluqueros: probadla gratis durante 1 mes. Clientes: encontrad a vuestro peluquero y reservad ahora.",
+ "aria_docs": "Documentos",
+ "doc_privacy": "Política de privacidad",
+ "doc_delete": "Eliminación de la cuenta",
+ "doc_terms": "Condiciones de uso (EULA)",
+ "doc_support": "Soporte",
+ "steps_h2": "Cómo funciona",
+ "other_h2": "Otras guías",
+ "topic_cta_h2": "Descarga Kuafix",
+ "topic_cta_p": "Para iPhone, iPad y Android. El panel del peluquero es gratis durante 1 mes.",
+ "book_slug": "agenda-citas-peluqueria",
+ "book_name": "App de citas para peluquerías",
+ "book_title": "App de citas para peluquerías y barberías | Kuafix",
+ "book_desc": "Reservas online para peluquerías y barberías de Turquía: muestra tus horas libres a los clientes y añade las reservas telefónicas al mismo calendario. Los clientes encuentran a su peluquero y reservan sin llamar.",
+ "book_h1": "App de citas para peluquerías y barberías",
+ "book_lead": "Menos llamadas: permite que los clientes consulten tus horas libres y reserven ellos mismos, y consulta todo tu día en un único calendario.",
+ "book_card": "Reservas online, horario, días libres y normas de cancelación.",
+ "book_body": [
+  [
+   "¿Por qué ofrecer reservas online?",
+   "Las llamadas durante el día interrumpen tu trabajo y las reservas apuntadas en una agenda pueden confundirse. En Kuafix, el cliente consulta las <b>horas libres</b> del peluquero y elige una; la reserva aparece de inmediato en el calendario del peluquero. Los clientes que llaman por teléfono o acuden sin cita se añaden al mismo calendario, por lo que nada se solapa."
+  ],
+  [
+   "El calendario sigue tus normas",
+   "Configura el horario de apertura y cierre, la duración de las citas (30 min, 60 min o una duración personalizada de al menos 10 minutos) y <b>con cuántos días de antelación</b> pueden reservar los clientes (5, 10 o una cantidad personalizada). Los días libres semanales y los festivos aparecen como cerrados, y nadie puede reservarlos."
+  ],
+  [
+   "La parte del cliente",
+   "Los clientes encuentran al peluquero en Buscar peluquero eligiendo una provincia y un distrito, buscando por nombre o mediante el <b>ID o código QR</b> del peluquero, y lo añaden a favoritos. En Reservar, eligen un día y tocan una hora libre. Se puede reservar una cita al día; las horas pasadas están cerradas."
+  ],
+  [
+   "Cancelaciones y contacto",
+   "Si faltan más de 45 minutos para la cita, tanto el cliente como el peluquero pueden cancelarla desde la app; de lo contrario, deben llamar. El peluquero consulta la nota del cliente y la foto del peinado adjunta en los detalles de la cita."
+  ]
+ ],
+ "book_steps": [
+  [
+   "Crea tu perfil",
+   "Regístrate como peluquero con tu número de teléfono e introduce el nombre y la dirección de tu peluquería."
+  ],
+  [
+   "Configura tus normas de trabajo",
+   "Elige tu horario, la duración de las citas, los días libres y los festivos."
+  ],
+  [
+   "Compártelo con tus clientes",
+   "Comparte tu ID de peluquero o código QR; los clientes podrán añadirte a favoritos."
+  ],
+  [
+   "Las reservas llegan a tu calendario",
+   "Las reservas online y las que añadas tú mismo aparecen en el mismo calendario."
+  ]
+ ],
+ "book_faq": [
+  [
+   "¿La app de reservas para peluquerías es de pago?",
+   "Kuafix se descarga gratis. El panel del peluquero incluye una prueba gratuita de 1 mes; después, Premium para peluqueros cuesta 399 TL al mes o 999 TL por 3 meses. Los clientes no pagan por reservar."
+  ],
+  [
+   "¿El cliente necesita la app?",
+   "No. Puedes añadir citas para clientes que no tengan la app; basta con un nombre, y el teléfono y la nota son opcionales."
+  ],
+  [
+   "¿Puedo configurar la duración de las citas?",
+   "Sí. Elige 30 minutos, 60 minutos o una duración personalizada de al menos 10 minutos. También puedes abrir una hora adicional para un momento que no aparezca en la lista."
+  ],
+  [
+   "¿Pueden reservar los clientes en mis días libres?",
+   "No. Los días libres semanales y los festivos que añadas aparecen como cerrados en el calendario, por lo que los clientes no pueden reservarlos."
+  ],
+  [
+   "¿Es adecuada para barberías y peluquerías masculinas?",
+   "Sí. Kuafix funciona igual para peluquerías femeninas y masculinas, barberías y salones unipersonales; tú editas tu propia lista de servicios (corte, barba, coloración, etc.)."
+  ]
+ ],
+ "fin_slug": "control-ingresos-peluqueria",
+ "fin_name": "Control de ingresos de peluquerías",
+ "fin_title": "Control de ingresos y horas punta de peluquerías | Kuafix",
+ "fin_desc": "Control de ingresos para peluquerías y barberías: marca cada cita como pagada en efectivo, con tarjeta o por transferencia bancaria y consulta los ingresos diarios y mensuales, los ingresos por servicio y tus horas de mayor actividad.",
+ "fin_h1": "Control de ingresos y estadísticas de la peluquería",
+ "fin_lead": "Conoce la recaudación del día sin contar la caja: cuánto has ganado hoy, qué servicio se ha vendido más y cuándo tienes más actividad.",
+ "fin_body": [
+  [
+   "Vincula los pagos con las citas",
+   "Cada cita de Kuafix tiene un icono de pago. El gris indica que todavía no se ha registrado ningún pago; tócalo, elige <b>efectivo, tarjeta o transferencia bancaria (IBAN)</b> y se volverá verde. Solo tienes que introducir una vez los precios de tus servicios en Ajustes > Finanzas (hasta 20 servicios), y el importe se completa automáticamente."
+  ],
+  [
+   "Ingresos diarios, semanales y mensuales",
+   "La pantalla de finanzas muestra los <b>ingresos totales</b> del día seleccionado, el número de servicios, el desglose por tipo de pago y los ingresos por servicio, y te indica si has subido o bajado respecto al día anterior. El mismo resumen está disponible por semana y por mes."
+  ],
+  [
+   "Días y horas de mayor actividad",
+   "El <b>mapa de calor</b> de Estadísticas muestra mediante colores cuántas citas tuviste cada día y a cada hora durante el periodo seleccionado. Úsalo para planificar tu horario, los descansos o los días de promociones."
+  ],
+  [
+   "Historial por cliente",
+   "Las estadísticas de clientes muestran con qué frecuencia acude cada cliente y sus servicios anteriores. Kuafix no procesa pagos; estos registros sirven para el control interno de tu negocio y no sustituyen la contabilidad oficial."
+  ]
+ ],
+ "fin_steps": [
+  [
+   "Introduce los precios de tus servicios",
+   "Añade en Ajustes > Finanzas servicios como corte, barba y coloración con sus precios."
+  ],
+  [
+   "Marca el pago",
+   "Toca el icono de pago y elige efectivo, tarjeta o transferencia bancaria."
+  ],
+  [
+   "Consulta el cierre del día",
+   "Los ingresos totales, el número de servicios y el desglose de pagos están disponibles en la pantalla de finanzas."
+  ],
+  [
+   "Analiza el periodo",
+   "Utiliza el mapa de calor y las estadísticas para consultar tus horas punta y clientes habituales."
+  ]
+ ],
+ "fin_faq": [
+  [
+   "¿Kuafix procesa pagos?",
+   "No. El cliente paga directamente al peluquero y este registra el pago en la app. Kuafix no cobra ninguna comisión."
+  ],
+  [
+   "¿Qué tipos de pago se controlan por separado?",
+   "Efectivo, tarjeta y transferencia bancaria (IBAN). La pantalla de finanzas muestra un total independiente para cada uno."
+  ],
+  [
+   "¿Puedo consultar los ingresos por servicio?",
+   "Sí. La pantalla de finanzas también desglosa los ingresos por servicios, como corte, coloración y barba."
+  ],
+  [
+   "¿Sustituye a un programa de contabilidad?",
+   "No. Los registros de ingresos de Kuafix son para control interno; Kuafix no emite facturas ni sustituye la contabilidad oficial."
+  ],
+  [
+   "¿El control de ingresos es de pago?",
+   "Finanzas y Estadísticas forman parte de Premium para peluqueros; el primer mes es una prueba gratuita."
+  ]
+ ],
+ "ai_slug": "probar-peinados-con-ia",
+ "ai_name": "Prueba de peinados con IA",
+ "ai_title": "Prueba peinados, barba y color de pelo con IA | Kuafix",
+ "ai_desc": "Antes de ir a la peluquería, prueba en tu propia foto un nuevo corte, barba y bigote, coloración, ondas o extensiones con IA y añade después el look a tu cita para enseñárselo a tu peluquero.",
+ "ai_h1": "Prueba peinados, barbas y colores de pelo con IA",
+ "ai_lead": "Mira el resultado antes de sentarte en el sillón: haz una foto, elige un look y enséñale a tu peluquero el que te guste.",
+ "ai_card": "Corte, barba / bigote, coloración, ondas y extensiones en tu propia foto.",
+ "ai_body": [
+  [
+   "¿Qué puedes probar?",
+   "Probar un look de Kuafix ofrece cinco tipos de prueba: <b>corte de pelo</b>, <b>barba / bigote</b>, <b>coloración</b>, <b>ondas</b> y <b>extensiones</b>. Para cada uno, eliges entre plantillas prediseñadas."
+  ],
+  [
+   "Enséñale a tu peluquero lo que quieres",
+   "Guarda en tu archivo el resultado que te guste y añádelo a tu cita. Tu peluquero verá la foto en los detalles de la cita, para que puedas mostrarle el resultado en lugar de describirlo."
+  ],
+  [
+   "Créditos",
+   "Cada foto generada correctamente utiliza <b>2 créditos</b>. Al iniciar la prueba gratuita recibes 6 créditos de regalo, Premium añade 6 créditos cada semana y puedes comprar paquetes de 6, 12 o 18 créditos."
+  ],
+  [
+   "¿Qué ocurre con tu foto?",
+   "Tu foto solo se procesa cuando inicias una prueba. El procesamiento de imágenes utiliza el servicio Perfect Corp; la foto original que subes se elimina <b>en un plazo de 24 horas</b> tras el procesamiento. Las imágenes resultantes permanecen en tu archivo hasta que las elimines. Los resultados son una vista previa; el corte real podría no quedar exactamente igual."
+  ]
+ ],
+ "ai_steps": [
+  [
+   "Abre Probar un look",
+   "Toca Probar un look en el panel del cliente."
+  ],
+  [
+   "Hazte una foto",
+   "Coloca el rostro dentro del marco guía o elige una foto de tu galería."
+  ],
+  [
+   "Elige un look",
+   "Elige una plantilla de corte, barba / bigote, coloración, ondas o extensiones."
+  ],
+  [
+   "Añádelo a tu cita",
+   "Guarda en tu archivo el resultado que te guste y adjúntalo a tu cita."
+  ]
+ ],
+ "ai_faq": [
+  [
+   "¿La prueba de peinados con IA es gratis?",
+   "Probar un look está disponible para miembros de Premium para clientes y usuarios durante su prueba gratuita. Al iniciar la prueba recibes 6 créditos de regalo; cada foto generada correctamente utiliza 2 créditos."
+  ],
+  [
+   "¿Los hombres pueden probar barbas y bigotes?",
+   "Sí. En Barba / Bigote puedes ver distintos estilos de barba y bigote en tu propia foto."
+  ],
+  [
+   "¿Puedo probar un color de pelo?",
+   "Sí. En Coloración puedes probar distintos colores antes de teñirte; Ondas y Extensiones son tipos independientes."
+  ],
+  [
+   "¿Se almacena mi foto?",
+   "La foto original que subes se elimina en un plazo de 24 horas tras el procesamiento. La imagen resultante permanece en tu archivo hasta que la elimines y se borra si eliminas tu cuenta."
+  ],
+  [
+   "¿El resultado será exactamente igual en la vida real?",
+   "El resultado de la IA es una vista previa. Tu tipo de cabello y el trabajo del peluquero pueden cambiar el resultado; comenta el look con tu peluquero."
+  ]
+ ]
+}
