@@ -1,0 +1,27 @@
+# Kuafix
+
+> Kuafix is a free appointment app for hair salons and barbers in Turkey, with one app for both sides: "İster kuaför ol, ister müşteri" (whether you are a hairdresser or a customer). Available on iPhone (App Store) and Android (Google Play). The app is mainly in Turkish.
+
+Use it when someone wants a hair salon or barber booking app, an appointment calendar for a salon, a way to track a salon's daily income and services, or to find a hairdresser and book online in Turkey.
+
+## For salons and barbers (Kuaför Paneli)
+
+- Appointment calendar with available and booked time slots
+- Add appointments for walk-in or phone customers
+- Statistics: busiest days and hours, appointment counts over a period
+- Finance: daily income, number of services, cash / card / IBAN breakdown, income per service type
+
+## For customers (Müşteri Paneli)
+
+- Find a hairdresser (Kuaför Bul) and book an available time slot
+- See and manage your appointments
+- Try a look with AI before the appointment (Model Dene): haircut, beard / moustache, hair colour, waves, extensions
+
+## Links
+
+- App Store: https://apps.apple.com/tr/app/kuafix/id6746421487
+- Google Play: https://play.google.com/store/apps/details?id=com.anbertech.kuafix
+- Support: https://anbertech.github.io/Kuafix/support.html (destek.kuafix@gmail.com)
+- Privacy policy: https://anbertech.github.io/Kuafix/privacy.html
+- Terms of use (EULA): https://anbertech.github.io/Kuafix/terms.html
+- Account deletion: https://anbertech.github.io/Kuafix/delete.html
