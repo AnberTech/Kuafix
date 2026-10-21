@@ -27,7 +27,7 @@ APP_ID = '6746421487'
 PLAY = 'https://play.google.com/store/apps/details?id=com.anbertech.kuafix'
 EMAIL = 'destek.kuafix@gmail.com'
 ORG = 'https://anbertech.github.io/#org'
-CSS_V = '2'
+CSS_V = '3'
 
 # kod, yön, yerel ad, og:locale, bayrak dosyası (None: bayrak yerine kısaltma), binlik ayırıcı
 LANGS = [

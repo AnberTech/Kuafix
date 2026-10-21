@@ -381,3 +381,4 @@ a{color:var(--cyan)}
 .gshots figure{flex:0 1 260px}
 @media (min-width:920px){.gshots figure{flex:none;width:100%;max-width:300px}}
 .gshots .chips{align-content:center;align-items:center}.gshots .chip{align-self:center}
+.card img{height:auto}
