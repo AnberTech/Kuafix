@@ -18,6 +18,7 @@ import html
 import json
 import os
 import re
+import urllib.parse
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,6 +55,16 @@ TOPICS = ('book', 'fin', 'ai')
 DOCS = ('privacy', 'terms', 'delete', 'support')
 # Neon tabelada harf harf yanma efekti; bu yazılarda harfler birleştiği için kelime kelime yanar
 WHOLE_WORD_SIGN = {'ar', 'hi'}
+# Tilt Neon yalnız Latin harf içerir; bu dillerde tabela ince sistem fontuna düşüp neon sönük kalıyordu.
+# O dilin harflerini içeren daha kalın bir font yüklenir (text= ile yalnız tabeladaki harfler).
+SIGN_FONT = {
+    'ja': 'M PLUS Rounded 1c:wght@500',
+    'ko': 'Noto Sans KR:wght@500',
+    'zh-Hans': 'Noto Sans SC:wght@500',
+    'ar': 'Baloo Bhaijaan 2:wght@500',
+    'hi': 'Baloo 2:wght@500',
+    'ru': 'Comfortaa:wght@500',
+}
 
 # ana sayfadaki 3B halkanın görselleri (sıra shot_alts ile aynı)
 RING = ['kfx_ss_isi_haritasi.png', 'kfx_ss_finans.png', 'kfx_ss_istatistik.png', 'kfx_ss_gunluk.png',
@@ -247,10 +258,17 @@ def lang_menu(code, built, url_of, t, base):
             f'{e(code.split("-")[0].upper())}</summary><nav class="lm-list" aria-label="{e(t["aria_lang"])} / Language">{links}</nav></details>')
 
 
-def head(code, title, desc, url, built, url_of, base, img=None):
+def head(code, title, desc, url, built, url_of, base, img=None, sign_text=None):
     alts = ''.join(f'<link rel="alternate" hreflang="{c}" href="{e(url_of(c))}" />\n' for c in built)
     xdef = 'en' if 'en' in built else 'tr'
     img = img or SITE + 'assets/img/og.jpg'
+    sign_font = ''
+    if sign_text and code in SIGN_FONT:
+        fam, _, axes = SIGN_FONT[code].partition(':')
+        q = urllib.parse.quote(fam).replace('%20', '+') + (':' + axes if axes else '')
+        chars = urllib.parse.quote(''.join(sorted(set(sign_text) - {' '})))
+        sign_font = (f'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={q}&amp;text={chars}&amp;display=swap" />\n'
+                     f'<style>.sign{{--neonface:"Tilt Neon","{fam}",sans-serif;font-weight:500}}</style>\n')
     return f'''<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>{e(title)}</title>
@@ -279,7 +297,7 @@ def head(code, title, desc, url, built, url_of, base, img=None):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Neon&amp;display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&amp;display=swap" />
 <link rel="stylesheet" href="{base}assets/site.css?v={CSS_V}" />
-<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'''
+{sign_font}<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'''
 
 
 def stores(code, t, base, pos):
@@ -443,7 +461,7 @@ def build_home(code, T, built, legal_built, tpl):
               'isPartOf': {'@id': SITE + '#website'}, 'about': {'@id': SITE + '#app'}},
              faq_ld(t['faq_home'], url)]
     write(os.path.join(ROOT, lang_dir(code), 'index.html'),
-          page_html(code, head(code, t['title'], t['meta_desc'], url, built, home_url, b), body, graph, b))
+          page_html(code, head(code, t['title'], t['meta_desc'], url, built, home_url, b, sign_text=t['sign_label']), body, graph, b))
 
 
 def build_topic(code, x, T, built, legal_built):
